@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acte IV: La Presó de l'Exarca - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html" class="active">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Acte IV: La Presó de l'Exarca</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Ghost%20Story.mp3" data-track="Ghost Story">Ambient: Ghost Story</button>
+
+        <img src="images/img-016.jpg" alt="Mapa del temple inferior" class="section-image">
+        <p class="image-caption">Mapa del Temple Inferior &mdash; Les cambres més profundes del complex</p>
+
+        <div class="summary-box">
+          <p>El Temple Inferior porta les cicatrius d'una batalla sagnant. Cossos, armes i llits improvisats escampen la sala destrossada. Les formidables defenses del temple no van poder aturar l'horda de monstres que va envair el santuari.</p>
+        </div>
+
+        <!-- Sala 9: El Temple Interior -->
+        <div class="room-header">
+          <span class="room-number">9</span>
+          <span class="room-name">El Temple Interior</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>La vostra llum omple el temple com si fos impulsada per algun altre agent. L'intricada obra artística i la filigrana daurada estan destrossades i esquinçades. Bancs trencats omplen la sala i un altar de marbre esquerdat jau al capdavant del saló. Tot i que els vostres ulls són atrets pels ossos dels antics defensors i d'aquells que van buscar refugi aquí, escampats pel terra, retorçats i trencats.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li>Una <strong>gran porta</strong> darrere l'altar, tancada amb pany i sense cap manera discernible d'obrir-la.</li>
+            <li><span class="dc-check">Història</span>: els mosaics mostren una <strong>gran llum mantenint la foscor a ratlla</strong>. Figures de moltes races amb un detall molt realista. La foscor conté dimonis i diables amb cares torturades i crispades. Com més temps s'hi mira, més sembla que les criatures <strong>remolinen i es moguin</strong>.</li>
+          </ul>
+        </div>
+
+        <!-- Sala 10: La Biblioteca -->
+        <div class="room-header">
+          <span class="room-number">10</span>
+          <span class="room-name">La Biblioteca</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Prestatgeries de llibres, carregades amb els lloms acolorits de dotzenes de volums, ocupen gran part d'aquest racó del temple, amb alguns escriptoris senzills i cofres.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Cofres trencats</strong> al llarg de la paret i un petit <strong>ídol de basalt</strong>.</li>
+            <li>Diverses <strong>pocions de curació</strong> als cofres trencats.</li>
+            <li>Alguns <strong>escrits en alfabet antic</strong>, difícils de desxifrar.</li>
+          </ul>
+        </div>
+
+        <!-- Sala 11: L'Estudi -->
+        <div class="room-header">
+          <span class="room-number">11</span>
+          <span class="room-name">L'Estudi</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Dues estàtues de criatures desconegudes us observen des de dalt mentre entreu. Dos sofàs, antany còmodes, reposen davant d'una llar de foc massiva i apagada, sobre la qual descansa un retrat majestuós d'un Aarakocra diví, que no està tacat per la pols, les runes i l'edat que afecten la resta del temple.</p>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>MOLT IMPORTANT:</strong></p>
+          <ul>
+            <li><span class="dc-check">Detectar Màgia</span> pot revelar els dos <strong>Gòlems de Pedra</strong> abans d'entrar. En entrar a l'habitació, <strong>s'activen i ataquen</strong> fins que són destruïts o fins que l'Exarca del quadre és alliberat.</li>
+            <li>El <strong>quadre es mou lleugerament</strong>. Un control d'<span class="dc-check">Arcana</span> revela que és màgic. <strong>Detectar Màgia/Mal</strong> revela que l'encanteri que reté el quadre és <strong>malvat</strong>.</li>
+            <li><strong>Cremar o destruir el quadre</strong> allibera l'esperit de l'Exarca empresonat.</li>
+          </ul>
+        </div>
+
+        <div class="encounter">
+          <h3>Combat a l'Estudi</h3>
+          <button class="music-btn music-btn-battle" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Ambush.mp3" data-track="Ambush">Combat: Ambush</button>
+          <table class="stat-table">
+            <tr>
+              <th>Criatura</th>
+              <th>Quantitat</th>
+            </tr>
+            <tr>
+              <td>Gòlems de Pedra (Stone Golems)</td>
+              <td>2</td>
+            </tr>
+          </table>
+          <p><strong>S'activen en entrar a l'habitació.</strong></p>
+          <p>Es desactiven si es destrueix el quadre i s'allibera l'Exarca.</p>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>L'Exarca Alliberat:</strong></p>
+          <ul>
+            <li>Apareix com un <strong>fantasma efímer</strong>, es comunica telepàticament. Té la memòria limitada.</li>
+            <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>propòsit del temple</strong> (custodiar una relíquia antiga).</li>
+            <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
+            <li>L'Exarca guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
+            <li>Condueix els personatges <strong>escales avall</strong> fins a la cambra final.</li>
+          </ul>
+        </div>
+
+        <!-- Sala 12: La Cambra del Guardià -->
+        <div class="room-header">
+          <span class="room-number">12</span>
+          <span class="room-name">La Cambra del Guardià</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Un abisme profund ocupa el centre de la gran cambra, el so de l'aigua ressonant des de molt avall. Un pont s'estén cap a una plataforma al centre de l'abisme, coberta d'ossos trencats i esquelets destrossats. Sobre la plataforma reposa un altar antic contra el qual s'ha esfondrat un esquelet inhumà.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li>L'Exarca assenyala els cossos: <strong>aquesta va ser la seva última defensa</strong>. Ossos demoníacs més grans contra l'altar.</li>
+            <li><strong>Estàtues trencades</strong> flanquegen el pont. Les que queden en peu <strong>irradien puresa i poder</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="read-aloud">
+          <p>Mentre contempleu la meravella de les estàtues, la vostra mirada s'hi queda fixada durant uns segons. Alguna cosa us atrau i no podeu apartar la vista, les ombres de la caverna retrocedeixen mentre capteu un breu entramat a través del temps de la seva esplendor. Sentiu com la força torna al vostre cos mentre la fatiga s'esvaeix. La sensació de puresa al vostre cor i, per un moment, sentiu el poder sagrat a les vostres venes. Tan ràpid com va arribar, es retira i sentiu la foscor tancar-se. Sembla més a prop que abans i un calfred us recorre quan el fred de la cambra sembla mossegar una mica més. Inconscientment us estrenyeu la capa i us sentiu disminuïts. El soroll profund i eixordador de l'aigua molt avall us recorda una vegada més on sou realment.</p>
+        </div>
+
+        <img src="images/img-027.jpg" alt="L'Ull de Laki" class="section-image">
+        <p class="image-caption">L'Ull de Laki &mdash; L'orbe antic que descansa a l'altar</p>
+
+        <div class="puzzle-text">
+          Només aquells de cor més pur, poden prendre d'aquí i marxar.<br>
+          Perquè quan de nou la foscor vingui, i de maldat el món s'ompli,<br>
+          aquest poder us donarà la llum, per encegar i cremar la pesta demoníaca.
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Prendre l'objecte:</strong></p>
+          <ul>
+            <li>Qualsevol persona <strong>pura</strong> pot prendre l'objecte del forat sense problemes.</li>
+            <li>Qualsevol persona amb <strong>intencions malvades o corrupció 5+</strong>: <span class="dc-check">Constitució DC 18</span>. En cas de fallida: <strong>8d6 de dany radiant</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Quan es retira l'objecte:</strong></p>
+          <ul>
+            <li>Un <strong>riure malèfic ressona</strong> per la cambra. Dos <strong>Dimonis Cornuts</strong> (Horned Devils) volen cap amunt des de l'abisme.</li>
+            <li>Intenten <strong>prendre l'objecte</strong> als aventurers.</li>
+            <li>L'Alt Exarca diu als aventurers que portin l'objecte a la <strong>ciutat dels Aarakocra al nord, més enllà de les muntanyes</strong>.</li>
+            <li>Avança i llança dos poderosos encanteris:
+              <ul>
+                <li><strong>Càstig Major</strong> (Greater Smite): <strong>8d8 de dany radiant</strong> a ambdós dimonis amb el seu martell.</li>
+                <li><strong>Aura de Protecció</strong> (Aura of Warding): barrera màgica de <strong>4,5m</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong> amb el seu escut.</li>
+              </ul>
+            </li>
+            <li>L'Exarca <strong>desapareix</strong>. El seu <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen com a objectes físics.</li>
+          </ul>
+        </div>
+
+        <div class="item-card">
+          <h3>Martell de Guerra de l'Exarca</h3>
+          <p class="item-type">Arma (martell de guerra), +2, platejada</p>
+          <ul>
+            <li><strong>+2 al atac i al dany.</strong></li>
+            <li><strong>2d6 de dany radiant addicional</strong> per impacte.</li>
+            <li>Les propietats màgiques funcionen durant <strong>aquest combat</strong>, però perden el poder després (es pot recuperar amb tasques futures).</li>
+            <li>L'arma és <strong>platejada</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="item-card">
+          <h3>Escut de l'Exarca</h3>
+          <p class="item-type">Armadura (escut), +3 CA, platejat</p>
+          <ul>
+            <li><strong>+3 a la CA</strong> (en lloc del +2 habitual dels escuts).</li>
+            <li><strong>Activar:</strong> crea una barrera de <strong>4,5m de radi</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong>.</li>
+            <li>Les propietats màgiques funcionen durant <strong>aquest combat</strong>, però perden el poder després (es pot recuperar amb tasques futures).</li>
+            <li>L'escut és <strong>platejat</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="encounter">
+          <h3>Combat Final: La Cambra del Guardià</h3>
+          <button class="music-btn music-btn-battle" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Impact%20Lento.mp3" data-track="Impact Lento">Combat: Impact Lento</button>
+          <button class="music-btn music-btn-event" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Aurea%20Carmina.mp3" data-track="Aurea Carmina">Event: Aurea Carmina</button>
+          <table class="stat-table">
+            <tr>
+              <th>Criatura</th>
+              <th>Quantitat</th>
+            </tr>
+            <tr>
+              <td>Dimonis Cornuts (Horned Devils)</td>
+              <td>2</td>
+            </tr>
+          </table>
+          <p><strong>L'Exarca intervé</strong> amb Càstig Major i Aura de Protecció.</p>
+          <p>Després desapareix, deixant el seu <strong>martell</strong> i <strong>escut</strong>.</p>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="acte3-temple-superior.html">&larr; Acte III: Temple Superior</a>
+          <a href="objectes.html">Objectes i Continuació &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>

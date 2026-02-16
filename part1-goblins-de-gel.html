@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part I: Els Gòblins de Gel - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html" class="active">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Part I: Els Gòblins de Gel</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Darkest%20Child.mp3" data-track="Darkest Child">Ambient: Darkest Child</button>
+
+        <!-- Les Granges -->
+        <h2>Les Granges</h2>
+
+        <div class="summary-box">
+          <p>Les granges són probablement la primera parada dels aventurers. Els jugadors investiguen què ha passat amb els qui han estat enduts.</p>
+        </div>
+
+        <div class="read-aloud">
+          <p>Una fresca brisa d'hivern bufa un vent sospirós sobre els camps entre les granges abandonades a l'est del poble. Els seus exteriors apagats semblen més deteriorats del que sabeu que són, patint l'absència de la vida que normalment contindrien. Al vostre voltant, altes tiges de blat tremolen amb el suau dringar de la seva collita madura. L'únic so en una nit que, altrament, és silent.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Investigar les cases:</strong> roba, objectes i estris de cuina escampats. Rastres de sang i evidència de lluita.</li>
+            <li><span class="dc-check">DC baixa</span> <strong>Percepció/Investigació:</strong> troben sang i evidència de lluita.</li>
+            <li><span class="dc-check">DC alta</span> <strong>Percepció/Investigació:</strong> taques de sang i petjades que surten de la granja cap als turons de l'est. La sang dona pas a marques d'arrossegament i petites petjades amb botes.</li>
+            <li><span class="dc-check">DC alta</span> <strong>Percepció (exterior):</strong> un so de cruixit lleuger provinent dels camps. Direcció impossible de determinar. Sensació de ser observats.</li>
+            <li><strong>Si investiguen els camps:</strong> no troben res, es perden entre el blat d'alçada del pit.</li>
+            <li><strong>Seguir el rastre:</strong> porta als turons. Només petjades fresques amb botes petites amb <span class="dc-check">DC alta</span> de <strong>Supervivència/Investigació</strong> (la sang ha estat rentada pel temps).</li>
+          </ul>
+        </div>
+
+        <!-- El Campament dels Gòblins de Gel -->
+        <h2>El Campament dels Gòblins de Gel</h2>
+
+        <div class="summary-box">
+          <p>El camí rocós ascendeix i els llums es revelen com a torxes. La zona ofereix poca cobertura i la lluna és alta.</p>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Opcions d'aproximació:</strong></p>
+          <ul>
+            <li><strong>Si els aventurers van directament als llums</strong> (sense investigar les granges): arriben al campament però probablement activaran l'alarma, tret que facin sigil en l'aproximació final i evitin les dues sentinelles.</li>
+            <li><strong>Si segueixen les pistes des de la granja:</strong> el gòblin que va baixar a raptar humans haurà avisat els altres, i estaran preparats per una emboscada al final del camí.</li>
+            <li><strong>Si aconsegueixen desactivar o esquivar les sentinelles:</strong> poden preparar una emboscada al campament.</li>
+          </ul>
+        </div>
+
+        <div class="read-aloud">
+          <p>El camí s'atura i sortiu a un altiplà de pedra amb poques possibilitats de cobertura arbòria. Sis o vuit cabanes de fusta toscament construïdes envolten un estendard central. Un drap blau fosc amb tres estelles blanques de gel apuntant cap enfora penja d'ell. Diverses fogueres petites, les seves flames una gelor blava lluminosa, jauran escampades pel campament. Darrere d'elles s'alça una entrada de cova, més semblant a una cicatriu negra travessant les muntanyes grises. Una dotzena de gòblins de pell blava es mouen pel campament, entrant i sortint ocasionalment de la cova. Un cabdill dels gòblins de gel es troba al centre del campament, contemplant l'estendard que hi penja.</p>
+        </div>
+
+        <div class="encounter">
+          <h3>Campament dels Gòblins de Gel</h3>
+          <button class="music-btn music-btn-battle" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Heroic%20Demise%20%28Epic%29.mp3" data-track="Heroic Demise (Epic)">Combat: Heroic Demise</button>
+          <table class="stat-table">
+            <tr>
+              <th>Criatura</th>
+              <th>Quantitat</th>
+            </tr>
+            <tr>
+              <td>Gòblins de gel</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>Exploradors</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Cabdill</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Xaman</td>
+              <td>1</td>
+            </tr>
+          </table>
+          <p><strong>Alineament:</strong> Caòtic Malvat</p>
+          <ul>
+            <li>Stats similars als gòblins normals però: <strong>CA natural 14</strong>, armes màgiques, immunitat al fred i dany necròtic.</li>
+            <li>Eren servents de la <strong>Reina Mab</strong> que han fugit del seu servei al centre de les <strong>Muntanyes Arbormark</strong>.</li>
+            <li>Han establert un campament temporal atrets per alguna cosa dins la cova.</li>
+          </ul>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="introduccio.html">&larr; Introducció</a>
+          <a href="part2-la-cova.html">Part II: La Cova &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>

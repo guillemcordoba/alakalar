@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part II: La Cova - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html" class="active">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Part II: La Cova</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Cryptic%20Sorrow.mp3" data-track="Cryptic Sorrow">Ambient: Cryptic Sorrow</button>
+
+        <img src="images/img-005.jpg" alt="L'entrada de la cova" class="section-image">
+        <p class="image-caption">L'entrada de la cova &mdash; Una cicatriu fosca a la muntanya</p>
+
+        <!-- Després de la Batalla -->
+        <h2>Després de la Batalla</h2>
+
+        <div class="summary-box">
+          <p>Després de derrotar els gòblins, la investigació del campament revela:</p>
+          <ul>
+            <li>Poques armes de gel encrostades, alguna riquesa menor.</li>
+            <li>Un <strong>ídol d'obsidiana</strong> tallat d'una bonica i terrorífica Reina Fey (amb una petita quantitat de poder màgic difícil de discernir).</li>
+            <li>Examinant els cossos dels gòblins: un <span class="dc-check">DC 15 Medicina</span> revela alguna cosa sota la pell d'un dels canells, amb forma de manilla d'espines que de vegades sobresurt de la pell i filtra una foscor fumosa. Desapareixen en fum 5 minuts després de la mort.</li>
+            <li>Les cabanes contenen roba humana, pertinences i menjar de les granges properes.</li>
+          </ul>
+        </div>
+
+        <!-- La Boca de la Cova -->
+        <h2>La Boca de la Cova</h2>
+
+        <p>L'entrada de la cova aspira l'aire cap endins. Una inquietud creixent s'apodera de qui s'hi acosta. El terra està tacat d'un carmesí fosc.</p>
+
+        <div class="dm-note">
+          <p>Entrar-hi amb llum revela un antic corredor treballat tallat a la muntanya, picat i marcat per l'edat. El rastre carmesí porta cap avall. Un control d'<span class="dc-check">Investigació</span> mostra moviments d'una criatura més gran a través del passadís.</p>
+        </div>
+
+        <div class="read-aloud">
+          <p>El camí s'obre en una sala ampla coberta de taques de sang, però sense ossos. Al fons descansa un altar de pedra tosca davant d'una paret completament carmesí. Cada centímetre de la paret de la cambra està cobert de runes, símbols i marques gravades.</p>
+        </div>
+
+        <!-- El Mur de Sang -->
+        <h2>El Mur de Sang</h2>
+        <button class="music-btn music-btn-event" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Baba%20Yaga.mp3" data-track="Baba Yaga">Event: Baba Yaga</button>
+
+        <p>La investigació de les marques revela dos texts llegibles: <strong>Infernal</strong> i <strong>Èlfic</strong>.</p>
+
+        <h3>Inscripció Èlfica</h3>
+        <div class="puzzle-text">
+          <p>&laquo;La clau es troba a dins i és fàcil de trobar, pinta't amb ella i la meva màgia t'astornarà, pot semblar una tasca fàcil, però vigila amb el que anhelis, car allò que donis, jo ho retornaré.&raquo;</p>
+        </div>
+
+        <h3>Inscripció Infernal</h3>
+        <div class="puzzle-text">
+          <p>&laquo;La clau es troba al teu cap, usa la clau per pintar-me de vermell, vigila amb allò que menyspreïs, car allò que donis serà retornat.&raquo;</p>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Mecàniques del Mur de Sang:</strong></p>
+          <ul>
+            <li>El Mur de Sang requereix <strong>sang fresca</strong> per travessar-lo.</li>
+            <li>Produirà un <strong>clon exacte</strong> de qui sigui el propietari de la sang com a agent hostil que atacarà immediatament.</li>
+            <li><strong>Si els aventurers usen la seva pròpia sang:</strong> apareix un clon amb les mateixes forces i encanteris.</li>
+            <li><strong>Si usen sang d'un gòblin de gel mort:</strong> es reprodueix un gòblin de gel.</li>
+            <li><strong>Si llancen una criatura:</strong> tirar <span class="dc-check">1d8</span> per determinar quantes gotes de sang toquen el mur = nombre de criatures que apareixen.</li>
+          </ul>
+        </div>
+
+        <div class="read-aloud">
+          <p>Quan la sang toca el mur, se sent un gemec i totes les taques fosques del terra i les parets comencen a moure's, lliscant per sobre i a través de les pedres com si el terra fos transparent, fins que s'acumulen al centre del mur i un clon de sang apareix.</p>
+        </div>
+
+        <!-- Després del Mur -->
+        <h2>Després del Mur</h2>
+
+        <p>El clon o clons moren explotant en sang. Els aventurers propers han de superar un <span class="dc-check">DC 14 Constitució</span> o patir ceguesa temporal.</p>
+
+        <div class="read-aloud">
+          <p>Quan el clon mor, la seva sang flueix de nou cap al mur i retrocedeix sense costures dins la cova abans de tancar-se amb un esclat que fa tremolar la terra. El silenci que segueix és eixordador mentre un buit negre us mira fixament. La llum parpelleja als marges de l'obertura de la cova i el rastre de sang continua cap avall, cap a la foscor. Un degoteig ressona túnel amunt, acompanyat del gemec d'un vent de mal averany.</p>
+        </div>
+
+        <div class="dm-note">
+          <p>La porta de pedra que s'obre de cop senyala alguna cosa en les profunditats que se li ha ofert menjar &mdash; un <strong>Basilisk</strong> que els gòblins de gel buscaven capturar i ensinistrar. L'han estat invocant a través del Mur de Sang i deixant oferenes de vilatans humans a l'altar.</p>
+          <ul>
+            <li><strong>Si els personatges esperen:</strong> el Basilisk emergeix i lluita en l'espai estret.</li>
+            <li><strong>Si avancen immediatament:</strong> poden passar de llarg pel cau del Basilisk abans que emergeixi.</li>
+            <li>Hi ha <strong>2 Basilisks</strong> en total (un custodia els ous al cau).</li>
+            <li><span class="dc-check">DC 15 Sigil</span> per passar desapercebuts.</li>
+          </ul>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="part1-goblins-de-gel.html">&larr; Part I: Els Gòblins de Gel</a>
+          <a href="acte3-temple-superior.html">Acte III: Temple Superior &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>

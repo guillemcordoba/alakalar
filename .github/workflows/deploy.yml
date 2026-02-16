@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+# When to run this workflow
+on:
+  push:
+    branches: [main]        # run on every push to main
+  workflow_dispatch:         # also allow manual trigger from the Actions tab
+
+# OIDC token permissions needed by the deploy-pages action.
+# - contents: read   → checkout the repo
+# - pages: write     → publish to GitHub Pages
+# - id-token: write  → authenticate with GitHub's Pages deployment API via OIDC
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# If a new push arrives while a deploy is running, cancel the old one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Clone the repository
+      - uses: actions/checkout@v4
+
+      # Install pnpm (not bundled with GitHub runners)
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      # Install Node.js and enable pnpm dependency caching
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm          # caches the pnpm store between runs
+
+      # --frozen-lockfile ensures the build fails if pnpm-lock.yaml is out of
+      # sync with package.json, instead of silently updating it.
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+
+      # Package the dist/ folder as a GitHub Pages artifact.
+      # This is an opaque tar that the deploy-pages action knows how to unpack.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build             # wait for the build job to finish
+    runs-on: ubuntu-latest
+    # Links this job to the "github-pages" environment in the repo settings,
+    # which shows the deployment URL in the GitHub UI.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Publish the artifact uploaded by the build job to GitHub Pages.
+      # The id lets us reference its outputs (page_url) in the environment block.
+      - id: deployment
+        uses: actions/deploy-pages@v4

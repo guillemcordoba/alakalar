@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objectes i Continuació - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html" class="active">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Objectes i Continuació</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Ascending%20the%20Vale.mp3" data-track="Ascending the Vale">Ambient: Ascending the Vale</button>
+
+        <!-- L'Ull de Laki -->
+        <h2>L'Ull de Laki</h2>
+
+        <img src="images/img-027.jpg" alt="L'Ull de Laki — l'orbe llegendari" class="section-image">
+        <p class="image-caption">L'Ull de Laki &mdash; L'orbe antic que protegeix contra la foscor</p>
+
+        <div class="item-card">
+          <h3>L'Ull de Laki</h3>
+          <p class="item-type">Objecte Meravellós, Llegendari &mdash; Requereix Sintonització</p>
+          <p><strong>5 Càrregues</strong> (només restaurable a l'Agulla Solar al cim d'Aol).</p>
+          <p>S'activa sostenint-lo sobre el cap i canalitzant màgia. Floreix com un sol poderós durant <strong>1 minut</strong> mentre el jugador el sostingui i es concentri.</p>
+          <p><strong>Efectes:</strong></p>
+          <ul>
+            <li><strong>Encegament:</strong> Encega tots els Dimonis i Diables en 30m que fallin una salvació de <span class="dc-check">Destresa DC 18</span> per desviar els ulls.</li>
+            <li><strong>Cremor:</strong> Fa que la pell dels Dimonis i Diables cremi, eliminant totes les resistències i immunitats, causant vulnerabilitat a tots els atacs.</li>
+            <li><strong>Revelació:</strong> Crema totes les il·lusions, invisibilitat, mitjans màgics d'ocultació o canvi de forma emprats per qualsevol, exposant-los tal com realment són.</li>
+          </ul>
+        </div>
+
+        <div class="dm-note">
+          <p>Sense l'emplaçament permanent a Aol, l'artefacte <strong>només té 3 càrregues</strong> si els aventurers decideixen no retornar-lo. Un cop esgotades, resta inert fins que sigui retornat a Aol.</p>
+        </div>
+
+        <!-- Pou d'Esperits -->
+        <h2>Pou d'Esperits</h2>
+
+        <div class="item-card">
+          <h3>Pou d'Esperits</h3>
+          <p class="item-type">Objecte Únic &mdash; 2 càrregues diàries &mdash; Requereix Sintonització</p>
+          <p>Forma de petita llanterna que emet <strong>llum blava freda</strong> en un radi de 3m.</p>
+          <ul>
+            <li>Brillar-la sobre restes fa que <strong>il·lusions fantasmals</strong> de les criatures mortes es manifestin.</li>
+            <li>La il·lusió plana sobre les restes i representa l'<strong>últim minut de vida</strong> de la criatura. L'efecte és silenciós i mostra els morts tal com eren en vida, mostrant els objectes que portaven.</li>
+            <li>No revela, però, <strong>cap altra persona</strong> que pogués haver estat present en el moment de la seva mort.</li>
+          </ul>
+          <p><strong>Avís:</strong> L'exposició continuada al món espiritual pot causar efectes duradors.</p>
+        </div>
+
+        <!-- Martell de Guerra de l'Exarca -->
+        <h2>Martell de Guerra de l'Exarca</h2>
+
+        <div class="item-card">
+          <h3>Martell de Guerra de l'Exarca</h3>
+          <p class="item-type">Arma +2, Platejada</p>
+          <ul>
+            <li><strong>+2 al atac i al dany.</strong></li>
+            <li><strong>2d6 de dany radiant addicional</strong> per impacte.</li>
+          </ul>
+          <p><strong>Nota:</strong> Perd les propietats màgiques després del combat final, però es pot restaurar a través de missions futures.</p>
+        </div>
+
+        <!-- Escut de l'Exarca -->
+        <h2>Escut de l'Exarca</h2>
+
+        <div class="item-card">
+          <h3>Escut de l'Exarca</h3>
+          <p class="item-type">Escut +3 CA, Platejat</p>
+          <ul>
+            <li><strong>+3 a la CA</strong> (en lloc del +2 habitual dels escuts).</li>
+            <li><strong>Activar:</strong> crea una barrera màgica de <strong>4,5m de radi</strong> que bloqueja encanteris i dimonis/diables durant <strong>1 minut</strong>.</li>
+          </ul>
+          <p><strong>Nota:</strong> Perd les propietats màgiques després del combat final, però es pot restaurar a través de missions futures.</p>
+        </div>
+
+        <!-- Pedra d'Obsidiana -->
+        <h2>Pedra d'Obsidiana</h2>
+
+        <div class="item-card">
+          <h3>Pedra d'Obsidiana</h3>
+          <p class="item-type">Objecte Misteriós</p>
+          <ul>
+            <li>Una <strong>flama càlida</strong> atrapada al centre, però sota inspecció no es pot enfocar.</li>
+            <li>La identificació i l'estudi <strong>no revelen res</strong>. Qualsevol persona a qui es mostri la pedra no pot discernir el seu propòsit.</li>
+          </ul>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Secret:</strong> La Pedra d'Obsidiana és una <strong>presó per a un diable poderós</strong>. Si els personatges la prenen, probablement es trencarà i alliberarà el dimoni en un moment de gran estrès.</p>
+        </div>
+
+        <!-- Continuació de l'Aventura -->
+        <h2>Continuació de l'Aventura</h2>
+
+        <div class="summary-box">
+          <p>Després de derrotar els diables, els aventurers poden sortir pel camí per on van entrar. Totes les trampes estan desactivades i el poder del temple ha estat eliminat en retirar l'artefacte. Això fa el temple vulnerable &mdash; portals poden obrir-se per vomitar dimonis que els assetjaran mentre fugen.</p>
+        </div>
+
+        <p>L'aventura pot continuar de diverses maneres (totes requereixen tornar primer al poble):</p>
+        <ul>
+          <li><strong>Trobar una traducció dels Diaris de l'Exarca</strong> i aprendre més de la història durant el cataclisme i la invasió posterior.</li>
+          <li><strong>Retornar l'artefacte als Aarakocra a Aol</strong>, on els protegirà i estarà segur.</li>
+          <li><strong>Revelar la ubicació del temple al món</strong> i ajudar altres a restaurar-lo.</li>
+        </ul>
+
+        <div class="dm-note">
+          <p>Sigui quin sigui el camí que triïn, els dimonis <strong>els perseguiran</strong> i intentaran prendre'ls l'artefacte a cada pas del viatge.</p>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="acte4-temple-inferior.html">&larr; Acte IV: Temple Inferior</a>
+          <a href="index.html">Tornar a l'Inici &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>

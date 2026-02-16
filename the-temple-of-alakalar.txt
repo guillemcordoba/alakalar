@@ -1,0 +1,795 @@
+CHAPTER 1: THE LOST TEMPLE OF ALAK’ALAR
+Level: 5–8
+BACKGROUND
+Within the far reaches of the Kingdom of Alenian resides the farming village of Nenyrm, set upon
+the doorstep of the Abormark Mountains almost
+at a crossroads of kingdoms. North of the nearby
+Shal’Uran river lies the reclusive kingdom of Iaur and
+to the south you’ll find Killeth’s Bane and the Darrowden Hills, places to avoid at all costs
+To those that live and work tirelessly in Nenyrm
+the harvest and what it brings are life. They firmly
+believe that trouble will not find you should you not
+seek it. However of late that mantra has been tested
+and will soon be broken. Farms on the outskirts of
+town have been found ransacked, the residents gone
+and few clues left. Understandably the town is terrified, though they don’t understand the events that
+are being set in motion for this area was rife with battle and destruction during the Age of Desolation and
+many broken cities, temples and bones lie beneath
+the soil, some of which make this area so fertile and
+rife for farming.
+
+ADVENTURE HOOKS
+
+The town is terrified that something is taking those
+that reside in the area and that soon those in the
+town will start to disappear. The town council has
+sent for help to the local Alenian Town but that is a
+weeks travel on foot to the west and they have their
+own problems to face.
+Though the townsfolk are a tough lot they are
+understandably very superstitious and eager to have
+this problem dealt with. They have sent some of their
+own though they didn’t return and would rather pay
+some passing adventurers to find and save those taken, and if not, at least deal with the problem once and
+for all.
+
+RUMOURS
+Rumours abound for any that choose to talk to the
+townsfolk as is often common in remote and superstitious areas like this. These can range from:
+•
+•
+•
+•
+
+Spectors watching the ancient bridge to the north
+and the ruins of Shal’uran.
+Witches and animals with glowing red eyes seen
+in the nearby Firnost Forest.
+Glowing lights that look like eyes upon the
+plateaus of the lower mountains.
+Encounters with strangers and animals that have
+been flash frozen at the base of the
+mountain and upon the mist shrouded edge of
+the Darrowden Hills.
+
+While most of these rumours lead to other possible
+adventures at the DMs discretion (See info on Lenwir
+
+for knowledge about the local areas). The lights witnessed upon the plateaus are the one that pertain to
+this adventure.
+
+ADVENTURE SUMMARY
+
+The adventure likely unfolds in the following sequence.
+The characters meet with the village elders who
+hear about their woes and talk to the villagers about
+the rumours before deciding on their course of action
+(or have already done so if you’d prefer to start after
+that).
+The characters go to the houses of the missing
+people and find clues leading towards the mountains.
+They climb the mountains or follow the tracks as
+night sets in and see the glow the people were talking
+about to be the cold light fires of some ice goblins.
+They deal with the goblins, but find their den was
+built in front of a cave with a well trodden path. They
+enter to find an ancient temple with a basilisk lair in
+the entrance and the remains of the villagers fed to
+the basiliks by the cave mouth.
+They deal with the basilisk before entering the
+ancient temple, dealing with those that remain within
+and the traps before reaching the centre of the temple, where they remove the Eye of Laki and escape the
+crumbling temple.
+
+INTRODUCTION
+Read:
+
+The village of Nenyrm sits in the shadow of the
+Arbormark Mountains. Their snow covered peaks
+a constant sight to any of its residents who take
+the time to look up from their farm work and their
+verdant fields. The scent of the ocean is a
+constant companion, carried down from the
+northern coast of Lenwir on a chill breeze. The
+villagers know naught of the world beyond, bar
+the dangers of the great mountains and vast
+deserts to the south. Here among the gentle rolling foothills they stay, rarely venturing forth and
+rarely do strangers come calling. Though happenstance has brought you to this village during
+the turning of the seasons. The vibrant fields
+have faded as the villagers prepare for an early
+winter. Cold winds and dark nights fast approach
+so close to the mountains. To add to the growing
+restlessness, villagers have been vanishing from
+nearby farms.
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+1
+
+1
+
+The odd woodsman failing to return home is not so unusual, but when far flung farmhouses are discovered
+empty, spoiled and bloodied. That is a new spectacle
+indeed. So much so that the village elders have called
+all those that live amongst the fields, to shelter behind
+the walls of the village come nightfall. Lest they too
+suffer a mysterious and terrible fate.
+It seems your arrival at Nenyrm may not have been
+by coincidence, but rather by the design of one of the
+gods, for they are but simple folk and in need of the
+help of brave adventurers.
+As the sun sets for the night and the villagers board
+up their homes and close the wooden gates you find
+yourself on the eastern road out of town. The Arbormark mountains rising before you, their black shapes
+darker than the winter night against which they rest.
+As the evening plunges into darkness two things
+cross your mind; the first being the villagers promise
+of a hefty reward, one that you find doubtful having
+seen the way they live their simple lives; the second
+being the pinpricks of light barely visible against the
+tall mountains, glittering and dancing in the cool
+breeze.
+
+THE SURROUNDING AREA
+The hills immediately around Nenyrm are not fraught
+with danger and should the adventurers wish to
+explore the northern areas and Firnost Forest, they
+will find little challenge in the beasts, wolves and the
+occasional hag, intent on luring them to her cottage
+for dinner.
+However, should they journey farther afield into
+the Abormark Heights, northwards over the Shal’Uran
+Bridge or into the Darrowden Hills they will encounter
+more deadly and dangerous creatures, though those
+journeys will take longer than a day and be beyond
+the scope of this adventure. Should they explore these
+areas they will likely meet the minions of Mab amongst
+the Abormark Heights, ancient sepctors around the
+Sahl’Uran Ruins and agents and monsters of the
+Shadowfell within the Darrowden Hills, all with different hooks for alternate adventurers.
+
+2
+
+PART I: THE ICE GOBLINS
+Farmhouses
+
+The farmhouses will likely be the first stop for the
+characters, a place to investigate what happened to
+those that were taken. Read
+
+A cool winter breeze breathes a sighing wind into
+the fields amongst the abandoned farmhouses
+upon the east of town. Their unlit exteriors look
+more dilapidated you know them to be , suffering
+from an absence of the life they would usually
+contain.
+Around you tall stalks of wheat shake with the
+gentle rattle of their ripened harvest. The only
+sound in an otherwise silent night.
+Investigating the houses will reveal little more than
+villagers’ clothes, objects and kitchenware scattered
+around. There are also traces of blood and evidence of
+a struggle with a low Perception or Investigation check.
+A high Perception or Investigation check will reveal
+blood stains and footprints leading out of the farmhouse and into the eastern foothills, the blood soon
+giving way to drag marks and small booted feet among
+the soft mud..
+A high Perception check while outside will indicate a
+light crunching sound coming from one of the fields,
+though its true direction will be impossible to discern,
+and an uncomfortable feeling of being watched.
+Should the adventurers seek to investigate further
+they will find nothing in the fields, getting lost among
+the chest height wheat. Following the trail will take
+them towards the foothills, though only fresh small
+booted footprints will be evident with a high Sruvival
+or Investigation check as the blood will have been worn
+or washed away by the weather over the last few days.
+The path will start to climb as the characters reach
+the edge of the farms and the fringes of the mountains
+foothills.
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+The Ice Goblin Camp
+
+The rocky road begins to ascend, and the waving lights
+are revealed to be torches, dancing in the wind. The
+sparsely wooded area offers little cover on approach
+and the moon is high in the relatively clear sky, lighting up the hillside.
+If the adventurers followed the lights before investigating the farmhouse, they will arrive at the Ice Goblin
+Camp in the hills, but will likely raise an alarm, unless
+they stealth on the final approach and avoid the two
+sentries. If they follow the tracks from the farmhouse
+the ice goblin that ventured down to abduct more humans will have warned the others of the approaching
+adventurers and be ready to spring an ambush at the
+top of the path.
+If the players manage to disable or make their way
+around the ice goblin watchmen, they will be able to
+spring an ambush on the camp. Read the following as
+the camp comes into view, adjusting for what happened on their approach:
+
+The path stops and you step out onto a stone plateau with little way for tree cover. 6–8 crudly constructed wooded huts sit around a central banner.
+A dark blue cloth with three white shards of ice
+pointing outwards hang from it. Several small
+fire, their flames a chilling blue glow, lay haphazardly around the camp. Behind which looms a
+cave entrance, more akin to a black scar across
+the grey mountains. A dozen or so blue skinned
+goblins move around the camp, occasionally wandering into the cave and out again. A Ice Goblin
+Chieftain stands at the centre of the camp gazing
+at the banner that hangs there.
+
+The goblins will attack on sight. They are extremely
+hostile and number 12 in the camp, 2 scouts, a chieftan and a shaman. Ice goblins are chaotic evil with
+stats akin to normal goblins but with a natural AC of
+14, magic weapons and immunity to cold and necrotic
+damage. They were servants of Queen Mab who have
+fled her service and her kingdom growing at the centre
+of the Arbormark Mountains and have set up a temporary camp atop the plateau, drawn here by something
+else.
+
+PART II: THE CAVE
+After the battle, an investigation of the camp reveals
+little in the way of reward bar a few ice encrusted metal weapons, some small wealth and a carved obsidian
+idol of a beautiful and horrifying Fey Queen. The idol
+possesses a small amount of magical power, but what
+it is is difficult to discern. Any checks of the goblins
+bodies find a patchwork of scars across their skin and
+a medicine check of 15 reveals something buried beneath the skin of one of their wrists, shaped like some
+kind of thorn manacle, the spikes occasionally protruding from the skin and leaking a smokey darkness.
+After the goblins have been dead for five minutes these
+disappate entirely into smoke.
+Investigation of the huts and bags around the huts
+show a small quantity of human clothes, belongings
+and food pilfered from the nearby farms.
+Now that the adventurers are closer, they can see that
+the cave tunnel stretches deeper than previous investigations would have revealed. The cave mouth itself
+seems to suck in the air rather than expel it and the
+adventurers feel a growing unease standing before it.
+The mouth of the cave shows evidence of years of passage, its stone floor stained with a dark crimson.
+Entering the tunnel with light reveals an ancient,
+crafted corridor cut into the mountain, pockmarked,
+and scarred with age. The original masonry barely
+recognizable and unidentifiable. The crimson trail
+leads the characters downwards into the mountain
+and a further Investigation check shows movements of
+a larger creature through the passage, whether recent
+or not is impossible to discern.
+The path opens into a wide room covered in blood
+stains, but not bones. At the back rests, a crude stone
+altar before an entirely crimson wall. Every inch of the
+chamber wall is scrawled with runes, symbols, and
+markings. Investigation of the marks reveal little to no
+information, except for two; Infernal and Elvish.
+The Elvish reads as:
+
+‘The key lies within and is easily found, paint
+thee with it and my magic will astound, this may
+sound like an easy task, but be wary what you
+yearn, as for what you give. I shall return.’
+The Infernal reads:
+‘The key is found with your head, use
+the key to paint me red, be aware of what you
+spurn, for what you give shall be returned.’
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+3
+
+3
+
+If the adventurers do not possess anyone that can read
+these languages, they can use the clues around the
+cave to discern what they must do to remove the wall
+before them.
+The Wall of Blood requires fresh blood to bypass it.
+It will however produce an exact clone of whoever or
+whatever owns the blood as a hostile agent who will
+immediately attack the party. Should the adventurers
+use their blood a clone with the exact same strengths
+and spells will appear to fight them. Should the characters use the blood of one of the slain ice goblins it
+will reproduce an ice goblin, if a creature is thrown roll
+a D8 to see how many droplets of blood touch the wall
+and that is how many of the creatures will appear.
+As the blood touches the wall there is a groan and
+all of the dark stains on the floor and walls start to
+move, sliding along and through the stones as if the
+floor is transparent, until they accumulate upon the
+centre of the wall and a blood clone appears.
+
+ACT III: THE LOST TEMPLE
+The clone(s) die, exploding into blood and causing temporary blindness in nearby adventurers who fail a 14
+DC Constitution save.
+
+1. BASALISKS’ LAIR
+The smooth walled tunnel falls away into darkness on one side, the torch light lapping at the
+corners of a natural cave. As the light spills
+across the room, the reflective surface of small
+pools light up the bones, half devoured carcasses
+and torn clothes of humans and other animals.
+At the far end of the cavern a dark overhang hides
+dozens of deep green, scaled eggs.
+
+Should the adventurers choose to fight the basilisks
+and plunder the lair they will find several basilisk
+eggs, some bones and small idols left by the ice Goblins.
+
+2. SHATTERED BRIDGE
+
+The tunnel continues down past the lair and opens
+into an enormous cavern.
+
+The upper reaches of the chamber disappear into
+darkness and an ancient temple looms across the
+chasm, cut directly into a stone monolith beyond
+a rotting wooden bridge. The bones of a gargantuam creature trails from the side of the terrace
+and over into the blackness below. A dry staleness
+permeates the air, dust and rubble covering almost every inch of the burned, pockmarked floor.
+
+As the clone (last clone) dies, their blood flows
+back towards the wall and it recedes seamlessly into the cave before slamming home with an
+earth-shaking crash. The following silence is
+deafening as a black void stares out. Light flickers
+at the edges of the cave opening and the trail
+of blood continues down into the dark. A drip
+echoes up the tunnel as does the moan of a foreboding wind.
+The adventurers have a quick decision to make, either
+journey into the cave that beings to spirals down into
+the earth after 30ft or stay where they are and try to
+discern what lies beyond.
+What they choose to do will effect the next interaction because the stone door crashing open has
+signalled something deep below that food has been
+offered. A Basilisk, the ice goblins sought to capture
+and train. They have been summoning it through the
+Wall of Blood and leaving offering of human villagers
+on the alter.
+If the characters wait the Basilisk will emerge and
+fight them in the cramped confines of the cavern. If
+they journey downwards immediately, they can slip
+past the Basilisks’ layer before it emerges.
+(1. See Map).
+There are two Basilisks in total, though one stays
+in the lair to defend the eggs. Should the adventurers
+venture in, it will strike from its hidden position above
+the cave mouth. Should the basilisks be alerted the
+players presence they will attack in a bid to defend
+their young. The adventurers can attempt to slip by
+with a DC 15 Stealth Check.
+
+4
+
+The adventurers stand on a stone platform with a
+small guard room to the side. On the other side lie
+the bones of a gargantuan creature, most of which
+trail over the side of the platform and into the endless
+chasm below.
+The desiccated body of an armoured human rests
+to the side. Further investigation reveals he has a +1
+silver sword at his waist, with the carving ‘Renkidu
+- my life for light’ on its hilt. His outstretched hand
+holds an intricately carved necklace, a study and identification of which reveal a Spirit Well.
+In his other hand he protectively holds an Obsidian Stone. Investigation reveals a warm flame trapped
+at the centre, but under further inspection you find
+you cannot focus on it. Identification and studies of
+it reveal nothing and anyone who is shown the stone
+cannot discern its purpose. The player has no way of
+knowing but it is however a prison for a powerful devil,
+should the characters choose to take it, it will most
+likely break and release the demon at some moment of
+great stress (battle or otherwise).
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+Spirit Well
+
+Unique Item
+
+2 daily charges		
+
+Requires Attunment
+
+4. EXARCHS QUARTERS
+The door creaks open on rusted hinges and your
+light laps at shattered wood and torn books that
+litter the ground. Everything now smashed beyond recognition.
+
+This necklace, shaped like a small
+lantern emits a cold blue light in a 10ft
+radius when held.
+Shining it on remains causes ghostly
+illusions of the dead creature(s) to
+manifest.
+
+Investigation checks reveal the material of the broken
+items here is of a better quality than that in other
+parts of the temple. The inner door is still locked however and can also be accessed with the keys.
+Further study reveals the Exarch Journals. These
+are written in the ancient Aarakocran language and
+can be taken to their city should the characters wish
+to discern them. If the character has some way to read
+from them, they still struggle as much of it is coded.
+However, they can glean that the Exarch is the mortal embodiment of ‘Laki - The Justiciar God’ and that
+this temple was hidden as a way to protect an ancient
+artefact during the invasion of the world.
+
+This illusion hovers above the remains
+and acts out the last minute of the
+creatures’ life. This effect is silent and
+shows the dead as they were in life,
+depicting any items they carried.
+It does not, however reveal any others
+who may have been present at the time
+of the their death.
+Warning
+Continued exposure to the spirit world
+can cause lasting effects.
+As the adventurers pick up the lantern the blue
+
+light touching the corpse of ‘Renkidu’ forms mist
+around his body. Closer inspection reveals a faint
+ghostly shape over the corpse. Should the characters
+use the lantern on the corpse of ‘Renkidu’ they will see
+him holding the lantern up and blood falling from his
+eyes staring towards the monster’s bones. Should the
+characters wish to see the monster’s death, they must
+pass a DC 15 Wisdom save or gain ‘Madness.’
+On the pockmarked floor of the room is cut a giant
+rune. Each of the lines on the floor has hundreds of
+miniscule runes carved inside it. This is a rune of
+forbiddance and an Arcana of 19 reveals it for what it
+is. No teleportation, planar gates or means of magical
+transportation can be taken within the temple.
+In the guard post are some keys amongst the shattered and rotting debris but nothing else of value.
+The bridge into the temple is in similar condition
+and creaks when walked upon. Walking across it has
+a low chance of breaking a wooden board, but a higher
+chance to make a lot of sound. The doors to the temple
+lie ajar and are covered in hundreds of battle scars. A
+statue stands to the side of the gate, looking out with
+defiance and another on the other side is broken.
+
+3. ARMOURY
+
+It be opened with the keys found in the guardhouse
+and holds only standard silvered weapons (daggers,
+arrows, bolts, spears, maces, swords), mostly ancient
+and decrepid as well as chainmail and plate armour.
+
+A thick layer of dust coats the rotted wooden
+shelves, and dozens of finely crafted weapons litter the floor where their shelving has failed them,
+torchlight reflecting of their silvery surfaces.
+
+5. TEMPLE HALL
+
+While moving through the caverns high perceptions
+will reveal something watching, and extremely high
+perception will reveal movement high up in the temple ceiling. The rooms are dark and can be better lit
+by lighting the braziers that are placed around the
+temple, though their light will not illuminate the high
+ceilings. Within the main hall the is a statue of the god
+Laki, who protects and is worshipped in this temple.
+
+6. TEMPLE QUARTERS
+The doors are shattered inwards, as if torn apart
+and blood smears, darkened to black over time
+trail from the soiled robeds and broken furniture
+within.
+These rooms contain nothing of value beyond broken
+rotted wood, torn soiled robes and a single cracked
+pewter charm to Laki.
+
+7. DINING ROOM
+Several overturned long tables and benches
+rest on the floor before an empty fireplace, as if
+thrown haphazardly. More stains coat the floors
+and walls and broken dishes gleam from the darkened floor in the light.
+An investigation of this room reveals what used to be a
+dining room of sorts with blood trails leading into the
+kitchen (8). The kitchen has a Bone Devil in it, sitting
+atop a pile of decrepit bones. If the adventurers alert
+the bone devil to their presence by either creaking the
+wooden bridge or through other sounds it will come
+out and try to ambush the party in tandem with the
+half a dozen Spined Devils that were hiding in the
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+5
+
+5
+
+THE UPPER TEMPLE
+
+1
+
+8
+
+3
+
+2
+
+6
+7
+
+4
+
+5
+
+THE LOWER TEMPLE
+
+10
+
+11
+
+9
+
+12
+
+6
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+high cieling of the Temple Hall.
+
+8. TEMPLE ATRIUM
+Before the steps to the Lower Temple rests a hidden
+rune, revealed by a successful Investigation check, or
+detect magic.
+
+Across the floor is carved another rune, almost
+indistinguishable from the floor bar the occasional pulses of dim golden light. Instead your eyes
+are drawn to the charred black outlines of horrifying shapes against the wall around the stairways
+entrance.
+The rune holds a powerful spell where any of evil
+hearts or intent that step upon it will be vaporised.
+Adventurers can de-activate it through great difficulty. Should they not choose to deactivate it and step
+on it, it will only hurt those with hostile/evil intent
+(determinable by the DM) or with corruption (if playing
+corruption rules).
+The Damage of the spell determined by corruption
+is shown below:
+
+Corruption
+
+Damage
+
+1–5
+
+None
+
+6–10
+
+3d6 radiant
+
+11–15
+
+6d6 radiant
+
+15+
+
+9d6 radiant
+
+The rune also removes 1 corruption point from all that
+pass through it, regardless if it does damage or not.
+
+The charred black marks around the wall are demons
+and devils that tried to enter and were incinerated.
+The stairs downwards are likewise littered with
+bones of the defenders of the temple, most still suited
+in cracked and bent plate armour. Investigation reveals
+they are several different species.
+
+ACT IV: EXARCH’S PRISON
+The Lower Temple bears the scars of a bloody battle.
+Bodies, weapons and makeshift cots that once sheltered those that sought safety here litter the broken
+room, though there are no signs of creatures. The
+temples defenses, though formidable, seemed unable
+to keep the horde of monsters from their sanctuary.
+
+9. THE INNER TEMPLE
+
+much of the cieling and walls, a great light holding a
+darkness at bay.
+Those in the light are from many races, their faces
+so detailed they seem almost lifelike. The dark contains demons and devils, their tortured faces screaming with terrible glee. The longer you starethe more the
+creatures seem to swirl and move.
+
+10. THE LIBRARY
+Bookshelves, laden with the colourful spines of
+dozens of books take up much of this corner of
+the temple, with some simple writing desks and
+chests.
+Bookshelves and broken chests stand against the wall
+in the vestibule as well as a small basalt idol. A quick
+inspection reveals several health potions in the broken
+chests, and some writings again in an ancient script.
+
+11. THE STUDY
+Two statues of unknown creatures stare down at
+you as you enter. Two once comfortable couches lie
+before a massive unlit fireplace, atop which rests a
+regal picture of a godly Aarakocra, not marred with
+the dust, debris and age of the rest of the temple.
+The adventurers can detect magic and try and deactivate the two Stone Golems that stand guard before
+entering the room, but upon entering they activate
+and attack until destroyed or until the Exarch trapped
+in the painting is released by destroying it.
+As the adventurer’s stare at the painting it moves
+slightly. An Arcana check reveals the presence of
+magic. Detect Magic/Evil reveals the spell holding the
+painting are evil. Burning or destorying the painting
+releases the trapped Exarch’s spirit.
+Upon release the Exarch’s spirit appears as an
+ephemeral ghost to thank the adventurers. He will
+communicate telepathically, though his memory is
+limited in his current form. He will inform the adventurers of the battle for the temple, the wards activated
+to keep evil out and the purpose of the temple, which
+is to safeguard an ancient relic. It will also reveal it
+was imprisoned there by a devil lord as a form of torture to break his will and have him open the door.
+The exarch will lead the party to the door behind
+the alter and open it with a flash of light. The Exarch
+will guide the characters down the stairs into the final
+chamber.
+
+Your light fills the temple as if propelled by some
+other agent. The intricate artwork and golden
+filigree is shattered and torn. Broken pews fill the
+room and a cracked marble alter lies at the front of
+the hall. Though your eyes are drawn to the bones
+of ancient defenders and those that sheltered here
+scattered across the floor, twisted and broken.
+
+A great door lies behind the alter but it’s locked and
+has no discernible way to open it. A History check
+show what can be seen in the mosaics that adorn
+
+12. THE GUARDIAN CHAMBER
+A deep chasm fills the centre of the great chamber,
+the sound of the water echoing from far below. A
+bridge stretches out onto a platform at the centre of
+the chasm, littered with broken bones and shattered
+skeletons. Upon the platform rests an ancient alter
+against which is slumped an inhuman skeleton.
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+7
+
+7
+
+The Exarch gestures at the bodies and informs the
+adventurers that this was their last stand. Immediately against the alters are other, bigger bones, clearly
+demonic.
+Broken statues line the bridge, mostly shattered, or
+sheared off. The posture of the remaining statues reveals a sense of purity and power unbeknownst to you.
+Read the extract below if the characters investigate or
+try to percieve the statues or alter:
+
+As you stare upon the wonder of the statues your
+gaze lingers for several seconds. Something draws
+you in and you cannot look away, the shadows in the
+cavern ebb as you catch a glimpse through time at
+their splendour. You feel the strength return to your
+body as fatigue drains away. The feeling of purity in
+your heart and for a moment you feel the holy power
+in your veins.
+As quickly as it came it retreats and you feel the
+darkness close in. It seems closer than before and a
+shiver passes through you as the cold of the chamber
+seems to bite that little bit more. You unconsciously
+pull your cloak closer and feel diminished within. The
+cold deep crashing of the water far below, remind you
+once again of where you really are.
+The Exarch leads the adventurers to the centre of
+the platform and indicate the text on the alter. The
+alter allows anyone who is pure to take the item held
+within the hole. Anyone with evil intent or a corruption level 5+ must make a DC Constitution 18 save
+to pull out the item. A fail will release a radiant blast
+dealing 8d6 radiant damage to the one who took the
+object. The text on the alter reads:
+Only those of truest heart, may take from here
+and depart. For when again the darkness comes,
+and full of evil the world becomes, this power
+will grant you light, to blind and burn demonic
+blight.
+
+if characters keep them and become attuned to them,
+they can regain the power over time through further
+tasks). Both weapons are silvered.
+
+The Warhammer +2, with 2d6 bonus radiant damage on hit.
+The Shield +3 AC, activating it creates a 15ft magical barrier,
+blocking spells and demons/devils from entering for 1min.
+
+Should the adventurer’s defeat the devils they can
+leave the temple the way they entered all traps have
+been disabled and any power the temple had has been
+removed by the removal of the artefact held there. The
+removal of the power source however now makes the
+temple vulnerable and to usher the players out further portals can open to spew demons that harry the
+adventurers as they flee.
+
+TO CONTINUE:
+
+Should the adventurers wish to continue from this
+point it can be continued in several ways, all ways require either returning to the village to claim the reward
+and then journeying north to Aol to complete:
+•
+•
+•
+
+Either way the demons will give chase and seek to take
+the artefact from them every step of the journey.
+
+THE EYE OF LAKI
+The orb taken from the temple is a legendary item.
+However, it’s power is limited and can only be restored
+in the sun spire at the top of Aol where it sits offering
+protection against all in the city and those that enter,
+giving the Aarakocra more power and strength in the
+area as well as earning their good favour.
+Without this permanent setting it only contains
+three charges should the adventurers decide not to
+take it back, after that it will be depleted and not be
+usable until returned to Aol.
+
+Once the item has been removed laughter will
+echo around the chamber and from within the depths
+of the chasm and two Horned Devils will fly up. They
+will try and take the item from the characters, however
+before they can act the High Exarch will tell the adventurers to take the item to the Aarakocran city north
+over the mountains. He will then step forward and cast
+two powerful spells. Holding his hammer out to the
+demons to cast ‘Greater Smite’ and holding his shield
+over his head to cast ‘Aura of Warding’:
+
+8
+
+Find a translation for the Exarch’s journal and
+learn more of the history during the cataclysm and
+subsequent invasion.
+Return the artefact to the Aarakocra in Aol where
+it will protect them and be safe.
+To reveal the location of the temple to the world
+and help others replenish it.
+
+THE EYE OF LAKI
+
+Wonderous Item, Requires Attunment
+5 Charges - after which it can only be restored in the
+sun spire at the top of Aol.
+Activated by holding it above your head and channeling some kind of magic into it. The Eye blossoms to life
+like a powerful sun for a minute as long as the player
+is holding it and concentrating. It has the following
+effects:
+
+Aura of Warding – blocks all hostile spells in a 15 ft radius.
+Greater Smite – 8d8 radiant damage to both demons.
+
+- Blinds all Demons and Devils within
+100 ft that fail a DC 18 Dexterity save to avert
+their eyes.
+
+The Exarch will vanish as his spells are cast his huge
+Warhammer and Shield falling to the ground as physical objects. Both provide additional bonuses in this
+fight but afterwards lose their magical ability (however
+
+- Causes Demons and Devils skin to burn, removing all
+resistances and immunities and causing vulnerability to
+all attacks.
+
+CHAPTER 1: THE LOST TEMPLE OF ALAK ALAR
+Created and written by Yerran Moss
+
+- Burns away any illusions, invisibility, magic means of
+concealment or shape Employed by anyone, exposing
+them for what they really are.
+
+

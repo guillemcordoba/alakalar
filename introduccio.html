@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducció - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html" class="active">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Introducció</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Achaidh%20Cheide.mp3" data-track="Achaidh Cheide">Ambient: Achaidh Cheide</button>
+
+        <!-- Rerefons -->
+        <h2>Rerefons</h2>
+        <p>El poble agrícola de <strong>Nenyrm</strong> es troba al peu de les <strong>Muntanyes Arbormark</strong>, dins del <strong>Regne d'Alenian</strong>. Les granges dels voltants han estat saquejades i els seus residents han desaparegut. La zona va ser escenari de nombroses batalles durant l'<strong>Era de la Desolació</strong> &mdash; ciutats destruïdes, temples i ossos jau sota la terra.</p>
+
+        <!-- Ganxos d'Aventura -->
+        <h2>Ganxos d'Aventura</h2>
+        <ul>
+          <li>El poble està aterrit perquè alguna cosa s'està emportant la gent. El consell del poble ha enviat un missatge demanant ajuda a la <strong>Ciutat d'Alenian</strong>, però el viatge és d'una setmana.</li>
+          <li>La gent del poble és supersticiosa i dura. Han enviat els seus propis homes a investigar, però cap ha tornat. Prefereixen pagar a aventurers de pas perquè trobin els desapareguts o resolguin el problema.</li>
+        </ul>
+
+        <!-- Rumors -->
+        <h2>Rumors</h2>
+        <p>Aquests són rumors que els jugadors poden escoltar dels habitants del poble:</p>
+        <ul class="rumour-list">
+          <li>Espectres vigilant el pont antic del nord i les ruïnes de Shal'Uran.</li>
+          <li>Bruixes i animals amb ulls vermells brillants al proper Bosc de Firnost.</li>
+          <li>Llums brillants que semblen ulls als altiplans de les muntanyes baixes.</li>
+          <li>Trobades amb estrangers i animals congelats instantàniament a la base de la muntanya i als Turons de Darrowden.</li>
+        </ul>
+
+        <div class="dm-note">
+          <p>La majoria dels rumors porten a altres possibles aventures. <strong>Les llums als altiplans</strong> són les que són rellevants per a AQUESTA aventura.</p>
+        </div>
+
+        <!-- Text Introductori -->
+        <h2>Text Introductori</h2>
+        <p>Llegiu el següent text en veu alta als jugadors quan comenci l'aventura:</p>
+
+        <div class="read-aloud">
+          <p>El poble de Nenyrm es troba a l'ombra de les Muntanyes Arbormark. Els seus cims coberts de neu són una visió constant per a qualsevol dels seus residents que s'aturen a alçar la mirada dels seus treballs al camp i dels seus verds prats. L'olor de l'oceà és una companya constant, portada des de la costa nord de Lenwir per una brisa freda. Els vilatans no saben res del món més enllà, llevat dels perills de les grans muntanyes i els vastos deserts del sud. Aquí, entre els suaus turons ondulants, s'hi queden, rarament aventurant-se més enllà i rarament vénen estrangers a trucar a la porta. Tot i així, l'atzar us ha portat a aquest poble durant el canvi d'estacions. Els camps vibrants s'han esmorteït mentre els vilatans es preparen per a un hivern prematur. Vents freds i nits fosques s'acosten ràpidament tan a prop de les muntanyes. Per afegir a la creixent inquietud, vilatans han estat desapareixent de les granges properes.</p>
+        </div>
+
+        <div class="read-aloud">
+          <p>Que algun llenyataire no torni a casa no és tan inusual, però quan es descobreixen cases de camp llunyanes buides, espollades i ensangonades, això sí que és un espectacle nou. Tant és així que els ancians del poble han cridat tots aquells que viuen entre els camps a refugiar-se darrere les muralles del poble en caure la nit. No sigui que ells també pateixin un destí misteriós i terrible.</p>
+          <p>Sembla que la vostra arribada a Nenyrm no ha estat per coincidència, sinó per designi d'algun dels déus, car ells són gent senzilla i necessiten l'ajuda de valents aventurers.</p>
+          <p>Quan el sol es pon per la nit i els vilatans tanquen amb posts les seves llars i clouen les portes de fusta, us trobeu al camí de l'est, fora del poble. Les Muntanyes Arbormark s'alcen davant vostre, les seves formes negres més fosques que la nit d'hivern contra la qual reposen. Mentre el vespre s'enfonsa en la foscor, dues coses us creuen la ment: la primera és la promesa dels vilatans d'una generosa recompensa, una que trobeu dubtosa havent vist la manera com viuen les seves vides senzilles; la segona són els punts de llum amb prou feines visibles contra les altes muntanyes, brillant i dansant en la brisa freda.</p>
+        </div>
+
+        <!-- La Zona Circumdant -->
+        <h2>La Zona Circumdant</h2>
+
+        <img src="images/img-002.jpg" alt="Mapa de la regió de Nenyrm" class="section-image">
+        <p class="image-caption">Mapa de la regió al voltant de Nenyrm</p>
+
+        <div class="dm-note">
+          <p>Els turons al voltant de Nenyrm no són perillosos &mdash; hi ha llops i alguna bruixa ocasional al <strong>Bosc de Firnost</strong>. Tanmateix, aventurar-se als <strong>Altiplans d'Arbormark</strong>, creuar el <strong>Pont de Shal'Uran</strong> o endinsar-se als <strong>Turons de Darrowden</strong> significa trobar criatures molt més mortíferes (servents de Mab, espectres antics, agents del Shadowfell). Aquests encontres queden fora de l'abast d'aquesta aventura, però ofereixen ganxos per a futures sessions.</p>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="index.html">&larr; Inici</a>
+          <a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>

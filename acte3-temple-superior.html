@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acte III: El Temple Superior - El Temple Perdut d'Alak'Alar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <button class="menu-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776; Menú</button>
+
+  <div class="page-wrapper">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>El Temple Perdut d'Alak'Alar</h2>
+        <div class="subtitle">Guia del Director de Joc</div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="section-divider">L'Aventura</li>
+          <li><a href="introduccio.html">Introducció</a></li>
+          <li><a href="part1-goblins-de-gel.html">Part I: Els Gòblins de Gel</a></li>
+          <li><a href="part2-la-cova.html">Part II: La Cova</a></li>
+          <li class="section-divider">El Temple</li>
+          <li><a href="acte3-temple-superior.html" class="active">Acte III: Temple Superior</a></li>
+          <li><a href="acte4-temple-inferior.html">Acte IV: Temple Inferior</a></li>
+          <li class="section-divider">Recursos</li>
+          <li><a href="objectes.html">Objectes i Continuació</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <div class="content-area">
+        <h1>Acte III: El Temple Superior</h1>
+        <button class="music-btn" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Arcane.mp3" data-track="Arcane">Ambient: Arcane</button>
+
+        <img src="images/img-018.jpg" alt="Mapa del temple superior" class="section-image">
+        <p class="image-caption">Mapa del Temple Superior &mdash; El complex antic tallat a la pedra</p>
+
+        <!-- Sala 1: Cau dels Basiliscs -->
+        <div class="room-header">
+          <span class="room-number">1</span>
+          <span class="room-name">Cau dels Basiliscs</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>El túnel de parets llises s'enfonsa cap a la foscor per un costat, la llum de la torxa llepant els racons d'una cova natural. A mesura que la llum s'escampa per la sala, la superfície reflectant de petites basses il&middot;lumina els ossos, les carcasses mig devorades i la roba esquinçada d'humans i altres animals. Al fons de la caverna, un voladís fosc amaga dotzenes d'ous d'un verd fosc intens, coberts d'escates.</p>
+        </div>
+
+        <div class="dm-note">
+          <button class="music-btn music-btn-battle" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Anxiety.mp3" data-track="Anxiety">Combat: Anxiety</button>
+          <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>ídols</strong> deixats pels gòblins de gel.</p>
+        </div>
+
+        <!-- Sala 2: El Pont Trencat -->
+        <div class="room-header">
+          <span class="room-number">2</span>
+          <span class="room-name">El Pont Trencat</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>El túnel continua avall més enllà del cau i s'obre en una caverna enorme. Les parts més altes de la cambra desapareixen en la foscor i un temple antic s'alça a l'altra banda de l'abisme, tallat directament en un monòlit de pedra més enllà d'un pont de fusta podrit. Els ossos d'una criatura gegantina s'estenen des del costat de la terrassa i es perden en la negrura de sota. Una sequera rància impregna l'aire, pols i runa cobrint gairebé cada centímetre del terra cremat i picat.</p>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Plataforma de pedra</strong> amb una petita sala de guàrdia al costat. A l'altre costat: ossos d'una <strong>criatura gegantina</strong> que s'estenen cap a l'abisme.</p>
+          <ul>
+            <li><strong>Cos dessecat d'un humà armat, 'Renkidu':</strong> porta una <strong>espasa de plata +1</strong> amb la inscripció <em>&laquo;Renkidu &mdash; la meva vida per la llum&raquo;</em>, un <strong>Pou d'Esperits</strong> intricadament tallat en forma de collaret, i una <strong>Pedra d'Obsidiana</strong> (presó d'un poderós diable &mdash; es trencarà en un moment de gran estrès si se l'emporten).</li>
+            <li><strong>Runa de prohibició al terra</strong> (<span class="dc-check">Arcana DC 19</span>): no es permet teletransportació, portes planars ni transport màgic dins del temple.</li>
+            <li><strong>Sala de guàrdia:</strong> conté algunes <strong>claus</strong> entre les runes.</li>
+            <li><strong>El pont cruix</strong> quan s'hi camina &mdash; baixa probabilitat de trencar-se però <strong>alta probabilitat de fer soroll</strong>.</li>
+            <li><strong>Portes del temple</strong> entreobertes, cobertes de cicatrius de batalla. Una estàtua es manté dreta a la porta; l'altra està trencada.</li>
+          </ul>
+        </div>
+
+        <div class="item-card">
+          <h3>Pou d'Esperits</h3>
+          <p class="item-type">Objecte Únic, 2 càrregues diàries, Requereix Sintonització</p>
+          <ul>
+            <li>Forma de petita llanterna, emet <strong>llum blava freda</strong> en 3m de radi.</li>
+            <li>Brillar-la sobre restes causa <strong>il&middot;lusions fantasmals</strong> de les criatures mortes.</li>
+            <li>La il&middot;lusió plana sobre les restes i representa l'<strong>últim minut de vida</strong> de la criatura (silenciós, sense revelar altres presents).</li>
+            <li><strong>Avís:</strong> l'exposició continuada al món espiritual pot causar efectes duradors.</li>
+          </ul>
+        </div>
+
+        <div class="dm-note">
+          <p><strong>Si usen el Pou d'Esperits sobre Renkidu:</strong> el veuen aguantant la llanterna enlaire, sang caient-li dels ulls, mirant fixament els ossos del monstre.</p>
+          <p><strong>Si volen veure la mort del monstre:</strong> <span class="dc-check">DC 15 Saviesa</span> o guanyen un punt de <strong>Follia</strong>.</p>
+        </div>
+
+        <!-- Sala 3: Armeria -->
+        <div class="room-header">
+          <span class="room-number">3</span>
+          <span class="room-name">Armeria</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Una gruixuda capa de pols cobreix els prestatges de fusta podrida, i dotzenes d'armes finament forjades escampen el terra on els seus prestatges els han fallat, la llum de les torxes reflectint-se en les seves superfícies platejades.</p>
+        </div>
+
+        <div class="dm-note">
+          <p>S'obre amb les <strong>claus de la sala de guàrdia</strong>. Armes platejades estàndard: dagues, fletxes, virots, llances, maces i espases, la majoria antigues i decrèpites. També hi ha <strong>cota de malla</strong> i <strong>armadura de plaques</strong>.</p>
+        </div>
+
+        <!-- Sala 4: Quarters de l'Exarca -->
+        <div class="room-header">
+          <span class="room-number">4</span>
+          <span class="room-name">Quarters de l'Exarca</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>La porta s'obre amb un grinyol de frontisses rovellades i la vostra llum llepeja la fusta destrossada i els llibres esquinçats que escampen el terra. Tot està ara destrossat fins a ser irreconeixible.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Investigació:</strong> els materials són de millor qualitat que a altres parts del temple. La porta interior encara està <strong>tancada amb clau</strong> (claus de la sala de guàrdia).</li>
+            <li>Conté els <strong>Diaris de l'Exarca</strong> en antic idioma Aarakocran. Es poden portar a la seva ciutat per desxifrar-los. Fins i tot amb coneixement de l'idioma, gran part està codificat.</li>
+            <li><strong>El que en poden extreure:</strong> l'Exarca és l'encarnació mortal de <strong>&laquo;Laki &mdash; El Déu Justicier&raquo;</strong> i aquest temple va ser amagat per protegir un <strong>artefacte antic</strong> durant la invasió del món.</li>
+          </ul>
+        </div>
+
+        <!-- Sala 5: Sala del Temple -->
+        <div class="room-header">
+          <span class="room-number">5</span>
+          <span class="room-name">Sala del Temple</span>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Percepció alta:</strong> alguna cosa els observa des de dalt.</li>
+            <li><strong>Percepció molt alta:</strong> moviment a les altures del sostre.</li>
+            <li>Les sales són fosques; es poden encendre els <strong>brasers</strong> (no il&middot;luminen els sostres alts).</li>
+            <li>La sala principal té una <strong>estàtua del déu Laki</strong>.</li>
+            <li>Un <strong>Dimoni d'Os</strong> i <strong>Dimonis Espinosos</strong> s'amaguen (vegeu Sales 7/8).</li>
+          </ul>
+        </div>
+
+        <img src="images/img-016.jpg" alt="Mapa interior del temple" class="section-image">
+        <p class="image-caption">Plànol interior del Temple Superior</p>
+
+        <!-- Sala 6: Quarters del Temple -->
+        <div class="room-header">
+          <span class="room-number">6</span>
+          <span class="room-name">Quarters del Temple</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Les portes estan rebentades cap endins, com si haguessin estat esquinçades, i taques de sang, enfosquides fins al negre amb el temps, s'arrosseguen des de les robes brutes i els mobles trencats de l'interior.</p>
+        </div>
+
+        <div class="dm-note">
+          <p>Res de valor. Fusta trencada i podrida, robes esquinçades i brutes, un únic <strong>amulet de peltre esquerdat</strong> dedicat a Laki.</p>
+        </div>
+
+        <!-- Sala 7: Menjador -->
+        <div class="room-header">
+          <span class="room-number">7</span>
+          <span class="room-name">Menjador</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Diverses taules llargues i bancs tomats descansen al terra davant d'una llar de foc buida, com si haguessin estat llançats de qualsevol manera. Més taques cobreixen el terra i les parets, i plats trencats brillen des del terra enfosquit amb la llum.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Investigació:</strong> revela un antic menjador amb <strong>rastres de sang</strong> que porten a la cuina (Sala 8).</li>
+            <li>La cuina conté un <strong>Dimoni d'Os</strong> assegut sobre ossos decrèpits.</li>
+            <li><strong>Si els aventurers han alertat el dimoni d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb mitja dotzena de Dimonis Espinosos amagats al sostre alt de la Sala del Temple.</li>
+          </ul>
+        </div>
+
+        <div class="encounter">
+          <h3>Combat al Temple</h3>
+          <button class="music-btn music-btn-battle" data-url="https://archive.org/download/Incompetech/mp3-royaltyfree/Anguish.mp3" data-track="Anguish">Combat: Anguish</button>
+          <table class="stat-table">
+            <tr>
+              <th>Criatura</th>
+              <th>Quantitat</th>
+            </tr>
+            <tr>
+              <td>Dimoni d'Os (Bone Devil)</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Dimonis Espinosos (Spined Devils)</td>
+              <td>6</td>
+            </tr>
+          </table>
+          <p><strong>Emboscada</strong> si han fet soroll al pont o en explorar.</p>
+        </div>
+
+        <!-- Sala 8: Atri del Temple -->
+        <div class="room-header">
+          <span class="room-number">8</span>
+          <span class="room-name">Atri del Temple</span>
+        </div>
+
+        <div class="read-aloud">
+          <p>Al terra hi ha gravada una altra runa, gairebé indistingible del terra si no fos pels polsos ocasionals de llum daurada tènue. En canvi, els vostres ulls són atrets pels contorns carbonitzats de formes terrorífiques contra la paret al voltant de l'entrada de les escales.</p>
+        </div>
+
+        <div class="dm-note">
+          <ul>
+            <li><strong>Runa oculta</strong> davant les escales cap al Temple Inferior. Es descobreix amb un control d'<strong>Investigació</strong> o <strong>Detectar Màgia</strong>.</li>
+            <li>La runa <strong>vaporitza qualsevol persona amb cor o intencions malvades</strong> que la trepitgi.</li>
+            <li>Els aventurers poden intentar desactivar-la (amb <strong>gran dificultat</strong>).</li>
+            <li>Si la trepitgen, <strong>només fa mal als qui tinguin intencions hostils o malvades</strong>.</li>
+          </ul>
+        </div>
+
+        <h3>Dany per Corrupció</h3>
+        <table class="stat-table">
+          <tr>
+            <th>Corrupció</th>
+            <th>Dany</th>
+          </tr>
+          <tr>
+            <td>1&ndash;5</td>
+            <td>Cap</td>
+          </tr>
+          <tr>
+            <td>6&ndash;10</td>
+            <td>3d6 radiant</td>
+          </tr>
+          <tr>
+            <td>11&ndash;15</td>
+            <td>6d6 radiant</td>
+          </tr>
+          <tr>
+            <td>15+</td>
+            <td>9d6 radiant</td>
+          </tr>
+        </table>
+
+        <div class="dm-note">
+          <ul>
+            <li>La runa també <strong>elimina 1 punt de corrupció</strong> a tots els qui la travessin.</li>
+            <li>Les marques carbonitzades són <strong>dimonis i diables</strong> que van ser incinerats.</li>
+            <li>Les escales cap avall estan plenes d'<strong>ossos de defensors del temple</strong> amb armadura de plaques esquerdada (múltiples espècies).</li>
+          </ul>
+        </div>
+
+        <!-- Navegació -->
+        <div class="page-nav">
+          <a href="part2-la-cova.html">&larr; Part II: La Cova</a>
+          <a href="acte4-temple-inferior.html">Acte IV: Temple Inferior &rarr;</a>
+        </div>
+
+        <div class="music-attribution">
+          Musica de <a href="https://incompetech.com" target="_blank" rel="noopener">Kevin MacLeod</a> (incompetech.com),
+          llicenciada sota <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Music Player Bar -->
+  <div class="player-bar">
+    <button id="player-play-btn" title="Reproduir">&#9654;</button>
+    <button id="player-stop-btn" class="player-stop-btn" title="Aturar">&#9632;</button>
+    <span id="player-track-name" class="player-track-name">Cap pista seleccionada</span>
+    <span class="vol-icon">&#128264;</span>
+    <input type="range" id="player-volume" min="0" max="1" step="0.05" value="0.5">
+  </div>
+  <script src="js/player.js"></script>
+</body>
+</html>
