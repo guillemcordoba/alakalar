@@ -1,21 +1,21 @@
 <template>
   <div class="content-area">
-    <MusicBtn track="Arcane" variant="ambient" />
-
     <!-- Sala 1: Cau dels Basiliscs -->
     <ZoneCard v-if="room === 1" id="sala-1" title="Cau dels Basiliscs" :room="1">
+      <MusicBtn track="Anxiety" variant="ambient" />
       <ReadAloud>
         <p>El tunel de parets llises s'enfonsa cap a la foscor per un costat, la llum de la torxa llepant els racons d'una cova natural. A mesura que la llum s'escampa per la sala, la superficie reflectant de petites basses il&middot;lumina els ossos, les carcasses mig devorades i la roba esquincada d'humans i altres animals. Al fons de la caverna, un voladis fosc amaga dotzenes d'ous d'un verd fosc intens, coberts d'escates.</p>
       </ReadAloud>
 
       <DmNote>
-        <MusicBtn track="Anxiety" variant="battle" />
+        <MusicBtn track="SCP-x1x" variant="battle" />
         <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>idols</strong> deixats pels goblins de gel.</p>
       </DmNote>
     </ZoneCard>
 
     <!-- Sala 2: El Pont Trencat -->
     <ZoneCard v-if="room === 2" id="sala-2" title="El Pont Trencat" :room="2">
+      <MusicBtn track="Arcane" variant="ambient" />
       <ReadAloud>
         <p>El tunel continua avall mes enlla del cau i s'obre en una caverna enorme. Les parts mes altes de la cambra desapareixen en la foscor i un temple antic s'alca a l'altra banda de l'abisme, tallat directament en un monolit de pedra mes enlla d'un pont de fusta podrit. Els ossos d'una criatura gegantina s'estenen des del costat de la terrassa i es perden en la negrura de sota. Una sequera rancia impregna l'aire, pols i runa cobrint gairebe cada centimetre del terra cremat i picat.</p>
       </ReadAloud>
@@ -48,6 +48,7 @@
 
     <!-- Sala 3: Armeria -->
     <ZoneCard v-if="room === 3" id="sala-3" title="Armeria" :room="3">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>Una gruixuda capa de pols cobreix els prestatges de fusta podrida, i dotzenes d'armes finament forjades escampen el terra on els seus prestatges els han fallat, la llum de les torxes reflectint-se en les seves superficies platejades.</p>
       </ReadAloud>
@@ -59,6 +60,7 @@
 
     <!-- Sala 4: Quarters de l'Exarca -->
     <ZoneCard v-if="room === 4" id="sala-4" title="Quarters de l'Exarca" :room="4">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>La porta s'obre amb un grinyol de frontisses rovellades i la vostra llum llepeja la fusta destrossada i els llibres esquincats que escampen el terra. Tot esta ara destrossat fins a ser irreconeixible.</p>
       </ReadAloud>
@@ -74,6 +76,7 @@
 
     <!-- Sala 5: Sala del Temple -->
     <ZoneCard v-if="room === 5" id="sala-5" title="Sala del Temple" :room="5">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <DmNote>
         <ul>
           <li><strong>Percepcio alta:</strong> alguna cosa els observa des de dalt.</li>
@@ -88,6 +91,7 @@
 
     <!-- Sala 6: Quarters del Temple -->
     <ZoneCard v-if="room === 6" id="sala-6" title="Quarters del Temple" :room="6">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>Les portes estan rebentades cap endins, com si haguessin estat esquincades, i taques de sang, enfosquides fins al negre amb el temps, s'arrosseguen des de les robes brutes i els mobles trencats de l'interior.</p>
       </ReadAloud>
@@ -99,6 +103,7 @@
 
     <!-- Sala 7: Menjador -->
     <ZoneCard v-if="room === 7" id="sala-7" title="Menjador" :room="7">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>Diverses taules llargues i bancs tomats descansen al terra davant d'una llar de foc buida, com si haguessin estat llancats de qualsevol manera. Mes taques cobreixen el terra i les parets, i plats trencats brillen des del terra enfosquit amb la llum.</p>
       </ReadAloud>
@@ -119,7 +124,7 @@
         ]"
       >
         <template #music>
-          <MusicBtn track="Anguish" variant="battle" />
+          <MusicBtn track="Feral Angel Waltz" url="https://incompetech.com/music/royalty-free/mp3-royaltyfree/Feral%20Angel%20Waltz%20.mp3" variant="battle" />
         </template>
         <p><strong>Emboscada</strong> si han fet soroll al pont o en explorar.</p>
       </Encounter>
@@ -127,6 +132,7 @@
 
     <!-- Sala 8: Atri del Temple -->
     <ZoneCard v-if="room === 8" id="sala-8" title="Atri del Temple" :room="8">
+      <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>Al terra hi ha gravada una altra runa, gairebe indistingible del terra si no fos pels polsos ocasionals de llum daurada tenue. En canvi, els vostres ulls son atrets pels contorns carbonitzats de formes terrorifiques contra la paret al voltant de l'entrada de les escales.</p>
       </ReadAloud>

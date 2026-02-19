@@ -36,6 +36,7 @@ const routes = [
     path: '/acte4/:room',
     component: () => import('./views/Acte4View.vue'),
   },
+  { path: '/final', component: () => import('./views/FinalView.vue') },
   { path: '/mapes', component: () => import('./views/MapsView.vue') },
   { path: '/objectes', component: () => import('./views/ObjectesView.vue') },
 ]

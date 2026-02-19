@@ -31,6 +31,7 @@
         <li class="zone-link"><router-link to="/acte4/10" @click="$emit('close')">10. Biblioteca</router-link></li>
         <li class="zone-link"><router-link to="/acte4/11" @click="$emit('close')">11. Estudi</router-link></li>
         <li class="zone-link"><router-link to="/acte4/12" @click="$emit('close')">12. Cambra Guardia</router-link></li>
+        <li class="zone-link"><router-link to="/final" @click="$emit('close')">Final de l'Aventura</router-link></li>
         <li class="section-divider">Recursos</li>
         <li><router-link to="/mapes" @click="$emit('close')">Mapes del Temple</router-link></li>
         <li><router-link to="/objectes" @click="$emit('close')">Objectes i Continuacio</router-link></li>

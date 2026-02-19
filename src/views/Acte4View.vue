@@ -150,7 +150,7 @@
         ]"
       >
         <template #music>
-          <MusicBtn track="Impact Lento" variant="battle" />
+          <MusicBtn track="The Ice Giants" variant="battle" />
           <MusicBtn track="Aurea Carmina" variant="event" />
         </template>
         <p><strong>L'Exarca interve</strong> amb Castig Major i Aura de Proteccio.</p>
@@ -162,7 +162,7 @@
       <router-link v-if="room === 9" to="/acte3/8">&larr; 8. Atri del Temple</router-link>
       <router-link v-if="room > 9" :to="'/acte4/' + (room - 1)">&larr; Sala {{ room - 1 }}</router-link>
       <router-link v-if="room < 12" :to="'/acte4/' + (room + 1)">Sala {{ room + 1 }} &rarr;</router-link>
-      <router-link v-if="room === 12" to="/objectes">Objectes i Continuacio &rarr;</router-link>
+      <router-link v-if="room === 12" to="/final">Final de l'Aventura &rarr;</router-link>
     </div>
 
     <div class="music-attribution">

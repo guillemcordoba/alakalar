@@ -1,6 +1,6 @@
 <template>
   <div class="content-area">
-    <MusicBtn track="Cryptic Sorrow" variant="ambient" />
+    <MusicBtn track="Stay the Course" variant="ambient" />
 
     <!-- Zona 1: Saqueig del Campament -->
     <ZoneCard v-if="zone === 'saqueig'" id="zona-saqueig" title="Saqueig del Campament">

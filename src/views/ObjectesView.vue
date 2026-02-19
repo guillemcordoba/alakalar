@@ -73,26 +73,8 @@
       <p><strong>Secret:</strong> La Pedra d'Obsidiana es una <strong>preso per a un diable poderos</strong>. Si els personatges la prenen, probablement es trencara i alliberara el dimoni en un moment de gran estres.</p>
     </DmNote>
 
-    <!-- Continuacio de l'Aventura -->
-    <h2>Continuacio de l'Aventura</h2>
-
-    <div class="summary-box">
-      <p>Despres de derrotar els diables, els aventurers poden sortir pel cami per on van entrar. Totes les trampes estan desactivades i el poder del temple ha estat eliminat en retirar l'artefacte. Aixo fa el temple vulnerable &mdash; portals poden obrir-se per vomitar dimonis que els assetjaran mentre fugen.</p>
-    </div>
-
-    <p>L'aventura pot continuar de diverses maneres (totes requereixen tornar primer al poble):</p>
-    <ul>
-      <li><strong>Trobar una traduccio dels Diaris de l'Exarca</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
-      <li><strong>Retornar l'artefacte als Aarakocra a Aol</strong>, on els protegira i estara segur.</li>
-      <li><strong>Revelar la ubicacio del temple al mon</strong> i ajudar altres a restaurar-lo.</li>
-    </ul>
-
-    <DmNote>
-      <p>Sigui quin sigui el cami que triin, els dimonis <strong>els perseguiran</strong> i intentaran prendre'ls l'artefacte a cada pas del viatge.</p>
-    </DmNote>
-
     <div class="page-nav">
-      <router-link to="/acte4/12">&larr; 12. Cambra del Guardia</router-link>
+      <router-link to="/final">&larr; Final de l'Aventura</router-link>
       <router-link to="/">Tornar a l'Inici &rarr;</router-link>
     </div>
 

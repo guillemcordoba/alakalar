@@ -1,9 +1,8 @@
 <template>
   <div class="content-area">
-    <MusicBtn track="Darkest Child" variant="ambient" />
-
     <!-- Zona 1: Les Granges -->
     <ZoneCard v-if="zone === 'granges'" id="zona-granges" title="Les Granges">
+      <MusicBtn track="Long Note Four" variant="ambient" />
       <div class="summary-box">
         <p>Les granges son probablement la primera parada dels aventurers. Els jugadors investiguen que ha passat amb els qui han estat enduts.</p>
       </div>
@@ -26,6 +25,7 @@
 
     <!-- Zona 2: El Campament -->
     <ZoneCard v-if="zone === 'campament'" id="zona-campament" title="El Campament dels Goblins de Gel">
+      <MusicBtn track="Crypto" variant="ambient" />
       <div class="summary-box">
         <p>El cami rocos ascendeix i els llums es revelen com a torxes. La zona ofereix poca cobertura i la lluna es alta.</p>
       </div>
@@ -53,7 +53,7 @@
         ]"
       >
         <template #music>
-          <MusicBtn track="Heroic Age" variant="battle" />
+          <MusicBtn track="Volatile Reaction" variant="battle" />
         </template>
         <p><strong>Alineament:</strong> Caotic Malvat</p>
         <ul>
