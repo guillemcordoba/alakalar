@@ -18,6 +18,11 @@
           <li><span class="dc-check">Historia</span>: els mosaics mostren una <strong>gran llum mantenint la foscor a ratlla</strong>. Figures de moltes races amb un detall molt realista. La foscor conte dimonis i diables amb cares torturades i crispades. Com mes temps s'hi mira, mes sembla que les criatures <strong>remolinen i es moguin</strong>.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Descripcio completa del mosaic">
+        <p>Un control d'<span class="dc-check">Historia</span> revela el que es pot veure als mosaics que adornen gran part del sostre i les parets: una <strong>gran llum mantenint una foscor a ratlla</strong>.</p>
+        <p>Aquells que es troben en la llum provenen de <strong>moltes races</strong>, les seves cares tan detallades que semblen gairebe <strong>reals</strong>. La foscor conte <strong>dimonis i diables</strong>, les seves cares torturades cridant amb un goig terrible. Com mes temps s'hi mira, mes les criatures semblen <strong>remolinar i moure's</strong>.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 10: La Biblioteca -->
@@ -88,9 +93,17 @@
         </ul>
       </DmNote>
 
-      <ReadAloud>
-        <p>Mentre contempleu la meravella de les estatues, la vostra mirada s'hi queda fixada durant uns segons. Alguna cosa us atrau i no podeu apartar la vista, les ombres de la caverna retrocedeixen mentre capteu un breu entramat a traves del temps de la seva esplendor. Sentiu com la forca torna al vostre cos mentre la fatiga s'esvaeix. La sensacio de puresa al vostre cor i, per un moment, sentiu el poder sagrat a les vostres venes. Tan rapid com va arribar, es retira i sentiu la foscor tancar-se. Sembla mes a prop que abans i un calfred us recorre quan el fred de la cambra sembla mossegar una mica mes. Inconscientment us estrenyeu la capa i us sentiu disminuits. El soroll profund i eixordador de l'aigua molt avall us recorda una vegada mes on sou realment.</p>
-      </ReadAloud>
+      <ExpandPanel title="L'ultima defensa de l'Exarca">
+        <p>L'Exarca assenyala els cossos i informa als aventurers que <strong>aquesta va ser la seva ultima resistencia</strong>. Immediatament contra els altars hi ha altres ossos, <strong>mes grans i clarament demonials</strong>.</p>
+        <p>Estatues trencades flanquegen el pont, la majoria destrossades o tallades. La postura de les estatues que romanen en peu revela una sensacio de <strong>puresa i poder</strong> desconeguts per als aventurers.</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="Visio de les estatues (llegir en veu alta)">
+        <ReadAloud>
+          <p>Mentre contempleu la meravella de les estatues, la vostra mirada s'hi queda fixada durant uns segons. Alguna cosa us atrau i no podeu apartar la vista, les ombres de la caverna retrocedeixen mentre capteu un breu entramat a traves del temps de la seva esplendor. Sentiu com la forca torna al vostre cos mentre la fatiga s'esvaeix. La sensacio de puresa al vostre cor i, per un moment, sentiu el poder sagrat a les vostres venes.</p>
+          <p>Tan rapid com va arribar, es retira i sentiu la foscor tancar-se. Sembla mes a prop que abans i un calfred us recorre quan el fred de la cambra sembla mossegar una mica mes. Inconscientment us estrenyeu la capa i us sentiu disminuits. El soroll profund i eixordador de l'aigua molt avall us recorda una vegada mes on sou realment.</p>
+        </ReadAloud>
+      </ExpandPanel>
 
       <img :src="base + 'images/img-027.jpg'" alt="L'Ull de Laki" class="section-image">
       <p class="image-caption">L'Ull de Laki &mdash; L'orbe antic que descansa a l'altar</p>
@@ -124,6 +137,15 @@
           <li>L'Exarca <strong>desapareix</strong>. El seu <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen com a objectes fisics.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Detalls dels encanteris de l'Exarca">
+        <p>L'Exarca avanca i llanca dos poderosos encanteris:</p>
+        <ul>
+          <li><strong>Castig Major</strong> (Greater Smite): Sostenint el seu martell cap als dimonis, infligeix <strong>8d8 de dany radiant</strong> a ambdos dimonis.</li>
+          <li><strong>Aura de Proteccio</strong> (Aura of Warding): Sostenint el seu escut sobre el cap, crea una barrera magica de <strong>4,5m de radi</strong> que bloqueja tots els encanteris hostils i impedeix que dimonis i diables hi entrin durant <strong>1 minut</strong>.</li>
+        </ul>
+        <p>L'Exarca desapareix quan es llancen els seus encanteris. El seu enorme <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen al terra com a objectes fisics. Ambdos proporcionen bonificacions addicionals durant aquest combat, pero despres perden les seves propietats magiques (tot i que es poden restaurar a traves de missions futures).</p>
+      </ExpandPanel>
 
       <ItemCard title="Martell de Guerra de l'Exarca" type="Arma (martell de guerra), +2, platejada">
         <ul>
@@ -181,6 +203,7 @@ import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
 import ItemCard from '../components/ItemCard.vue'
+import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const room = computed(() => parseInt(route.params.room))

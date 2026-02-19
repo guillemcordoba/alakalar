@@ -21,6 +21,11 @@
           <li><strong>Seguir el rastre:</strong> porta als turons. Nomes petjades fresques amb botes petites amb <span class="dc-check">DC alta</span> de <strong>Supervivencia/Investigacio</strong> (la sang ha estat rentada pel temps).</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Detalls del cami als turons">
+        <p>El cami comenca a pujar a mesura que els personatges arriben al final de les granges i als marges dels turons de les muntanyes. Seguir el rastre els portara cap als turons, tot i que nomes es podran trobar petjades fresques de botes petites amb un control alt de <strong>Supervivencia</strong> o <strong>Investigacio</strong>, ja que la sang haura estat rentada o esborrada pel temps dels darrers dies.</p>
+        <p>Si estan fora, una <span class="dc-check">DC alta de Percepcio</span> indicara un so lleuger de cruixit provinent d'un dels camps, tot i que la seva direccio real sera impossible de discernir, i una sensacio incomoda de ser observats.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Zona 2: El Campament -->
@@ -31,11 +36,12 @@
       </div>
 
       <DmNote>
+        <p>Els goblins <strong>atacaran en veure'ls</strong>. Son extremadament hostils.</p>
         <p><strong>Opcions d'aproximacio:</strong></p>
         <ul>
-          <li><strong>Si els aventurers van directament als llums</strong> (sense investigar les granges): arriben al campament pero probablement activaran l'alarma, tret que facin sigil en l'aproximacio final i evitin les dues sentinelles.</li>
-          <li><strong>Si segueixen les pistes des de la granja:</strong> el goblin que va baixar a raptar humans haura avisat els altres, i estaran preparats per una emboscada al final del cami.</li>
-          <li><strong>Si aconsegueixen desactivar o esquivar les sentinelles:</strong> poden preparar una emboscada al campament.</li>
+          <li><strong>Si van directament als llums</strong> (sense investigar les granges): arriben al campament pero probablement activaran l'alarma, tret que facin sigil en l'aproximacio final i evitin les dues sentinelles.</li>
+          <li><strong>Si segueixen les pistes des de la granja:</strong> el goblin de gel que va baixar per raptar mes humans haura <strong>avisat els altres</strong> dels aventurers que s'acosten. Estaran preparats per <strong>saltar una emboscada</strong> al final del cami.</li>
+          <li><strong>Si desactiven o esquiven les sentinelles:</strong> podran <strong>preparar una emboscada al campament</strong>.</li>
         </ul>
       </DmNote>
 
@@ -59,7 +65,7 @@
         <ul>
           <li>Stats similars als goblins normals pero: <strong>CA natural 14</strong>, armes magiques, immunitat al fred i dany necrotic.</li>
           <li>Eren servents de la <strong>Reina Mab</strong> que han fugit del seu servei al centre de les <strong>Muntanyes Arbormark</strong>.</li>
-          <li>Han establert un campament temporal atrets per alguna cosa dins la cova.</li>
+          <li>Han establert un campament temporal a l'altipla, <strong>atrets aqui per alguna cosa mes</strong> &mdash; alguna cosa dins la cova.</li>
         </ul>
       </Encounter>
     </ZoneCard>
@@ -86,6 +92,7 @@ import ReadAloud from '../components/ReadAloud.vue'
 import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
+import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const zone = computed(() => route.params.zone)

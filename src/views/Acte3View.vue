@@ -11,6 +11,20 @@
         <MusicBtn track="SCP-x1x" variant="battle" />
         <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>idols</strong> deixats pels goblins de gel.</p>
       </DmNote>
+
+      <ExpandPanel title="Tactiques dels basiliscs">
+        <p>Hi ha <strong>dos basiliscs</strong> en total, tot i que un es queda al cau per <strong>defensar els ous</strong>. Si els aventurers hi entren, el basilisk atacara des de la seva <strong>posicio oculta per sobre de la boca de la cova</strong>.</p>
+        <p>Si els basiliscs son alertats de la presencia dels jugadors, atacaran per <strong>defensar les seves cries</strong>. Els aventurers poden intentar passar de llarg amb un control de <span class="dc-check">DC 15 Sigil</span>.</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="Esperar o avancar">
+        <p>Els aventurers tenen una decisio rapida a prendre:</p>
+        <ul>
+          <li><strong>Si esperen:</strong> El basilisk emergira i lluitaran en l'espai estret de la caverna.</li>
+          <li><strong>Si avancen immediatament:</strong> Poden passar de llarg pel cau del basilisk abans que emergeixi.</li>
+        </ul>
+        <p>Esperar significa un combat mes restringit, pero avancar permet evitar el basilisk principal. El segon basilisk romandia defensant els ous tret que sigui provocat.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 2: El Pont Trencat -->
@@ -30,6 +44,26 @@
           <li><strong>Portes del temple</strong> entreobertes, cobertes de cicatrius de batalla. Una estatua es mante dreta a la porta; l'altra esta trencada.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Detalls de la Pedra d'Obsidiana">
+        <p>La investigacio revela una <strong>flama calida</strong> atrapada al centre, pero sota una inspeccio mes detallada no es pot <strong>enfocar</strong>. La identificacio i l'estudi no revelen res i qualsevol persona a qui es mostri la pedra <strong>no pot discernir el seu proposit</strong>.</p>
+        <p>El jugador no te cap manera de saber-ho, pero es una <strong>preso per a un poderos diable</strong>. Si els personatges decideixen emportar-se-la, probablement es trencara i alliberara el dimoni en algun moment de gran estres (batalla o similar).</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="Pou d'Esperits sobre Renkidu">
+        <p>Quan els aventurers agafen la llanterna, la <strong>llum blava</strong> que toca el cos de Renkidu <strong>forma boira</strong> al voltant del seu cos. Una inspeccio mes propera revela una tenue forma fantasmal sobre el cadaver.</p>
+        <p>Si els personatges usen la llanterna sobre el cos de Renkidu, el veuran <strong>aguantant la llanterna enlaire amb sang caient-li dels ulls</strong>, mirant fixament els ossos del monstre.</p>
+        <p>Si els personatges volen veure la <strong>mort del monstre</strong>, han de superar una salvacio de <span class="dc-check">DC 15 Saviesa</span> o guanyen un punt de <strong>Follia</strong>.</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="Detalls de la runa de prohibicio">
+        <p>Al terra picat de la sala hi ha tallada una <strong>runa gegant</strong>. Cadascuna de les linies del terra te <strong>centenars de runes minuscules</strong> gravades al seu interior. Es una <strong>runa de prohibicio</strong> i un <span class="dc-check">Arcana DC 19</span> la revela per allo que es: cap teletransportacio, portes planars ni cap mitja de transport magic es pot emprar dins del temple.</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="El pont i les portes">
+        <p>El pont cap al temple es troba en condicions similars i <strong>cruix quan s'hi camina</strong>. Creuar-lo te una <strong>baixa probabilitat de trencar un taulo</strong>, pero una <strong>alta probabilitat de fer molt soroll</strong>.</p>
+        <p>Les portes del temple estan entreobertes i estan cobertes de <strong>centenars de cicatrius de batalla</strong>. Una <strong>estatua</strong> es mante dreta al costat de la porta, mirant amb <strong>desafiament</strong>, i una altra a l'altre costat esta <strong>trencada</strong>.</p>
+      </ExpandPanel>
 
       <ItemCard title="Pou d'Esperits" type="Objecte Unic, 2 carregues diaries, Requereix Sintonitzacio">
         <ul>
@@ -72,6 +106,10 @@
           <li><strong>El que en poden extreure:</strong> l'Exarca es l'encarnacio mortal de <strong>&laquo;Laki &mdash; El Deu Justicier&raquo;</strong> i aquest temple va ser amagat per protegir un <strong>artefacte antic</strong> durant la invasio del mon.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="L'Exarca i el proposit del temple">
+        <p>L'<strong>Exarca</strong> es l'encarnacio mortal de <strong>Laki, el Deu Justicier</strong>. Aquest temple va ser amagat com a manera de <strong>protegir un artefacte antic</strong> durant la invasio del mon. Els diaris estan escrits en l'antic idioma <strong>Aarakocran</strong> i es poden portar a la seva ciutat per desxifrar-los. Fins i tot si algu pot llegir-los, gran part del contingut esta <strong>codificat</strong> i resulta dificil d'interpretar.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 5: Sala del Temple -->
@@ -87,6 +125,10 @@
         </ul>
       </DmNote>
 
+      <ExpandPanel title="Detalls de percepcio i ambient">
+        <p>Mentre es mouen per les cavernes, percepcions <strong>altes</strong> revelaran que <strong>alguna cosa els observa</strong>, i percepcions <strong>extremadament altes</strong> revelaran <strong>moviment a les altures del sostre del temple</strong>.</p>
+        <p>Les sales son fosques i es poden il&middot;luminar millor <strong>encenent els brasers</strong> que hi ha distribuits pel temple, tot i que la seva llum <strong>no il&middot;luminara els sostres alts</strong>. Dins la sala principal hi ha una <strong>estatua del deu Laki</strong>, que protegeix i es venerat en aquest temple.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 6: Quarters del Temple -->
@@ -115,6 +157,10 @@
           <li><strong>Si els aventurers han alertat el dimoni d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb mitja dotzena de Dimonis Espinosos amagats al sostre alt de la Sala del Temple.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Detalls de l'emboscada">
+        <p>El <strong>Dimoni d'Os</strong> es troba a la cuina, assegut <strong>sobre una pila d'ossos decrepits</strong>. Si els aventurers alerten el dimoni d'os de la seva presencia &mdash; ja sigui fent <strong>cruixir el pont de fusta</strong> o mitjancant altres sorolls &mdash; sortira i intentara <strong>emboscar el grup</strong> juntament amb <strong>mitja dotzena de Dimonis Espinosos</strong> que estaven amagats al <strong>sostre alt de la Sala del Temple</strong>.</p>
+      </ExpandPanel>
 
       <Encounter
         title="Combat al Temple"
@@ -145,6 +191,14 @@
           <li>Si la trepitgen, <strong>nomes fa mal als qui tinguin intencions hostils o malvades</strong>.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="Desactivar la runa">
+        <p>La runa es pot desactivar <strong>&laquo;amb gran dificultat&raquo;</strong>. Si decideixen no desactivar-la i la trepitgen, nomes fara mal als qui tinguin intencions hostils o malvades (determinable pel DM) o amb corrupcio (si es juga amb regles de corrupcio).</p>
+      </ExpandPanel>
+
+      <ExpandPanel title="Regles de corrupcio (opcionals)">
+        <p>Si esteu jugant amb <strong>regles de corrupcio</strong>, la runa tambe afecta els personatges segons el seu nivell de corrupcio (consulteu la taula de dany). La runa tambe elimina 1 punt de corrupcio a tots els qui la travessin, independentment de si fa dany o no.</p>
+      </ExpandPanel>
 
       <h3>Dany per Corrupcio</h3>
       <table class="stat-table">
@@ -202,6 +256,7 @@ import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
 import ItemCard from '../components/ItemCard.vue'
+import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const room = computed(() => parseInt(route.params.room))

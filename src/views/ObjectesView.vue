@@ -24,6 +24,11 @@
       <p>Sense l'emplacament permanent a Aol, l'artefacte <strong>nomes te 3 carregues</strong> si els aventurers decideixen no retornar-lo. Un cop esgotades, resta inert fins que sigui retornat a Aol.</p>
     </DmNote>
 
+    <ExpandPanel title="Poder complet de l'Ull de Laki">
+      <p>L'orbe pres del temple es un <strong>objecte llegendari</strong>. Tanmateix, el seu poder es limitat i nomes pot ser <strong>restaurat completament a l'Agulla Solar</strong> al cim d'<strong>Aol</strong>, on ofereix proteccio contra tot a la ciutat i als qui hi entren, donant als <strong>Aarakocra</strong> mes poder i forca a la zona, aixi com guanyant-se el seu bon favor.</p>
+      <p>Sense aquest emplacament permanent, nomes conte <strong>3 carregues</strong> si els aventurers decideixen no retornar-lo. Despres d'aixi, quedara esgotat i no sera utilizable fins que sigui retornat a Aol.</p>
+    </ExpandPanel>
+
     <!-- Pou d'Esperits -->
     <h2>Pou d'Esperits</h2>
 
@@ -59,6 +64,10 @@
       <p><strong>Nota:</strong> Perd les propietats magiques despres del combat final, pero es pot restaurar a traves de missions futures.</p>
     </ItemCard>
 
+    <ExpandPanel title="Restauracio del poder de les armes">
+      <p>Ambdues armes son <strong>platejades</strong>. Les propietats magiques del <strong>Martell de Guerra</strong> i l'<strong>Escut</strong> funcionen durant el combat final, pero despres perden el seu poder. Tanmateix, si els personatges les conserven i s'hi sintonitzen, <strong>poden recuperar el poder amb el temps</strong> a traves de missions i tasques futures.</p>
+    </ExpandPanel>
+
     <!-- Pedra d'Obsidiana -->
     <h2>Pedra d'Obsidiana</h2>
 
@@ -72,6 +81,19 @@
     <DmNote>
       <p><strong>Secret:</strong> La Pedra d'Obsidiana es una <strong>preso per a un diable poderos</strong>. Si els personatges la prenen, probablement es trencara i alliberara el dimoni en un moment de gran estres.</p>
     </DmNote>
+
+    <!-- Continuacio -->
+    <h2>Continuacio de l'Aventura</h2>
+
+    <ExpandPanel title="Opcions de continuacio">
+      <p>Si els aventurers volen continuar des d'aquest punt, l'aventura pot seguir de diverses maneres. Totes requereixen tornar al poble per reclamar la recompensa i despres viatjar al nord cap a <strong>Aol</strong>:</p>
+      <ul>
+        <li>Trobar una traduccio del <strong>diari de l'Exarca</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
+        <li>Retornar l'artefacte als <strong>Aarakocra a Aol</strong>, on els protegira i estara segur.</li>
+        <li>Revelar la ubicacio del temple al mon i ajudar altres a restaurar-lo.</li>
+      </ul>
+      <p>En qualsevol cas, els <strong>dimonis els perseguiran</strong> i intentaran prendre l'artefacte a cada pas del viatge.</p>
+    </ExpandPanel>
 
     <div class="page-nav">
       <router-link to="/final">&larr; Final de l'Aventura</router-link>
@@ -89,6 +111,7 @@
 import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import ItemCard from '../components/ItemCard.vue'
+import ExpandPanel from '../components/ExpandPanel.vue'
 
 const base = import.meta.env.BASE_URL
 </script>

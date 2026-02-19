@@ -7,11 +7,20 @@
       <h3>Rerefons</h3>
       <p>El poble agricola de <strong>Nenyrm</strong> es troba al peu de les <strong>Muntanyes Arbormark</strong>, dins del <strong>Regne d'Alenian</strong>. Les granges dels voltants han estat saquejades i els seus residents han desaparegut. La zona va ser escenari de nombroses batalles durant l'<strong>Era de la Desolacio</strong> &mdash; ciutats destruides, temples i ossos jau sota la terra.</p>
 
+      <ExpandPanel title="Detalls del mon">
+        <p>Nenyrm es troba gairebe a una cruilla de regnes. Al nord del proper riu <strong>Shal'Uran</strong> hi ha el reclus <strong>regne de Iaur</strong>. Al sud trobareu <strong>Killeth's Bane</strong> i els <strong>Turons de Darrowden</strong>, llocs que cal evitar a tota costa.</p>
+        <p>Per als qui viuen i treballen incansablement a Nenyrm, la collita i el que porta son la vida. Creuen fermament que els problemes no et trobaran si no els busques. Tanmateix, darrerament aquest mantra ha estat posat a prova i aviat es trencara, ja que aquesta zona va estar plena de batalles i destruccio durant l'<strong>Era de la Desolacio</strong> i moltes ciutats trencades, temples i ossos jauran sota el sol, alguns dels quals fan que aquesta area sigui tan fertil i rica per a l'agricultura.</p>
+      </ExpandPanel>
+
       <h3>Ganxos d'Aventura</h3>
       <ul>
         <li>El poble esta aterrit perque alguna cosa s'esta emportant la gent. El consell del poble ha enviat un missatge demanant ajuda a la <strong>Ciutat d'Alenian</strong>, pero el viatge es d'una setmana.</li>
         <li>La gent del poble es supersticiosa i dura. Han enviat els seus propis homes a investigar, pero cap ha tornat. Prefereixen pagar a aventurers de pas perque trobin els desapareguts o resolguin el problema.</li>
       </ul>
+
+      <ExpandPanel title="Detalls dels ganxos">
+        <p>El consell del poble ha enviat un missatger a la ciutat local d'Alenian, pero aquesta es a <strong>una setmana de viatge a peu</strong> cap a l'oest i tenen els seus propis problemes. Tot i que la gent del poble es dura, son molt supersticiosos i voldrien que aquest problema fos resolt. Han enviat alguns dels seus, pero no van tornar, i preferirien pagar a aventurers de pas perque trobin i salvin els enduts, i si no, almenys resolguin el problema d'una vegada per totes.</p>
+      </ExpandPanel>
 
       <h3>Rumors</h3>
       <p>Aquests son rumors que els jugadors poden escoltar dels habitants del poble:</p>
@@ -25,6 +34,19 @@
       <DmNote>
         <p>La majoria dels rumors porten a altres possibles aventures. <strong>Les llums als altiplans</strong> son les que son rellevants per a AQUESTA aventura.</p>
       </DmNote>
+
+      <ExpandPanel title="Resum de l'aventura">
+        <p>L'aventura probablement es desplega en la seguent sequencia:</p>
+        <ol>
+          <li>Els personatges es reuneixen amb els ancians del poble, escolten les seves penes i parlen amb els vilatans sobre els rumors abans de decidir el seu curs d'accio.</li>
+          <li>Van a les cases dels desapareguts i troben pistes que porten cap a les muntanyes.</li>
+          <li>Pugen les muntanyes o segueixen les pistes quan cau la nit i veuen que les llums de les quals parlava la gent son les fogueres fredes d'uns goblins de gel.</li>
+          <li>Resolen la questio dels goblins, pero descobreixen que el seu cau estava construit davant d'una cova amb un cami ben fressat.</li>
+          <li>Entren per trobar un temple antic amb un cau de basiliscs a l'entrada i les restes dels vilatans alimentats als basiliscs a la boca de la cova.</li>
+          <li>Resolen el problema dels basiliscs abans d'entrar al temple antic, enfrontant-se als qui hi romanen i les trampes, fins arribar al centre del temple.</li>
+          <li>Retiren l'Ull de Laki i escapen del temple que s'ensorren.</li>
+        </ol>
+      </ExpandPanel>
 
       <h3>Text Introductori</h3>
       <p>Llegiu el seguent text en veu alta als jugadors quan comenci l'aventura:</p>
@@ -46,6 +68,16 @@
       <DmNote>
         <p>Els turons al voltant de Nenyrm no son perillosos &mdash; hi ha llops i alguna bruixa ocasional al <strong>Bosc de Firnost</strong>. Tanmateix, aventurar-se als <strong>Altiplans d'Arbormark</strong>, creuar el <strong>Pont de Shal'Uran</strong> o endinsar-se als <strong>Turons de Darrowden</strong> significa trobar criatures molt mes mortiferes (servents de Mab, espectres antics, agents del Shadowfell). Aquests encontres queden fora de l'abast d'aquesta aventura, pero ofereixen ganxos per a futures sessions.</p>
       </DmNote>
+
+      <ExpandPanel title="Zones circumdants en detall">
+        <ul>
+          <li><strong>Bosc de Firnost:</strong> Poc repte &mdash; besties, llops i alguna bruixa ocasional que intenta atraure'ls al seu cau per sopar.</li>
+          <li><strong>Altiplans d'Arbormark:</strong> Criatures mes mortiferes. Probablement trobaran els <strong>servents de Mab</strong> entre els cims.</li>
+          <li><strong>Pont i Ruines de Shal'Uran:</strong> Al nord, hi ha <strong>antics espectres</strong> al voltant de les ruines.</li>
+          <li><strong>Turons de Darrowden:</strong> <strong>Agents i monstres del Shadowfell</strong>, amb trobades d'estrangers i animals congelats instantaniament a la vora dels turons emboirats.</li>
+        </ul>
+        <p>Totes aquestes zones requereixen mes d'un dia de viatge i queden fora de l'abast d'aquesta aventura, pero cadascuna te ganxos per a aventures alternatives.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <div class="page-nav">
@@ -65,6 +97,7 @@ import ZoneCard from '../components/ZoneCard.vue'
 import ReadAloud from '../components/ReadAloud.vue'
 import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
+import ExpandPanel from '../components/ExpandPanel.vue'
 
 const base = import.meta.env.BASE_URL
 </script>
