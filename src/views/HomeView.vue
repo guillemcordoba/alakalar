@@ -49,7 +49,7 @@
       <li>Exploren el <strong>temple superior</strong> &mdash; armeria, quarters, dimonis.</li>
       <li>Baixen al <strong>temple inferior</strong> &mdash; alliberen l'Exarca.</li>
       <li>Arriben a la <strong>cambra del guardia</strong> i prenen l'<strong>Ull de Laki</strong>.</li>
-      <li>Escapen mentre <strong>dimonis cornuts</strong> els persegueixen.</li>
+      <li>Escapen mentre <strong>diables banyuts</strong> els persegueixen.</li>
     </ol>
 
     <div class="music-attribution">

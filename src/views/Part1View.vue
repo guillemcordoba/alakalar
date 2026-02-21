@@ -46,16 +46,14 @@
       </DmNote>
 
       <ReadAloud>
-        <p>El cami s'atura i sortiu a un altipla de pedra amb poques possibilitats de cobertura arboria. Sis o vuit cabanes de fusta toscament construides envolten un estendard central. Un drap blau fosc amb tres estelles blanques de gel apuntant cap enfora penja d'ell. Diverses fogueres petites, les seves flames una gelor blava lluminosa, jauran escampades pel campament. Darrere d'elles s'alca una entrada de cova, mes semblant a una cicatriu negra travessant les muntanyes grises. Una dotzena de goblins de pell blava es mouen pel campament, entrant i sortint ocasionalment de la cova. Un cabdill dels goblins de gel es troba al centre del campament, contemplant l'estendard que hi penja.</p>
+        <p>El cami s'atura i sortiu a un altipla de pedra amb poques possibilitats de cobertura arboria. Sis o vuit cabanes de fusta toscament construides envolten un estendard central. Un drap blau fosc amb tres estelles blanques de gel apuntant cap enfora penja d'ell. Diverses fogueres petites, les seves flames una gelor blava lluminosa, jauran escampades pel campament. Darrere d'elles s'alca una entrada de cova, mes semblant a una cicatriu negra travessant les muntanyes grises. Vuit goblins de pell blava es mouen pel campament, entrant i sortint ocasionalment de la cova. Un d'ells, amb bastons i amulets penjant-li del cos, murmura encanteris prop d'una de les fogueres.</p>
       </ReadAloud>
 
       <Encounter
         title="Campament dels Goblins de Gel"
         :creatures="[
-          { name: 'Goblins de gel', qty: 12 },
-          { name: 'Exploradors', qty: 2 },
-          { name: 'Cabdill', qty: 1 },
-          { name: 'Xaman', qty: 1 }
+          { name: 'Goblins de gel', qty: 8, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/goblin' },
+          { name: 'Xaman Goblin', qty: 1, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/goblin-shaman' }
         ]"
       >
         <template #music>

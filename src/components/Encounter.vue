@@ -8,7 +8,7 @@
         <th>Quantitat</th>
       </tr>
       <tr v-for="c in creatures" :key="c.name">
-        <td>{{ c.name }}</td>
+        <td><a v-if="c.link" :href="c.link" target="_blank" rel="noopener">{{ c.name }}</a><span v-else>{{ c.name }}</span></td>
         <td>{{ c.qty }}</td>
       </tr>
     </table>

@@ -121,7 +121,7 @@
           <li><strong>Percepcio molt alta:</strong> moviment a les altures del sostre.</li>
           <li>Les sales son fosques; es poden encendre els <strong>brasers</strong> (no il&middot;luminen els sostres alts).</li>
           <li>La sala principal te una <strong>estatua del deu Laki</strong>.</li>
-          <li>Un <strong>Dimoni d'Os</strong> i <strong>Dimonis Espinosos</strong> s'amaguen (vegeu Sales 7/8).</li>
+          <li>Un <strong>Diable d'Os</strong> i <strong>Diables Espinosos</strong> s'amaguen (vegeu Sales 7/8).</li>
         </ul>
       </DmNote>
 
@@ -153,20 +153,20 @@
       <DmNote>
         <ul>
           <li><strong>Investigacio:</strong> revela un antic menjador amb <strong>rastres de sang</strong> que porten a la cuina (Sala 8).</li>
-          <li>La cuina conte un <strong>Dimoni d'Os</strong> assegut sobre ossos decrepits.</li>
-          <li><strong>Si els aventurers han alertat el dimoni d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb mitja dotzena de Dimonis Espinosos amagats al sostre alt de la Sala del Temple.</li>
+          <li>La cuina conte un <strong>Diable d'Os</strong> assegut sobre ossos decrepits.</li>
+          <li><strong>Si els aventurers han alertat el diable d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb quatre Diables Espinosos amagats al sostre alt de la Sala del Temple.</li>
         </ul>
       </DmNote>
 
       <ExpandPanel title="Detalls de l'emboscada">
-        <p>El <strong>Dimoni d'Os</strong> es troba a la cuina, assegut <strong>sobre una pila d'ossos decrepits</strong>. Si els aventurers alerten el dimoni d'os de la seva presencia &mdash; ja sigui fent <strong>cruixir el pont de fusta</strong> o mitjancant altres sorolls &mdash; sortira i intentara <strong>emboscar el grup</strong> juntament amb <strong>mitja dotzena de Dimonis Espinosos</strong> que estaven amagats al <strong>sostre alt de la Sala del Temple</strong>.</p>
+        <p>El <strong>Diable d'Os</strong> es troba a la cuina, assegut <strong>sobre una pila d'ossos decrepits</strong>. Si els aventurers alerten el diable d'os de la seva presencia &mdash; ja sigui fent <strong>cruixir el pont de fusta</strong> o mitjancant altres sorolls &mdash; sortira i intentara <strong>emboscar el grup</strong> juntament amb <strong>quatre Diables Espinosos</strong> que estaven amagats al <strong>sostre alt de la Sala del Temple</strong>.</p>
       </ExpandPanel>
 
       <Encounter
         title="Combat al Temple"
         :creatures="[
-          { name: 'Dimoni d\'Os (Bone Devil)', qty: 1 },
-          { name: 'Dimonis Espinosos (Spined Devils)', qty: 6 }
+          { name: 'Diable d\'Os', qty: 1, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/bone-devil' },
+          { name: 'Diables Espinosos', qty: 4, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/spined-devil' }
         ]"
       >
         <template #music>

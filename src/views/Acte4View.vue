@@ -49,7 +49,7 @@
       <DmNote>
         <p><strong>MOLT IMPORTANT:</strong></p>
         <ul>
-          <li><span class="dc-check">Detectar Magia</span> pot revelar els dos <strong>Golems de Pedra</strong> abans d'entrar. En entrar a l'habitacio, <strong>s'activen i ataquen</strong> fins que son destruits o fins que l'Exarca del quadre es alliberat.</li>
+          <li><span class="dc-check">Detectar Magia</span> pot revelar els dos <strong>Gòlems de Pedra</strong> abans d'entrar. En entrar a l'habitacio, <strong>s'activen i ataquen</strong> fins que son destruits o fins que l'Exarca del quadre es alliberat.</li>
           <li>El <strong>quadre es mou lleugerament</strong>. Un control d'<span class="dc-check">Arcana</span> revela que es magic. <strong>Detectar Magia/Mal</strong> revela que l'encanteri que rete el quadre es <strong>malvat</strong>.</li>
           <li><strong>Cremar o destruir el quadre</strong> allibera l'esperit de l'Exarca empresonat.</li>
         </ul>
@@ -58,7 +58,7 @@
       <Encounter
         title="Combat a l'Estudi"
         :creatures="[
-          { name: 'Golems de Pedra (Stone Golems)', qty: 2 }
+          { name: 'Gòlems de Pedra', qty: 2, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/golem-de-pedra' }
         ]"
       >
         <template #music>
@@ -125,7 +125,7 @@
       <DmNote>
         <p><strong>Quan es retira l'objecte:</strong></p>
         <ul>
-          <li>Un <strong>riure malefic ressona</strong> per la cambra. Dos <strong>Dimonis Cornuts</strong> (Horned Devils) volen cap amunt des de l'abisme.</li>
+          <li>Un <strong>riure malefic ressona</strong> per la cambra. Dos <strong>Diables Banyuts</strong> volen cap amunt des de l'abisme.</li>
           <li>Intenten <strong>prendre l'objecte</strong> als aventurers.</li>
           <li>L'Alt Exarca diu als aventurers que portin l'objecte a la <strong>ciutat dels Aarakocra al nord, mes enlla de les muntanyes</strong>.</li>
           <li>Avanca i llanca dos poderosos encanteris:
@@ -168,7 +168,7 @@
       <Encounter
         title="Combat Final: La Cambra del Guardia"
         :creatures="[
-          { name: 'Dimonis Cornuts (Horned Devils)', qty: 2 }
+          { name: 'Diables Banyuts', qty: 2, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/horned-devil' }
         ]"
       >
         <template #music>
