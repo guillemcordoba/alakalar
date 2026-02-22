@@ -26,6 +26,30 @@
         <p>El cami comenca a pujar a mesura que els personatges arriben al final de les granges i als marges dels turons de les muntanyes. Seguir el rastre els portara cap als turons, tot i que nomes es podran trobar petjades fresques de botes petites amb un control alt de <strong>Supervivencia</strong> o <strong>Investigacio</strong>, ja que la sang haura estat rentada o esborrada pel temps dels darrers dies.</p>
         <p>Si estan fora, una <span class="dc-check">DC alta de Percepcio</span> indicara un so lleuger de cruixit provinent d'un dels camps, tot i que la seva direccio real sera impossible de discernir, i una sensacio incomoda de ser observats.</p>
       </ExpandPanel>
+
+      <h3>La Granja Familiar</h3>
+
+      <DmNote>
+        <p><strong>Si un dels aventurers es originari de Nenyrm</strong>, la granja dels seus pares es troba entre les mes allunyades del poble, a tocar dels turons. L'aventurer la reconeixera immediatament.</p>
+      </DmNote>
+
+      <ReadAloud>
+        <p>Reconeixeu la granja dels vostres pares de seguida: la tanca de fusta que el vostre pare va construir amb les seves propies mans, el pou al pati, l'hort que la vostra mare cuidava amb tanta dedicacio. Pero alguna cosa no va be. La porta esta arrencada dels golfos. A dins, els mobles estan bolcats i hi ha taques de sang al terra de pedra. Marques de cremades estranyes cobreixen les parets &mdash; no son de foc normal, sino d'alguna cosa diferent, alguna cosa que ha deixat rastres d'energia que encara crepiten feblement en la foscor. No hi ha cap senyal dels vostres pares.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li><span class="dc-check">DC mitjana</span> <strong>Arcana:</strong> les marques de cremades son d'origen magic &mdash; encanteris de proteccio i atac. Algu aqui sabia usar magia, cosa que l'aventurer no sabia dels seus pares.</li>
+          <li><span class="dc-check">DC baixa</span> <strong>Investigacio:</strong> hi ha evidencia d'una lluita ferotge. Sang de dues tonalitats: vermella humana i un icor blavos (sang de goblin de gel).</li>
+          <li><span class="dc-check">DC alta</span> <strong>Supervivencia:</strong> les petjades mostren que almenys dues persones van ser arrossegades fora de la casa cap als turons. Les marques d'arrossegament son acompanyades de petjades petites amb botes.</li>
+          <li>A la rebotiga, amagat darrere uns taulons solts, hi ha un petit cofre tancat amb clau que conte: un <strong>amulet d'argent amb el simbol d'un sol amb un ull</strong> (el simbol de l'Orde dels Asaris, tot i que l'aventurer no el reconeixera) i unes <strong>cartes antigues en un idioma desconegut</strong>.</li>
+        </ul>
+      </DmNote>
+
+      <ExpandPanel title="El cofre amagat">
+        <p>Si els aventurers troben el cofre (<span class="dc-check">DC mitjana Investigacio</span> si busquen especificament, o <span class="dc-check">DC alta Percepcio</span> de passada), contindra un <strong>amulet d'argent</strong> amb la forma d'un sol amb un ull al centre. L'amulet es antic pero ben conservat, clarament un objecte preuat. Les cartes estan escrites en un alfabet que ningu pot llegir facilment &mdash; un control d'<span class="dc-check">DC molt alta Historia</span> suggereix que podrien ser d'un antic dialecte sagrat.</p>
+        <p>L'aventurer no haura vist mai aquest amulet ni aquestes cartes. Els seus pares mai li van parlar de res d'aixo.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Zona 2: El Campament -->
@@ -66,6 +90,29 @@
           <li>Han establert un campament temporal a l'altipla, <strong>atrets aqui per alguna cosa mes</strong> &mdash; alguna cosa dins la cova.</li>
         </ul>
       </Encounter>
+
+      <h3>El Pare Ferit</h3>
+
+      <DmNote>
+        <p><strong>Si un dels aventurers es originari de Nenyrm:</strong> despres de derrotar els goblins, troben el seu pare en una de les cabanes, greument ferit i encadenat. Esta pal&middot;lid, amb ferides profundes i evidencia de tortura. Li queden pocs instants de vida.</p>
+      </DmNote>
+
+      <ReadAloud>
+        <p>A l'interior d'una de les cabanes mes apartades, entre sacs de roba i pertinences robades, trobeu una figura encadenada a un pal de fusta. El reconeixeu immediatament &mdash; es el vostre pare. El seu rostre esta inflat i ensangonat, els seus bracos plens de ferides i cremades. Quan us veu, els seus ulls s'omplen de llagrimes, pero no d'alleujament &mdash; de terror.</p>
+      </ReadAloud>
+
+      <ReadAloud>
+        <p>&laquo;Fill meu... has vingut...&raquo; La seva veu es un murmuri trencat. Us agafa la ma amb una forca que no hauriu esperat d'un home tan ferit. &laquo;La teva mare... els goblins se l'han endut... a dins de la cova. Has de salvar-la.&raquo; La seva respiracio es fa mes erratica. &laquo;El secret de l'Orde dels Asaris... no pot ser revelat mai... mai...&raquo; Els seus ulls es fixen en un punt lluny, mes enlla de vosaltres, i la seva ma es relaxa. El vostre pare ha mort.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li>L'aventurer no te <strong>ni idea</strong> de que es l'Orde dels Asaris. El seu pare mai li'n va parlar.</li>
+          <li><span class="dc-check">DC mitjana</span> <strong>Medicina:</strong> les ferides del pare inclouen cremades magiques similars a les de la granja. El pare va lluitar amb magia contra els goblins &mdash; una habilitat que l'aventurer desconeixia.</li>
+          <li>Si l'aventurer va trobar l'<strong>amulet del sol amb l'ull</strong> a la granja, un control d'<span class="dc-check">Investigacio</span> revela que el pare porta una <strong>marca tatuada al canell</strong> identica al simbol de l'amulet.</li>
+          <li>El DM hauria de donar un moment emotiu als jugadors. Deixar que l'aventurer reaccioni a la perdua del seu pare i al misteri de l'Orde dels Asaris.</li>
+        </ul>
+      </DmNote>
     </ZoneCard>
 
     <div class="page-nav">

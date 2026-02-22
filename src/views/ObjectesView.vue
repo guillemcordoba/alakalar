@@ -17,12 +17,57 @@
         <li><strong>Encegament:</strong> Encega tots els Dimonis i Diables en 30m que fallin una salvacio de <span class="dc-check">Destresa DC 18</span> per desviar els ulls.</li>
         <li><strong>Cremor:</strong> Fa que la pell dels Dimonis i Diables cremi, eliminant totes les resistencies i immunitats, causant vulnerabilitat a tots els atacs.</li>
         <li><strong>Revelacio:</strong> Crema totes les il&middot;lusions, invisibilitat, mitjans magics d'ocultacio o canvi de forma emprats per qualsevol, exposant-los tal com realment son.</li>
+        <li><strong>Resurreccio (secret):</strong> L'Ull de Laki pot <strong>retornar la vida a una persona morta</strong> (cos intacte, mort de menys de 7 dies). Consumeix <strong>totes les carregues</strong> i deixa l'artefacte inert. Nomes una persona per activacio.</li>
       </ul>
     </ItemCard>
 
     <DmNote>
       <p>Sense l'emplacament permanent a Aol, l'artefacte <strong>nomes te 3 carregues</strong> si els aventurers decideixen no retornar-lo. Un cop esgotades, resta inert fins que sigui retornat a Aol.</p>
     </DmNote>
+
+    <h3>Poder de Resurreccio</h3>
+
+    <DmNote>
+      <p><strong>Secret (nomes DM):</strong> L'Ull de Laki posseeix un poder que va mes enlla de la lluita contra dimonis: la capacitat de <strong>retornar la vida a una persona morta</strong>. Aquest es el veritable secret que l'Orde dels Asaris va jurar protegir. Usar aquest poder consumeix <strong>totes les carregues restants</strong> i deixa l'artefacte completament inert fins que sigui retornat a Aol.</p>
+    </DmNote>
+
+    <ExpandPanel title="Mecaniques de la resurreccio">
+      <p>Per activar el poder de resurreccio, el portador ha de sostenir l'Ull de Laki sobre el cos del difunt i <strong>canalitzar tota la seva energia</strong>. El proces requereix:</p>
+      <ul>
+        <li>El cos ha d'estar relativament <strong>intacte</strong>.</li>
+        <li>La mort no pot haver passat fa mes de <strong>7 dies</strong>.</li>
+        <li>El portador ha d'estar <strong>sintonitzat</strong> amb l'artefacte.</li>
+        <li>Consumeix <strong>totes les carregues</strong> i deixa l'Ull inert.</li>
+      </ul>
+      <p>La resurreccio funciona <strong>nomes amb una persona</strong> per activacio. No es pot dividir el poder.</p>
+    </ExpandPanel>
+
+    <h3>La Temptacio: Ressuscitar els Pares</h3>
+
+    <DmNote>
+      <p><strong>Si un dels aventurers ha perdut els seus pares durant l'aventura:</strong> en algun moment, l'aventurer es adonara que te a les mans l'eina per retornar la vida al seu pare o a la seva mare. Nomes pot ressuscitar-ne <strong>un</strong> (una persona per activacio). Aquesta es una decisio que el DM hauria de deixar que el jugador prengui per si sol, sense pressio.</p>
+    </DmNote>
+
+    <ExpandPanel title="Consequencies de ressuscitar un pare">
+      <p><strong>Si l'aventurer usa l'Ull de Laki per ressuscitar el pare o la mare:</strong></p>
+      <ReadAloud>
+        <p>L'orbe brilla amb una llum encegadora que envolta el cos del vostre pare/mare. La llum daurada penetra cada porus de la seva pell, i lentament, un ale de vida retorna al seu pit. Els seus ulls s'obren. Pero quan us miren, no hi veieu l'alegria que esperaveu. Hi veieu <strong>decepcio</strong>. Una tristesa profunda i inabastable.</p>
+      </ReadAloud>
+
+      <ReadAloud>
+        <p>El vostre pare/mare s'incorpora lentament, mirant l'Ull de Laki ara apagat a les vostres mans. &laquo;Saps que has fet?&raquo;, diu amb una veu tremolosa. &laquo;El jurament... el jurament que hem mantingut durant generacions... trencat. Per mi.&raquo; Aparta la mirada. &laquo;Hauries d'haver deixat que descansés. Aixo es exactament el que l'Orde va jurar que mai passaria.&raquo;</p>
+      </ReadAloud>
+
+      <p><strong>Consequencies:</strong></p>
+      <ul>
+        <li>El pare/mare ressuscitat esta <strong>trist i decebut</strong>. No mostra cap alegria per haver tornat a la vida.</li>
+        <li><strong>Mai mes tornara a parlar amb el seu fill.</strong> La relacio queda trencada per sempre. L'aventurer ha trencat el jurament sagrat que la familia havia mantingut durant generacions.</li>
+        <li>L'Ull de Laki queda <strong>completament inert</strong>. Perd tot el seu poder fins que sigui retornat a Aol.</li>
+        <li>L'aventurer ha de viure amb el pes de saber que el seu pare/mare prefereix la mort al deshonor del jurament.</li>
+      </ul>
+
+      <p>El DM hauria de tractar aquesta escena amb delicadesa. No es un castig al jugador, sino una consequencia narrativa que reflecteix el pes del jurament dels Asaris i el cost real del poder de la resurreccio.</p>
+    </ExpandPanel>
 
     <ExpandPanel title="Poder complet de l'Ull de Laki">
       <p>L'orbe pres del temple es un <strong>objecte llegendari</strong>. Tanmateix, el seu poder es limitat i nomes pot ser <strong>restaurat completament a l'Agulla Solar</strong> al cim d'<strong>Aol</strong>, on ofereix proteccio contra tot a la ciutat i als qui hi entren, donant als <strong>Aarakocra</strong> mes poder i forca a la zona, aixi com guanyant-se el seu bon favor.</p>
@@ -109,6 +154,7 @@
 
 <script setup>
 import DmNote from '../components/DmNote.vue'
+import ReadAloud from '../components/ReadAloud.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import ItemCard from '../components/ItemCard.vue'
 import ExpandPanel from '../components/ExpandPanel.vue'

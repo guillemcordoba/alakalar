@@ -10,6 +10,7 @@
       <DmNote>
         <MusicBtn track="SCP-x1x" variant="battle" />
         <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>idols</strong> deixats pels goblins de gel.</p>
+        <p><strong>Si un dels aventurers busca la seva mare:</strong> entre els ossos i les restes, un control de <span class="dc-check">DC mitjana Investigacio</span> revela signes que algu va <strong>escapar</strong> d'aqui: una <strong>cadena trencada</strong> amb restes de sang fresca, un tros de <strong>roba esquincada</strong> enganxat a una roca afilada, i unes <strong>petjades descalces</strong> que s'allunyen del cau cap a les profunditats del temple. La mare va ser portada aqui pels goblins per alimentar-la als basiliscs, pero va aconseguir escapar.</p>
       </DmNote>
 
       <ExpandPanel title="Tactiques dels basiliscs">

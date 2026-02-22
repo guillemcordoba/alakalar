@@ -38,6 +38,26 @@
           <li>Alguns <strong>escrits en alfabet antic</strong>, dificils de desxifrar.</li>
         </ul>
       </DmNote>
+
+      <h3>La Mare</h3>
+
+      <DmNote>
+        <p><strong>Si un dels aventurers es originari de Nenyrm:</strong> la seva mare es troba aqui, morta. Aquesta escena hauria de ser un dels moments mes colpidors de l'aventura.</p>
+      </DmNote>
+
+      <ReadAloud>
+        <p>Darrere un dels escriptoris, mig amagada per una pila de llibres, hi ha una dona. La reconeixeu al moment &mdash; es la vostra mare. Esta asseguda a la cadira, reclinada sobre l'escriptori com si s'hagues adormit llegint. Pero la seva pell es freda i palida, i no respira. Una <strong>ferida profunda i ennegrida</strong> li travessa el costat, la roba al voltant cremada i corrompuda per un poder fosc. Davant seu, un <strong>gran llibre d'encanteris</strong> esta obert, les seves pagines plenes de runes brillants que encara emeten una feble llum daurada. La seva ma esquerra descansa sobre la pagina, com si hagues estat seguint les linies amb el dit en el moment de la seva mort. Porta un amulet identic al que vau trobar a la granja &mdash; un sol amb un ull.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li><span class="dc-check">DC mitjana</span> <strong>Medicina:</strong> la mare va morir d'una <strong>ferida demoniaca</strong>. La ferida es fosca i corrompuda &mdash; cap curacio convencional l'hauria pogut salvar. Va ser infligida per una criatura infernal. Estava llegint el llibre quan va ser atacada.</li>
+          <li>La mare va ser <strong>capturada</strong> pels goblins de gel juntament amb el pare a la granja. Quan els goblins la van portar al <strong>cau dels basiliscs</strong> per alimentar-la a les besties, va aconseguir <strong>escapar</strong>. Com a Asari, coneixia el temple i va fugir cap a les profunditats, arribant fins a la biblioteca.</li>
+          <li>El <strong>llibre d'encanteris</strong> esta obert en un capitol sobre <strong>proteccions i segells de transport</strong> &mdash; estava buscant la manera de treure la reliquia del temple quan un <strong>dimoni la va trobar i la va matar</strong>.</li>
+          <li>Si l'aventurer te l'amulet de la granja, brilla feblement en presencia del cos de la mare.</li>
+        </ul>
+      </DmNote>
+
     </ZoneCard>
 
     <!-- Sala 11: L'Estudi -->
@@ -74,10 +94,25 @@
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
           <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
+          <li>Revela l'existencia de l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per protegir la reliquia mes preuada del temple &mdash; un artefacte capac de <strong>retornar la vida als morts</strong>. L'Exarca n'era el <strong>lider</strong>.</li>
+          <li>Explica que els Asaris van jurar <strong>mai usar la reliquia, mai parlar-ne, i viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills.</li>
+          <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret.</li>
+          <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
+          <li>Adverteix solemnement: &laquo;La reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo;</li>
           <li>L'Exarca guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
           <li>Condueix els personatges <strong>escales avall</strong> fins a la cambra final.</li>
         </ul>
       </DmNote>
+
+      <ExpandPanel title="L'Orde dels Asaris">
+        <p>L'<strong>Orde dels Asaris</strong> era una germandat secreta de guerrers sagrats fundada durant l'<strong>Era de la Desolacio</strong>, liderada per l'<strong>Exarca</strong>. El seu unic proposit era custodiar la reliquia mes poderosa de la regio: un artefacte capac de retornar la vida als morts. Conscients que aquest poder atreia guerres i corrupcio, els fundadors van establir tres juraments irrevocables:</p>
+        <ol>
+          <li><strong>Mai usar la reliquia.</strong> Ni tan sols en les circumstancies mes desesperants.</li>
+          <li><strong>Mai parlar de la reliquia ni de l'Orde.</strong> Ni a familia, ni a amics, ni a reis.</li>
+          <li><strong>Viure en secret.</strong> Els Asaris vivien com a gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
+        </ol>
+        <p>Quan els dimonis van atacar el temple, l'Orde va ser aniquilada. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat. Tots dos van ser <strong>capturats</strong> pels goblins de gel a la granja. El pare va morir al campament defensant el secret; la mare va ser portada als basiliscs pero va aconseguir <strong>escapar</strong>, i va arribar fins a la biblioteca del temple buscant la manera de protegir la reliquia, on un dimoni la va matar.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 12: La Cambra del Guardia -->
@@ -113,6 +148,10 @@
         Perque quan de nou la foscor vingui, i de maldat el mon s'ompli,<br>
         aquest poder us donara la llum, per encegar i cremar la pesta demoniaca.
       </div>
+
+      <DmNote>
+        <p><strong>El poder de resurreccio:</strong> L'Ull de Laki, a mes dels seus poders contra dimonis, te la capacitat suprema de <strong>retornar la vida a un mort</strong>. Aquest poder consumeix <strong>totes les carregues restants</strong> i deixa l'artefacte inert permanentment (nomes es pot recarregar a Aol). Els Asaris van jurar mai usar aquest poder, conscients que la temptacio de la resurreccio ha causat guerres i corrupcio al llarg dels segles.</p>
+      </DmNote>
 
       <DmNote>
         <p><strong>Prendre l'objecte:</strong></p>
