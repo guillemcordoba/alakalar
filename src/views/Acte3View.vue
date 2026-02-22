@@ -93,8 +93,8 @@
       </DmNote>
     </ZoneCard>
 
-    <!-- Sala 4: Quarters de l'Exarca -->
-    <ZoneCard v-if="room === 4" id="sala-4" title="Quarters de l'Exarca" :room="4">
+    <!-- Sala 4: Quarters del Gran Mestre -->
+    <ZoneCard v-if="room === 4" id="sala-4" title="Quarters del Gran Mestre" :room="4">
       <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>La porta s'obre amb un grinyol de frontisses rovellades i la vostra llum llepeja la fusta destrossada i els llibres esquincats que escampen el terra. Tot esta ara destrossat fins a ser irreconeixible.</p>
@@ -103,13 +103,13 @@
       <DmNote>
         <ul>
           <li><strong>Investigacio:</strong> els materials son de millor qualitat que a altres parts del temple. La porta interior encara esta <strong>tancada amb clau</strong> (claus de la sala de guardia).</li>
-          <li>Conte els <strong>Diaris de l'Exarca</strong> en antic idioma Aarakocran. Es poden portar a la seva ciutat per desxifrar-los. Fins i tot amb coneixement de l'idioma, gran part esta codificat.</li>
-          <li><strong>El que en poden extreure:</strong> l'Exarca es l'encarnacio mortal de <strong>&laquo;Laki &mdash; El Deu Justicier&raquo;</strong> i aquest temple va ser amagat per protegir un <strong>artefacte antic</strong> durant la invasio del mon.</li>
+          <li>Conte els <strong>Diaris del Gran Mestre</strong> en antic idioma Aarakocran. Es poden portar a la seva ciutat per desxifrar-los. Fins i tot amb coneixement de l'idioma, gran part esta codificat.</li>
+          <li><strong>El que en poden extreure:</strong> el Gran Mestre es l'encarnacio mortal de <strong>&laquo;Laki &mdash; El Deu Justicier&raquo;</strong> i aquest temple va ser amagat per protegir un <strong>artefacte antic</strong> durant la invasio del mon.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="L'Exarca i el proposit del temple">
-        <p>L'<strong>Exarca</strong> es l'encarnacio mortal de <strong>Laki, el Deu Justicier</strong>. Aquest temple va ser amagat com a manera de <strong>protegir un artefacte antic</strong> durant la invasio del mon. Els diaris estan escrits en l'antic idioma <strong>Aarakocran</strong> i es poden portar a la seva ciutat per desxifrar-los. Fins i tot si algu pot llegir-los, gran part del contingut esta <strong>codificat</strong> i resulta dificil d'interpretar.</p>
+      <ExpandPanel title="El Gran Mestre i el proposit del temple">
+        <p>El <strong>Gran Mestre</strong> es l'encarnacio mortal de <strong>Laki, el Deu Justicier</strong>. Aquest temple va ser amagat com a manera de <strong>protegir un artefacte antic</strong> durant la invasio del mon. Els diaris estan escrits en l'antic idioma <strong>Aarakocran</strong> i es poden portar a la seva ciutat per desxifrar-los. Fins i tot si algu pot llegir-los, gran part del contingut esta <strong>codificat</strong> i resulta dificil d'interpretar.</p>
       </ExpandPanel>
     </ZoneCard>
 

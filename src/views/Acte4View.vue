@@ -69,9 +69,9 @@
       <DmNote>
         <p><strong>MOLT IMPORTANT:</strong></p>
         <ul>
-          <li><span class="dc-check">Detectar Magia</span> pot revelar els dos <strong>Gòlems de Pedra</strong> abans d'entrar. En entrar a l'habitacio, <strong>s'activen i ataquen</strong> fins que son destruits o fins que l'Exarca del quadre es alliberat.</li>
+          <li><span class="dc-check">Detectar Magia</span> pot revelar els dos <strong>Gòlems de Pedra</strong> abans d'entrar. En entrar a l'habitacio, <strong>s'activen i ataquen</strong> fins que son destruits o fins que el Gran Mestre del quadre es alliberat.</li>
           <li>El <strong>quadre es mou lleugerament</strong>. Un control d'<span class="dc-check">Arcana</span> revela que es magic. <strong>Detectar Magia/Mal</strong> revela que l'encanteri que rete el quadre es <strong>malvat</strong>.</li>
-          <li><strong>Cremar o destruir el quadre</strong> allibera l'esperit de l'Exarca empresonat.</li>
+          <li><strong>Cremar o destruir el quadre</strong> allibera l'esperit del Gran Mestre empresonat.</li>
         </ul>
       </DmNote>
 
@@ -85,27 +85,27 @@
           <MusicBtn track="Ambush" variant="battle" />
         </template>
         <p><strong>S'activen en entrar a l'habitacio.</strong></p>
-        <p>Es desactiven si es destrueix el quadre i s'allibera l'Exarca.</p>
+        <p>Es desactiven si es destrueix el quadre i s'allibera el Gran Mestre.</p>
       </Encounter>
 
       <DmNote>
-        <p><strong>L'Exarca Alliberat:</strong></p>
+        <p><strong>El Gran Mestre Alliberat:</strong></p>
         <ul>
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
           <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
-          <li>Revela l'existencia de l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per protegir la reliquia mes preuada del temple &mdash; un artefacte capac de <strong>retornar la vida als morts</strong>. L'Exarca n'era el <strong>lider</strong>.</li>
+          <li>Revela l'existencia de l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per protegir la reliquia mes preuada del temple &mdash; un artefacte capac de <strong>retornar la vida als morts</strong>. El Gran Mestre n'era el <strong>lider</strong>.</li>
           <li>Explica que els Asaris van jurar <strong>mai usar la reliquia, mai parlar-ne, i viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills.</li>
           <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret.</li>
-          <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
+          <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, el Gran Mestre assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
           <li>Adverteix solemnement: &laquo;La reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo;</li>
-          <li>L'Exarca guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
+          <li>El Gran Mestre guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
           <li>Condueix els personatges <strong>escales avall</strong> fins a la cambra final.</li>
         </ul>
       </DmNote>
 
       <ExpandPanel title="L'Orde dels Asaris">
-        <p>L'<strong>Orde dels Asaris</strong> era una germandat secreta de guerrers sagrats fundada durant l'<strong>Era de la Desolacio</strong>, liderada per l'<strong>Exarca</strong>. El seu unic proposit era custodiar la reliquia mes poderosa de la regio: un artefacte capac de retornar la vida als morts. Conscients que aquest poder atreia guerres i corrupcio, els fundadors van establir tres juraments irrevocables:</p>
+        <p>L'<strong>Orde dels Asaris</strong> era una germandat secreta de guerrers sagrats fundada durant l'<strong>Era de la Desolacio</strong>, liderada per el <strong>Gran Mestre</strong>. El seu unic proposit era custodiar la reliquia mes poderosa de la regio: un artefacte capac de retornar la vida als morts. Conscients que aquest poder atreia guerres i corrupcio, els fundadors van establir tres juraments irrevocables:</p>
         <ol>
           <li><strong>Mai usar la reliquia.</strong> Ni tan sols en les circumstancies mes desesperants.</li>
           <li><strong>Mai parlar de la reliquia ni de l'Orde.</strong> Ni a familia, ni a amics, ni a reis.</li>
@@ -123,13 +123,13 @@
 
       <DmNote>
         <ul>
-          <li>L'Exarca assenyala els cossos: <strong>aquesta va ser la seva ultima defensa</strong>. Ossos demonials mes grans contra l'altar.</li>
+          <li>El Gran Mestre assenyala els cossos: <strong>aquesta va ser la seva ultima defensa</strong>. Ossos demonials mes grans contra l'altar.</li>
           <li><strong>Estatues trencades</strong> flanquegen el pont. Les que queden en peu <strong>irradien puresa i poder</strong>.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="L'ultima defensa de l'Exarca">
-        <p>L'Exarca assenyala els cossos i informa als aventurers que <strong>aquesta va ser la seva ultima resistencia</strong>. Immediatament contra els altars hi ha altres ossos, <strong>mes grans i clarament demonials</strong>.</p>
+      <ExpandPanel title="L'ultima defensa del Gran Mestre">
+        <p>El Gran Mestre assenyala els cossos i informa als aventurers que <strong>aquesta va ser la seva ultima resistencia</strong>. Immediatament contra els altars hi ha altres ossos, <strong>mes grans i clarament demonials</strong>.</p>
         <p>Estatues trencades flanquegen el pont, la majoria destrossades o tallades. La postura de les estatues que romanen en peu revela una sensacio de <strong>puresa i poder</strong> desconeguts per als aventurers.</p>
       </ExpandPanel>
 
@@ -166,27 +166,27 @@
         <ul>
           <li>Un <strong>riure malefic ressona</strong> per la cambra. Dos <strong>Diables Banyuts</strong> volen cap amunt des de l'abisme.</li>
           <li>Intenten <strong>prendre l'objecte</strong> als aventurers.</li>
-          <li>L'Alt Exarca diu als aventurers que portin l'objecte a la <strong>ciutat dels Aarakocra al nord, mes enlla de les muntanyes</strong>.</li>
+          <li>El Gran Mestre diu als aventurers que portin l'objecte a la <strong>ciutat dels Aarakocra al nord, mes enlla de les muntanyes</strong>.</li>
           <li>Avanca i llanca dos poderosos encanteris:
             <ul>
               <li><strong>Castig Major</strong> (Greater Smite): <strong>8d8 de dany radiant</strong> a ambdos dimonis amb el seu martell.</li>
               <li><strong>Aura de Proteccio</strong> (Aura of Warding): barrera magica de <strong>4,5m</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong> amb el seu escut.</li>
             </ul>
           </li>
-          <li>L'Exarca <strong>desapareix</strong>. El seu <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen com a objectes fisics.</li>
+          <li>El Gran Mestre <strong>desapareix</strong>. El seu <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen com a objectes fisics.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Detalls dels encanteris de l'Exarca">
-        <p>L'Exarca avanca i llanca dos poderosos encanteris:</p>
+      <ExpandPanel title="Detalls dels encanteris del Gran Mestre">
+        <p>El Gran Mestre avanca i llanca dos poderosos encanteris:</p>
         <ul>
           <li><strong>Castig Major</strong> (Greater Smite): Sostenint el seu martell cap als dimonis, infligeix <strong>8d8 de dany radiant</strong> a ambdos dimonis.</li>
           <li><strong>Aura de Proteccio</strong> (Aura of Warding): Sostenint el seu escut sobre el cap, crea una barrera magica de <strong>4,5m de radi</strong> que bloqueja tots els encanteris hostils i impedeix que dimonis i diables hi entrin durant <strong>1 minut</strong>.</li>
         </ul>
-        <p>L'Exarca desapareix quan es llancen els seus encanteris. El seu enorme <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen al terra com a objectes fisics. Ambdos proporcionen bonificacions addicionals durant aquest combat, pero despres perden les seves propietats magiques (tot i que es poden restaurar a traves de missions futures).</p>
+        <p>El Gran Mestre desapareix quan es llancen els seus encanteris. El seu enorme <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen al terra com a objectes fisics. Ambdos proporcionen bonificacions addicionals durant aquest combat, pero despres perden les seves propietats magiques (tot i que es poden restaurar a traves de missions futures).</p>
       </ExpandPanel>
 
-      <ItemCard title="Martell de Guerra de l'Exarca" type="Arma (martell de guerra), +2, platejada">
+      <ItemCard title="Martell de Guerra del Gran Mestre" type="Arma (martell de guerra), +2, platejada">
         <ul>
           <li><strong>+2 al atac i al dany.</strong></li>
           <li><strong>2d6 de dany radiant addicional</strong> per impacte.</li>
@@ -195,7 +195,7 @@
         </ul>
       </ItemCard>
 
-      <ItemCard title="Escut de l'Exarca" type="Armadura (escut), +3 CA, platejat">
+      <ItemCard title="Escut del Gran Mestre" type="Armadura (escut), +3 CA, platejat">
         <ul>
           <li><strong>+3 a la CA</strong> (en lloc del +2 habitual dels escuts).</li>
           <li><strong>Activar:</strong> crea una barrera de <strong>4,5m de radi</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong>.</li>
@@ -214,7 +214,7 @@
           <MusicBtn track="The Ice Giants" variant="battle" />
           <MusicBtn track="Aurea Carmina" variant="event" />
         </template>
-        <p><strong>L'Exarca interve</strong> amb Castig Major i Aura de Proteccio.</p>
+        <p><strong>El Gran Mestre interve</strong> amb Castig Major i Aura de Proteccio.</p>
         <p>Despres desapareix, deixant el seu <strong>martell</strong> i <strong>escut</strong>.</p>
       </Encounter>
     </ZoneCard>

@@ -39,6 +39,7 @@ const routes = [
   { path: '/final', component: () => import('./views/FinalView.vue') },
   { path: '/mapes', component: () => import('./views/MapsView.vue') },
   { path: '/objectes', component: () => import('./views/ObjectesView.vue') },
+  { path: '/cartes', component: () => import('./views/CardsView.vue') },
 ]
 
 const router = createRouter({

@@ -30,7 +30,7 @@
     <div class="summary-box">
       <p>L'aventura pot continuar de diverses maneres (totes requereixen tornar primer al poble):</p>
       <ul>
-        <li><strong>Trobar una traduccio dels Diaris de l'Exarca</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
+        <li><strong>Trobar una traduccio dels Diaris del Gran Mestre</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
         <li><strong>Retornar l'artefacte als Aarakocra a Aol</strong>, on els protegira i estara segur.</li>
         <li><strong>Revelar la ubicacio del temple al mon</strong> i ajudar altres a restaurar-lo.</li>
       </ul>

@@ -21,7 +21,7 @@
         <li class="zone-link"><router-link to="/acte3/1" @click="$emit('close')">1. Basiliscs</router-link></li>
         <li class="zone-link"><router-link to="/acte3/2" @click="$emit('close')">2. Pont Trencat</router-link></li>
         <li class="zone-link"><router-link to="/acte3/3" @click="$emit('close')">3. Armeria</router-link></li>
-        <li class="zone-link"><router-link to="/acte3/4" @click="$emit('close')">4. Quarters Exarca</router-link></li>
+        <li class="zone-link"><router-link to="/acte3/4" @click="$emit('close')">4. Quarters Gran Mestre</router-link></li>
         <li class="zone-link"><router-link to="/acte3/5" @click="$emit('close')">5. Sala Temple</router-link></li>
         <li class="zone-link"><router-link to="/acte3/6" @click="$emit('close')">6. Quarters Temple</router-link></li>
         <li class="zone-link"><router-link to="/acte3/7" @click="$emit('close')">7. Menjador</router-link></li>
@@ -35,6 +35,7 @@
         <li class="section-divider">Recursos</li>
         <li><router-link to="/mapes" @click="$emit('close')">Mapes del Temple</router-link></li>
         <li><router-link to="/objectes" @click="$emit('close')">Objectes i Continuacio</router-link></li>
+        <li><router-link to="/cartes" @click="$emit('close')">Cartes d'Objectes</router-link></li>
       </ul>
     </nav>
   </aside>

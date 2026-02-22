@@ -87,10 +87,10 @@
       <p><strong>Avis:</strong> L'exposicio continuada al mon espiritual pot causar efectes duradors.</p>
     </ItemCard>
 
-    <!-- Martell de Guerra de l'Exarca -->
-    <h2>Martell de Guerra de l'Exarca</h2>
+    <!-- Martell de Guerra del Gran Mestre -->
+    <h2>Martell de Guerra del Gran Mestre</h2>
 
-    <ItemCard title="Martell de Guerra de l'Exarca" type="Arma +2, Platejada">
+    <ItemCard title="Martell de Guerra del Gran Mestre" type="Arma +2, Platejada">
       <ul>
         <li><strong>+2 al atac i al dany.</strong></li>
         <li><strong>2d6 de dany radiant addicional</strong> per impacte.</li>
@@ -98,10 +98,10 @@
       <p><strong>Nota:</strong> Perd les propietats magiques despres del combat final, pero es pot restaurar a traves de missions futures.</p>
     </ItemCard>
 
-    <!-- Escut de l'Exarca -->
-    <h2>Escut de l'Exarca</h2>
+    <!-- Escut del Gran Mestre -->
+    <h2>Escut del Gran Mestre</h2>
 
-    <ItemCard title="Escut de l'Exarca" type="Escut +3 CA, Platejat">
+    <ItemCard title="Escut del Gran Mestre" type="Escut +3 CA, Platejat">
       <ul>
         <li><strong>+3 a la CA</strong> (en lloc del +2 habitual dels escuts).</li>
         <li><strong>Activar:</strong> crea una barrera magica de <strong>4,5m de radi</strong> que bloqueja encanteris i dimonis/diables durant <strong>1 minut</strong>.</li>
@@ -133,7 +133,7 @@
     <ExpandPanel title="Opcions de continuacio">
       <p>Si els aventurers volen continuar des d'aquest punt, l'aventura pot seguir de diverses maneres. Totes requereixen tornar al poble per reclamar la recompensa i despres viatjar al nord cap a <strong>Aol</strong>:</p>
       <ul>
-        <li>Trobar una traduccio del <strong>diari de l'Exarca</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
+        <li>Trobar una traduccio del <strong>diari del Gran Mestre</strong> i aprendre mes de la historia durant el cataclisme i la invasio posterior.</li>
         <li>Retornar l'artefacte als <strong>Aarakocra a Aol</strong>, on els protegira i estara segur.</li>
         <li>Revelar la ubicacio del temple al mon i ajudar altres a restaurar-lo.</li>
       </ul>

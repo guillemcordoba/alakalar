@@ -26,11 +26,11 @@
       </router-link>
       <router-link to="/acte3" class="section-card">
         <h3>Acte III: Temple Superior</h3>
-        <p>El cau dels basiliscs, el pont trencat, l'armeria, les quarters de l'Exarca i els dimonis del temple.</p>
+        <p>El cau dels basiliscs, el pont trencat, l'armeria, les quarters del Gran Mestre i els dimonis del temple.</p>
       </router-link>
       <router-link to="/acte4" class="section-card">
         <h3>Acte IV: Temple Inferior</h3>
-        <p>El temple interior, la biblioteca, l'estudi amb l'Exarca empresonat i la cambra del guardia final.</p>
+        <p>El temple interior, la biblioteca, l'estudi amb el Gran Mestre empresonat i la cambra del guardia final.</p>
       </router-link>
       <router-link to="/objectes" class="section-card">
         <h3>Objectes i Continuacio</h3>
@@ -47,7 +47,7 @@
       <li>Resolen l'enigma del <strong>Mur de Sang</strong> per entrar al temple.</li>
       <li>Passen pel <strong>cau dels basiliscs</strong> (sigil o combat).</li>
       <li>Exploren el <strong>temple superior</strong> &mdash; armeria, quarters, dimonis.</li>
-      <li>Baixen al <strong>temple inferior</strong> &mdash; alliberen l'Exarca.</li>
+      <li>Baixen al <strong>temple inferior</strong> &mdash; alliberen el Gran Mestre.</li>
       <li>Arriben a la <strong>cambra del guardia</strong> i prenen l'<strong>Ull de Laki</strong>.</li>
       <li>Escapen mentre <strong>diables banyuts</strong> els persegueixen.</li>
     </ol>
