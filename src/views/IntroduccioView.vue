@@ -16,7 +16,12 @@
       <ul>
         <li>El poble esta aterrit perque alguna cosa s'esta emportant la gent. El consell del poble ha enviat un missatge demanant ajuda a la <strong>Ciutat d'Alenian</strong>, pero el viatge es d'una setmana.</li>
         <li>La gent del poble es supersticiosa i dura. Han enviat els seus propis homes a investigar, pero cap ha tornat. Prefereixen pagar a aventurers de pas perque trobin els desapareguts o resolguin el problema.</li>
+        <li><strong>Un dels aventurers es originari de Nenyrm.</strong> Els seus pares son grangers de la zona. Quan arriben al poble, els vilatans els informen que el seu pare ha estat <strong>tossut i s'ha negat a deixar la granja</strong> per refugiar-se darrere les muralles del poble, malgrat les ordres dels ancians. Ningu l'ha vist des de fa dies.</li>
       </ul>
+
+      <DmNote>
+        <p><strong>Rerefons familiar (secret):</strong> Els pares de l'aventurer son membres de l'<strong>Orde dels Asaris</strong>, una ordre secreta de guerrers sagrats. L'aventurer no sap res d'aixo. El pare es va negar a deixar la granja perque sabia que la presencia dels goblins a prop de la muntanya posava en perill el secret del temple. La mare va entrar al temple per intentar treure'n la reliquia. El DM hauria de deixar que l'aventurer interactui amb els vilatans per descobrir que els seus pares no han buscat refugi.</p>
+      </DmNote>
 
       <ExpandPanel title="Detalls dels ganxos">
         <p>El consell del poble ha enviat un missatger a la ciutat local d'Alenian, pero aquesta es a <strong>una setmana de viatge a peu</strong> cap a l'oest i tenen els seus propis problemes. Tot i que la gent del poble es dura, son molt supersticiosos i voldrien que aquest problema fos resolt. Han enviat alguns dels seus, pero no van tornar, i preferirien pagar a aventurers de pas perque trobin i salvin els enduts, i si no, almenys resolguin el problema d'una vegada per totes.</p>

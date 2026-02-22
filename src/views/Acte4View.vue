@@ -38,6 +38,60 @@
           <li>Alguns <strong>escrits en alfabet antic</strong>, dificils de desxifrar.</li>
         </ul>
       </DmNote>
+
+      <h3>La Mare</h3>
+
+      <DmNote>
+        <p><strong>Si un dels aventurers es originari de Nenyrm:</strong> la seva mare es troba aqui, morta. Aquesta escena hauria de ser un dels moments mes colpidors de l'aventura.</p>
+      </DmNote>
+
+      <ReadAloud>
+        <p>Darrere un dels escriptoris, mig amagada per una pila de llibres, hi ha una dona. La reconeixeu al moment &mdash; es la vostra mare. Esta asseguda a la cadira, reclinada sobre l'escriptori com si s'hagues adormit llegint. Pero la seva pell es freda i palida, i no respira. Davant seu, un <strong>gran llibre d'encanteris</strong> esta obert, les seves pagines plenes de runes brillants que encara emeten una feble llum daurada. La seva ma esquerra descansa sobre la pagina, com si hagues estat seguint les linies amb el dit en el moment de la seva mort. Porta un amulet identic al que vau trobar a la granja &mdash; un sol amb un ull.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li><span class="dc-check">DC mitjana</span> <strong>Medicina:</strong> la mare va morir d'<strong>esgotament magic</strong>. Va canalitzar massa poder del que el seu cos podia suportar. No hi ha ferides externes.</li>
+          <li>El <strong>llibre d'encanteris</strong> esta obert en un capitol sobre <strong>proteccions i segells de transport</strong> &mdash; estava intentant trobar la manera de treure la reliquia del temple.</li>
+          <li>Si l'aventurer te l'amulet de la granja, brilla feblement en presencia del cos de la mare.</li>
+        </ul>
+      </DmNote>
+
+      <ReadAloud>
+        <p>Mentre contempleu el cos de la vostra mare, l'aire de la biblioteca es torna gla&ccedil;al. Una llum blava tenue apareix darrere vostre i una forma espectral es materialitza &mdash; la silueta d'un guerrer amb armadura antiga, els ulls ardents com estrelles. No es amenacant; la seva expressio es de profunda tristesa.</p>
+      </ReadAloud>
+
+      <ReadAloud>
+        <p>&laquo;Era dels nostres&raquo;, diu l'espectre amb una veu que ressona com un eco a traves dels segles. &laquo;Una Asari. Una guerrera de l'Orde dels Asaris, els guardians sagrats d'aquest temple. La nostra ordre va ser fundada fa mil&middot;lennis per protegir la reliquia mes preuada de tota la regio: un artefacte capac de <strong>retornar la vida als morts</strong>.&raquo;</p>
+      </ReadAloud>
+
+      <ReadAloud>
+        <p>&laquo;Tots els qui van unir-se a l'Orde van jurar mai usar-la, i mai parlar-ne, car el seu poder es massa gran i ha causat moltes guerres en el passat. Generacio rere generacio, els Asaris han viscut en secret entre la gent comuna &mdash; grangers, ferrers, comerciants &mdash; vigilant que el temple romangues amagat i la reliquia segura.&raquo;</p>
+      </ReadAloud>
+
+      <ReadAloud>
+        <p>&laquo;Quan els goblins van arribar a la muntanya i van trobar l'entrada, la ubicacio del temple va quedar compromesa. La vostra mare va venir a intentar treure la reliquia, a posar-la fora de l'abast dels qui la busquen. Pero les defenses del temple... son massa per a un sol mortal. Va donar la vida intentant-ho.&raquo;</p>
+        <p>L'espectre us mira amb una intensitat que us travessa l'anima. &laquo;El que heu de saber es aixo: la reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo; L'espectre s'esvaeix com fum en el vent fred.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li>L'espectre es un <strong>antic guardia del temple</strong>, no l'Exarca (que es troba empresonat a la Sala 11). Es un ressidu espiritual que respon a la presencia d'un membre de l'Orde.</li>
+          <li>L'aventurer ara sap que els seus pares li han amagat un secret enorme tota la vida.</li>
+          <li>El DM hauria de deixar que l'aventurer processi la informacio. Les preguntes a l'espectre queden sense resposta &mdash; ja s'ha esvaIt.</li>
+          <li>La <strong>reliquia capac de retornar la vida als morts</strong> es l'objecte que trobaran a la Cambra del Guardia (Sala 12). Es l'<strong>Ull de Laki</strong>, que a mes dels seus poders contra dimonis, te el poder suprem de la <strong>resurreccio</strong>.</li>
+        </ul>
+      </DmNote>
+
+      <ExpandPanel title="L'Orde dels Asaris">
+        <p>L'<strong>Orde dels Asaris</strong> era una germandat secreta de guerrers sagrats fundada durant l'<strong>Era de la Desolacio</strong>. El seu unic proposit era custodiar la reliquia mes poderosa de la regio: un artefacte capac de retornar la vida als morts. Conscients que aquest poder atreia guerres i corrupcio, els fundadors van establir tres juraments irrevocables:</p>
+        <ol>
+          <li><strong>Mai usar la reliquia.</strong> Ni tan sols en les circumstancies mes desesperants.</li>
+          <li><strong>Mai parlar de la reliquia ni de l'Orde.</strong> Ni a familia, ni a amics, ni a reis.</li>
+          <li><strong>Viure en secret.</strong> Els Asaris vivien com a gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
+        </ol>
+        <p>Els pares de l'aventurer eren Asaris. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat. El pare va morir defensant el secret; la mare va morir intentant protegir la reliquia.</p>
+      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 11: L'Estudi -->
@@ -74,6 +128,7 @@
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
           <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
+          <li><strong>Si els aventurers mencionen l'Orde dels Asaris</strong> o el simbol del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells. Ho lamento.&raquo;</li>
           <li>L'Exarca guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
           <li>Condueix els personatges <strong>escales avall</strong> fins a la cambra final.</li>
         </ul>
@@ -113,6 +168,10 @@
         Perque quan de nou la foscor vingui, i de maldat el mon s'ompli,<br>
         aquest poder us donara la llum, per encegar i cremar la pesta demoniaca.
       </div>
+
+      <DmNote>
+        <p><strong>El poder de resurreccio:</strong> L'Ull de Laki, a mes dels seus poders contra dimonis, te la capacitat suprema de <strong>retornar la vida a un mort</strong>. Aquest poder consumeix <strong>totes les carregues restants</strong> i deixa l'artefacte inert permanentment (nomes es pot recarregar a Aol). Els Asaris van jurar mai usar aquest poder, conscients que la temptacio de la resurreccio ha causat guerres i corrupcio al llarg dels segles.</p>
+      </DmNote>
 
       <DmNote>
         <p><strong>Prendre l'objecte:</strong></p>

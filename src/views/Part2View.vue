@@ -21,6 +21,10 @@
       <ExpandPanel title="Detalls de la manilla d'espines">
         <p>Un <span class="dc-check">DC 15 Medicina</span> revela alguna cosa enterrada sota la pell d'un dels canells d'un goblin, amb forma d'alguna mena de <strong>manilla d'espines</strong>. Les punxes sobresurten ocasionalment de la pell i filtren una <strong>foscor fumosa</strong>. Despres que els goblins hagin estat morts durant <strong>cinc minuts</strong>, aquestes manilles es <strong>dissiparan completament en fum</strong>.</p>
       </ExpandPanel>
+
+      <DmNote>
+        <p><strong>Si un dels aventurers busca la seva mare:</strong> no hi ha cap rastre d'ella al campament. Nomes roba i pertinences d'altres vilatans. Les petjades i rastres de sang indiquen que algunes persones van ser portades <strong>cap a dins de la cova</strong>, no nomes alimentades als basiliscs. La mare va ser enduta mes endins.</p>
+      </DmNote>
     </ZoneCard>
 
     <!-- Zona 2: La Boca de la Cova -->
