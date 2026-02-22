@@ -58,11 +58,18 @@
       </DmNote>
 
       <ReadAloud>
-        <p>Mentre contempleu el cos de la vostra mare, l'aire de la biblioteca es torna gla&ccedil;al. Una llum blava tenue apareix darrere vostre i una forma espectral es materialitza &mdash; la silueta d'un guerrer amb armadura antiga, els ulls ardents com estrelles. No es amenacant; la seva expressio es de profunda tristesa.</p>
+        <p>Mentre contempleu el cos de la vostra mare, l'aire de la biblioteca es torna gla&ccedil;al. Una llum blava tenue apareix darrere vostre i una forma espectral es materialitza &mdash; la silueta majestuosa d'un Aarakocra amb armadura cerimonial, els ulls ardents com estrelles. No es amenacant; la seva expressio es de profunda tristesa.</p>
       </ReadAloud>
 
+      <DmNote>
+        <ul>
+          <li>Es l'<strong>Exarca</strong>, l'esperit empresonat al quadre de la Sala 11, que projecta una part de la seva consciencia per comunicar-se. La seva forma es fragil i tremolosa &mdash; nomes pot mantenir-la uns instants.</li>
+          <li>Si els aventurers encara no han visitat la Sala 11, aquesta escena serveix d'anticipacio. Si ja l'han alliberat, l'Exarca apareix amb mes forca i claredat.</li>
+        </ul>
+      </DmNote>
+
       <ReadAloud>
-        <p>&laquo;Era dels nostres&raquo;, diu l'espectre amb una veu que ressona com un eco a traves dels segles. &laquo;Una Asari. Una guerrera de l'Orde dels Asaris, els guardians sagrats d'aquest temple. La nostra ordre va ser fundada fa mil&middot;lennis per protegir la reliquia mes preuada de tota la regio: un artefacte capac de <strong>retornar la vida als morts</strong>.&raquo;</p>
+        <p>&laquo;Era dels nostres&raquo;, diu l'Exarca amb una veu que ressona com un eco a traves dels segles. &laquo;Una Asari. Una guerrera de l'Orde dels Asaris, els guardians sagrats d'aquest temple. La nostra ordre va ser fundada fa mil&middot;lennis per protegir la reliquia mes preuada de tota la regio: un artefacte capac de <strong>retornar la vida als morts</strong>.&raquo;</p>
       </ReadAloud>
 
       <ReadAloud>
@@ -71,14 +78,13 @@
 
       <ReadAloud>
         <p>&laquo;Quan els goblins van arribar a la muntanya i van trobar l'entrada, la ubicacio del temple va quedar compromesa. La vostra mare va venir a intentar treure la reliquia, a posar-la fora de l'abast dels qui la busquen. Pero les defenses del temple... son massa per a un sol mortal. Va donar la vida intentant-ho.&raquo;</p>
-        <p>L'espectre us mira amb una intensitat que us travessa l'anima. &laquo;El que heu de saber es aixo: la reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo; L'espectre s'esvaeix com fum en el vent fred.</p>
+        <p>L'Exarca us mira amb una intensitat que us travessa l'anima. &laquo;El que heu de saber es aixo: la reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo; La figura tremola i s'esvaeix com fum en el vent fred.</p>
       </ReadAloud>
 
       <DmNote>
         <ul>
-          <li>L'espectre es un <strong>antic guardia del temple</strong>, no l'Exarca (que es troba empresonat a la Sala 11). Es un ressidu espiritual que respon a la presencia d'un membre de l'Orde.</li>
           <li>L'aventurer ara sap que els seus pares li han amagat un secret enorme tota la vida.</li>
-          <li>El DM hauria de deixar que l'aventurer processi la informacio. Les preguntes a l'espectre queden sense resposta &mdash; ja s'ha esvaIt.</li>
+          <li>El DM hauria de deixar que l'aventurer processi la informacio. Les preguntes a l'Exarca queden sense resposta &mdash; la seva projecci&oacute; s'ha desfet.</li>
           <li>La <strong>reliquia capac de retornar la vida als morts</strong> es l'objecte que trobaran a la Cambra del Guardia (Sala 12). Es l'<strong>Ull de Laki</strong>, que a mes dels seus poders contra dimonis, te el poder suprem de la <strong>resurreccio</strong>.</li>
         </ul>
       </DmNote>
@@ -126,6 +132,7 @@
         <p><strong>L'Exarca Alliberat:</strong></p>
         <ul>
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
+          <li>Si els aventurers van veure la seva projecci&oacute; a la biblioteca, el <strong>reconeixen immediatament</strong>. L'Exarca assenteix: &laquo;Si... vaig intentar arribar a vosaltres. Pero la meva preso nomes em permetia una ombra del que soc.&raquo;</li>
           <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
           <li><strong>Si els aventurers mencionen l'Orde dels Asaris</strong> o el simbol del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells. Ho lamento.&raquo;</li>
