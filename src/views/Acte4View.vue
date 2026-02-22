@@ -52,6 +52,7 @@
       <DmNote>
         <ul>
           <li><span class="dc-check">DC mitjana</span> <strong>Medicina:</strong> la mare va morir d'una <strong>ferida demoniaca</strong>. La ferida es fosca i corrompuda &mdash; cap curacio convencional l'hauria pogut salvar. Va ser infligida per una criatura infernal. Estava llegint el llibre quan va ser atacada.</li>
+          <li>La mare va ser <strong>capturada</strong> pels goblins de gel juntament amb el pare a la granja. Quan els goblins la van portar al <strong>cau dels basiliscs</strong> per alimentar-la a les besties, va aconseguir <strong>escapar</strong>. Com a Asari, coneixia el temple i va fugir cap a les profunditats, arribant fins a la biblioteca.</li>
           <li>El <strong>llibre d'encanteris</strong> esta obert en un capitol sobre <strong>proteccions i segells de transport</strong> &mdash; estava buscant la manera de treure la reliquia del temple quan un <strong>dimoni la va trobar i la va matar</strong>.</li>
           <li>Si l'aventurer te l'amulet de la granja, brilla feblement en presencia del cos de la mare.</li>
         </ul>
@@ -96,7 +97,7 @@
           <li>Revela l'existencia de l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per protegir la reliquia mes preuada del temple &mdash; un artefacte capac de <strong>retornar la vida als morts</strong>. L'Exarca n'era el <strong>lider</strong>.</li>
           <li>Explica que els Asaris van jurar <strong>mai usar la reliquia, mai parlar-ne, i viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills.</li>
           <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret.</li>
-          <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va venir a intentar treure la reliquia quan els goblins van comprometre la ubicacio del temple. Buscava als llibres la manera de treure-la... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
+          <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, l'Exarca assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
           <li>Adverteix solemnement: &laquo;La reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo;</li>
           <li>L'Exarca guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
           <li>Condueix els personatges <strong>escales avall</strong> fins a la cambra final.</li>
@@ -110,7 +111,7 @@
           <li><strong>Mai parlar de la reliquia ni de l'Orde.</strong> Ni a familia, ni a amics, ni a reis.</li>
           <li><strong>Viure en secret.</strong> Els Asaris vivien com a gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
         </ol>
-        <p>Quan els dimonis van atacar el temple, l'Orde va ser aniquilada. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat. El pare va morir defensant el secret; la mare va morir d'una ferida demoniaca mentre intentava protegir la reliquia.</p>
+        <p>Quan els dimonis van atacar el temple, l'Orde va ser aniquilada. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat. Tots dos van ser <strong>capturats</strong> pels goblins de gel a la granja. El pare va morir al campament defensant el secret; la mare va ser portada als basiliscs pero va aconseguir <strong>escapar</strong>, i va arribar fins a la biblioteca del temple buscant la manera de protegir la reliquia, on un dimoni la va matar.</p>
       </ExpandPanel>
     </ZoneCard>
 
