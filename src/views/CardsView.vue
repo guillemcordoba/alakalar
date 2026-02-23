@@ -70,7 +70,7 @@ function handlePrint() {
 
 <template>
   <div class="content-area" :class="{ 'save-ink': saveInk }">
-    <h1>Cartes d'Objectes</h1>
+    <h1 class="no-print">Cartes d'Objectes</h1>
     <div class="cards-controls no-print">
       <button @click="handlePrint">Imprimir</button>
       <label>
