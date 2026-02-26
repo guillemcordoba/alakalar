@@ -7,25 +7,28 @@
         <p>El tunel de parets llises s'enfonsa cap a la foscor per un costat, la llum de la torxa llepant els racons d'una cova natural. A mesura que la llum s'escampa per la sala, la superficie reflectant de petites basses il&middot;lumina els ossos, les carcasses mig devorades i la roba esquincada d'humans i altres animals. Al fons de la caverna, un voladis fosc amaga dotzenes d'ous d'un verd fosc intens, coberts d'escates.</p>
       </ReadAloud>
 
+      <Encounter
+        title="Cau dels Basiliscs"
+        :creatures="[
+          { name: 'Basilisk', qty: 2, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/basilisk' }
+        ]"
+      >
+        <template #music>
+          <MusicBtn track="SCP-x1x" variant="battle" />
+        </template>
+        <p>Un basilisk custodia els ous; l'altre patrulla l'entrada. Si els aventurers hi entren, el basilisk atacara des de la seva <strong>posicio oculta per sobre de la boca de la cova</strong>. Ataquen per <strong>defensar les seves cries</strong>. Els aventurers poden intentar passar de llarg amb un control de <span class="dc-check">DC 15 Sigil</span>.</p>
+      </Encounter>
+
       <DmNote>
-        <MusicBtn track="SCP-x1x" variant="battle" />
-        <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>idols</strong> deixats pels goblins de gel.</p>
-        <p><strong>Si un dels aventurers busca la seva mare:</strong> entre els ossos i les restes, un control de <span class="dc-check">DC mitjana Investigacio</span> revela signes que algu va <strong>escapar</strong> d'aqui: una <strong>cadena trencada</strong> amb restes de sang fresca, un tros de <strong>roba esquincada</strong> enganxat a una roca afilada, i unes <strong>petjades descalces</strong> que s'allunyen del cau cap a les profunditats del temple. La mare va ser portada aqui pels goblins per alimentar-la als basiliscs, pero va aconseguir escapar.</p>
-      </DmNote>
-
-      <ExpandPanel title="Tactiques dels basiliscs">
-        <p>Hi ha <strong>dos basiliscs</strong> en total, tot i que un es queda al cau per <strong>defensar els ous</strong>. Si els aventurers hi entren, el basilisk atacara des de la seva <strong>posicio oculta per sobre de la boca de la cova</strong>.</p>
-        <p>Si els basiliscs son alertats de la presencia dels jugadors, atacaran per <strong>defensar les seves cries</strong>. Els aventurers poden intentar passar de llarg amb un control de <span class="dc-check">DC 15 Sigil</span>.</p>
-      </ExpandPanel>
-
-      <ExpandPanel title="Esperar o avancar">
         <p>Els aventurers tenen una decisio rapida a prendre:</p>
         <ul>
           <li><strong>Si esperen:</strong> El basilisk emergira i lluitaran en l'espai estret de la caverna.</li>
           <li><strong>Si avancen immediatament:</strong> Poden passar de llarg pel cau del basilisk abans que emergeixi.</li>
         </ul>
         <p>Esperar significa un combat mes restringit, pero avancar permet evitar el basilisk principal. El segon basilisk romandia defensant els ous tret que sigui provocat.</p>
-      </ExpandPanel>
+        <p>Si lluiten contra els basiliscs i saquegen el cau: diversos <strong>ous de basilisk</strong>, ossos i petits <strong>idols</strong> deixats pels goblins de gel.</p>
+        <p><strong>Si un dels aventurers busca la seva mare:</strong> entre els ossos i les restes, un control de <span class="dc-check">DC mitjana Investigacio</span> revela signes que algu va <strong>escapar</strong> d'aqui: una <strong>cadena trencada</strong> amb restes de sang fresca, un tros de <strong>roba esquincada</strong> enganxat a una roca afilada, i unes <strong>petjades descalces</strong> que s'allunyen del cau cap a les profunditats del temple. La mare va ser portada aqui pels goblins per alimentar-la als basiliscs, pero va aconseguir escapar.</p>
+      </DmNote>
     </ZoneCard>
 
     <!-- Sala 2: El Pont Trencat -->
@@ -39,32 +42,22 @@
         <p><strong>Plataforma de pedra</strong> amb una petita sala de guardia al costat. A l'altre costat: ossos d'una <strong>criatura gegantina</strong> que s'estenen cap a l'abisme.</p>
         <ul>
           <li><strong>Cos dessecat d'un huma armat, 'Renkidu':</strong> porta una <strong>espasa de plata +1</strong> amb la inscripcio <em>&laquo;Renkidu &mdash; la meva vida per la llum&raquo;</em>, un <strong>Pou d'Esperits</strong> intricadament tallat en forma de collaret, i una <strong>Pedra d'Obsidiana</strong> (preso d'un poderos diable &mdash; es trencara en un moment de gran estres si se l'emporten).</li>
-          <li><strong>Runa de prohibicio al terra</strong> (<span class="dc-check">Arcana DC 19</span>): no es permet teletransportacio, portes planars ni transport magic dins del temple.</li>
+          <li><strong>Runa de prohibicio al terra:</strong> una <strong>runa gegant</strong> tallada al terra picat, amb <strong>centenars de runes minuscules</strong> gravades al seu interior. Un <span class="dc-check">Arcana DC 19</span> la revela: no es permet teletransportacio, portes planars ni cap mitja de transport magic dins del temple.</li>
           <li><strong>Sala de guardia:</strong> conte algunes <strong>claus</strong> entre les runes.</li>
-          <li><strong>El pont cruix</strong> quan s'hi camina &mdash; baixa probabilitat de trencar-se pero <strong>alta probabilitat de fer soroll</strong>.</li>
-          <li><strong>Portes del temple</strong> entreobertes, cobertes de cicatrius de batalla. Una estatua es mante dreta a la porta; l'altra esta trencada.</li>
+          <li><strong>El pont cruix</strong> quan s'hi camina &mdash; <strong>baixa probabilitat de trencar un taulo</strong>, pero <strong>alta probabilitat de fer molt soroll</strong>.</li>
+          <li><strong>Portes del temple</strong> entreobertes, cobertes de <strong>centenars de cicatrius de batalla</strong>. Una <strong>estatua</strong> es mante dreta al costat de la porta, mirant amb <strong>desafiament</strong>; l'altra esta <strong>trencada</strong>.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Detalls de la Pedra d'Obsidiana">
-        <p>La investigacio revela una <strong>flama calida</strong> atrapada al centre, pero sota una inspeccio mes detallada no es pot <strong>enfocar</strong>. La identificacio i l'estudi no revelen res i qualsevol persona a qui es mostri la pedra <strong>no pot discernir el seu proposit</strong>.</p>
-        <p>El jugador no te cap manera de saber-ho, pero es una <strong>preso per a un poderos diable</strong>. Si els personatges decideixen emportar-se-la, probablement es trencara i alliberara el dimoni en algun moment de gran estres (batalla o similar).</p>
-      </ExpandPanel>
+      <DmNote>
+        <p><strong>Pedra d'Obsidiana:</strong> La investigacio revela una <strong>flama calida</strong> atrapada al centre, pero sota una inspeccio mes detallada no es pot <strong>enfocar</strong>. La identificacio i l'estudi no revelen res i qualsevol persona a qui es mostri la pedra <strong>no pot discernir el seu proposit</strong>.</p>
+      </DmNote>
 
-      <ExpandPanel title="Pou d'Esperits sobre Renkidu">
-        <p>Quan els aventurers agafen la llanterna, la <strong>llum blava</strong> que toca el cos de Renkidu <strong>forma boira</strong> al voltant del seu cos. Una inspeccio mes propera revela una tenue forma fantasmal sobre el cadaver.</p>
+      <DmNote>
+        <p><strong>Pou d'Esperits sobre Renkidu:</strong> Quan els aventurers agafen la llanterna, la <strong>llum blava</strong> que toca el cos de Renkidu <strong>forma boira</strong> al voltant del seu cos. Una inspeccio mes propera revela una tenue forma fantasmal sobre el cadaver.</p>
         <p>Si els personatges usen la llanterna sobre el cos de Renkidu, el veuran <strong>aguantant la llanterna enlaire amb sang caient-li dels ulls</strong>, mirant fixament els ossos del monstre.</p>
-        <p>Si els personatges volen veure la <strong>mort del monstre</strong>, han de superar una salvacio de <span class="dc-check">DC 15 Saviesa</span> o guanyen un punt de <strong>Follia</strong>.</p>
-      </ExpandPanel>
-
-      <ExpandPanel title="Detalls de la runa de prohibicio">
-        <p>Al terra picat de la sala hi ha tallada una <strong>runa gegant</strong>. Cadascuna de les linies del terra te <strong>centenars de runes minuscules</strong> gravades al seu interior. Es una <strong>runa de prohibicio</strong> i un <span class="dc-check">Arcana DC 19</span> la revela per allo que es: cap teletransportacio, portes planars ni cap mitja de transport magic es pot emprar dins del temple.</p>
-      </ExpandPanel>
-
-      <ExpandPanel title="El pont i les portes">
-        <p>El pont cap al temple es troba en condicions similars i <strong>cruix quan s'hi camina</strong>. Creuar-lo te una <strong>baixa probabilitat de trencar un taulo</strong>, pero una <strong>alta probabilitat de fer molt soroll</strong>.</p>
-        <p>Les portes del temple estan entreobertes i estan cobertes de <strong>centenars de cicatrius de batalla</strong>. Una <strong>estatua</strong> es mante dreta al costat de la porta, mirant amb <strong>desafiament</strong>, i una altra a l'altre costat esta <strong>trencada</strong>.</p>
-      </ExpandPanel>
+        <p>Si els personatges volen veure la <strong>mort del monstre</strong>, l'experiencia es tan terrorifica que guanyen un punt de <strong>Follia</strong> (a discrecio del DM).</p>
+      </DmNote>
 
       <ItemCard title="Pou d'Esperits" type="Objecte Unic, 2 carregues diaries, Requereix Sintonitzacio">
         <ul>
@@ -75,10 +68,6 @@
         </ul>
       </ItemCard>
 
-      <DmNote>
-        <p><strong>Si usen el Pou d'Esperits sobre Renkidu:</strong> el veuen aguantant la llanterna enlaire, sang caient-li dels ulls, mirant fixament els ossos del monstre.</p>
-        <p><strong>Si volen veure la mort del monstre:</strong> <span class="dc-check">DC 15 Saviesa</span> o guanyen un punt de <strong>Follia</strong>.</p>
-      </DmNote>
     </ZoneCard>
 
     <!-- Sala 3: Armeria -->
@@ -89,7 +78,7 @@
       </ReadAloud>
 
       <DmNote>
-        <p>S'obre amb les <strong>claus de la sala de guardia</strong>. Armes platejades estandard: dagues, fletxes, virots, llances, maces i espases, la majoria antigues i decrepites. Tambe hi ha <strong>cota de malla</strong> i <strong>armadura de plaques</strong>.</p>
+        <p>S'obre amb les <strong>claus de la sala de guardia</strong>. Armes platejades estandard: dagues, fletxes, virots, llances, maces i espases, la majoria antigues i decrepites. Tambe hi ha <strong>cota de malla</strong>.</p>
       </DmNote>
     </ZoneCard>
 
@@ -103,14 +92,11 @@
       <DmNote>
         <ul>
           <li><strong>Investigacio:</strong> els materials son de millor qualitat que a altres parts del temple. La porta interior encara esta <strong>tancada amb clau</strong> (claus de la sala de guardia).</li>
-          <li>Conte els <strong>Diaris del Gran Mestre</strong> en antic idioma Aarakocran. Es poden portar a la seva ciutat per desxifrar-los. Fins i tot amb coneixement de l'idioma, gran part esta codificat.</li>
+          <li>Conte els <strong>Diaris del Gran Mestre</strong> en antic idioma asari. Es poden portar a la seva ciutat per desxifrar-los. Fins i tot amb coneixement de l'idioma, gran part esta codificat.</li>
           <li><strong>El que en poden extreure:</strong> el Gran Mestre es l'encarnacio mortal de <strong>&laquo;Laki &mdash; El Deu Justicier&raquo;</strong> i aquest temple va ser amagat per protegir un <strong>artefacte antic</strong> durant la invasio del mon.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="El Gran Mestre i el proposit del temple">
-        <p>El <strong>Gran Mestre</strong> es l'encarnacio mortal de <strong>Laki, el Deu Justicier</strong>. Aquest temple va ser amagat com a manera de <strong>protegir un artefacte antic</strong> durant la invasio del mon. Els diaris estan escrits en l'antic idioma <strong>Aarakocran</strong> i es poden portar a la seva ciutat per desxifrar-los. Fins i tot si algu pot llegir-los, gran part del contingut esta <strong>codificat</strong> i resulta dificil d'interpretar.</p>
-      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 5: Sala del Temple -->
@@ -121,15 +107,11 @@
           <li><strong>Percepcio alta:</strong> alguna cosa els observa des de dalt.</li>
           <li><strong>Percepcio molt alta:</strong> moviment a les altures del sostre.</li>
           <li>Les sales son fosques; es poden encendre els <strong>brasers</strong> (no il&middot;luminen els sostres alts).</li>
-          <li>La sala principal te una <strong>estatua del deu Laki</strong>.</li>
+          <li>La sala principal te una <strong>estatua del deu Laki</strong>, que protegeix i es venerat en aquest temple.</li>
           <li>Un <strong>Diable d'Os</strong> i <strong>Diables Espinosos</strong> s'amaguen (vegeu Sales 7/8).</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Detalls de percepcio i ambient">
-        <p>Mentre es mouen per les cavernes, percepcions <strong>altes</strong> revelaran que <strong>alguna cosa els observa</strong>, i percepcions <strong>extremadament altes</strong> revelaran <strong>moviment a les altures del sostre del temple</strong>.</p>
-        <p>Les sales son fosques i es poden il&middot;luminar millor <strong>encenent els brasers</strong> que hi ha distribuits pel temple, tot i que la seva llum <strong>no il&middot;luminara els sostres alts</strong>. Dins la sala principal hi ha una <strong>estatua del deu Laki</strong>, que protegeix i es venerat en aquest temple.</p>
-      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 6: Quarters del Temple -->
@@ -154,20 +136,16 @@
       <DmNote>
         <ul>
           <li><strong>Investigacio:</strong> revela un antic menjador amb <strong>rastres de sang</strong> que porten a la cuina (Sala 8).</li>
-          <li>La cuina conte un <strong>Diable d'Os</strong> assegut sobre ossos decrepits.</li>
+          <li>La cuina conte un <strong>Diable d'Os</strong> assegut <strong>sobre una pila d'ossos decrepits</strong>.</li>
           <li><strong>Si els aventurers han alertat el diable d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb quatre Diables Espinosos amagats al sostre alt de la Sala del Temple.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Detalls de l'emboscada">
-        <p>El <strong>Diable d'Os</strong> es troba a la cuina, assegut <strong>sobre una pila d'ossos decrepits</strong>. Si els aventurers alerten el diable d'os de la seva presencia &mdash; ja sigui fent <strong>cruixir el pont de fusta</strong> o mitjancant altres sorolls &mdash; sortira i intentara <strong>emboscar el grup</strong> juntament amb <strong>quatre Diables Espinosos</strong> que estaven amagats al <strong>sostre alt de la Sala del Temple</strong>.</p>
-      </ExpandPanel>
-
       <Encounter
         title="Combat al Temple"
         :creatures="[
-          { name: 'Diable d\'Os', qty: 1, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/bone-devil' },
-          { name: 'Diables Espinosos', qty: 4, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/spined-devil' }
+          { name: 'Diable d\'Os', qty: 1, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/bone-devil' },
+          { name: 'Diables Espinosos', qty: 4, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/spined-devil' }
         ]"
       >
         <template #music>
@@ -181,53 +159,24 @@
     <ZoneCard v-if="room === 8" id="sala-8" title="Atri del Temple" :room="8">
       <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
-        <p>Al terra hi ha gravada una altra runa, gairebe indistingible del terra si no fos pels polsos ocasionals de llum daurada tenue. En canvi, els vostres ulls son atrets pels contorns carbonitzats de formes terrorifiques contra la paret al voltant de l'entrada de les escales.</p>
+        <p>Les parets d'aquesta cambra estan cobertes de <strong>murals descolorits</strong> que mostren figures agenollades davant d'una llum brillant, amb els caps inclinats i les mans obertes. Al fons, una <strong>porta massissa de pedra</strong> bloqueja el pas cap a les escales. Al centre de la porta, una <strong>esfera de llum daurada</strong> polsa suaument &mdash; identica a la dels murals. A sota, hi ha una inscripcio gravada:</p>
+        <blockquote><em>&laquo;Ni clau ni forca obren el meu pas.<br/>Nomes els que es netejin dels seus pecats<br/>trobaran el cami.&raquo;</em></blockquote>
+        <p>Els contorns carbonitzats de formes terrorifiques marquen les parets al voltant de l'entrada de les escales.</p>
       </ReadAloud>
 
       <DmNote>
         <ul>
-          <li><strong>Runa oculta</strong> davant les escales cap al Temple Inferior. Es descobreix amb un control d'<strong>Investigacio</strong> o <strong>Detectar Magia</strong>.</li>
-          <li>La runa <strong>vaporitza qualsevol persona amb cor o intencions malvades</strong> que la trepitgi.</li>
-          <li>Els aventurers poden intentar desactivar-la (amb <strong>gran dificultat</strong>).</li>
-          <li>Si la trepitgen, <strong>nomes fa mal als qui tinguin intencions hostils o malvades</strong>.</li>
+          <li>La porta <strong>no es pot obrir</strong> amb forca, magia ni ganxues. Nomes respon a la humilitat.</li>
+          <li>Cal que <strong>3 personatges confessin un pecat</strong> davant la porta &mdash; un penediment, una vergonya, una culpa autentica.</li>
+          <li>La confessio ha de ser <strong>sincera</strong> (a criteri del DM). No cal que sigui dramatica, pero si honesta.</li>
+          <li>Amb cada confessio acceptada, l'esfera de llum <strong>brilla mes intensament</strong> i s'escolta un <strong>to greu i ressonant</strong>.</li>
+          <li>Despres de la tercera confessio, la porta s'obre lentament amb un <strong>tremolor profund</strong>.</li>
+          <li>Si algu intenta mentir o banalitzar la confessio, l'esfera <strong>s'enfosqueix breument</strong> i no compta.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Desactivar la runa">
-        <p>La runa es pot desactivar <strong>&laquo;amb gran dificultat&raquo;</strong>. Si decideixen no desactivar-la i la trepitgen, nomes fara mal als qui tinguin intencions hostils o malvades (determinable pel DM) o amb corrupcio (si es juga amb regles de corrupcio).</p>
-      </ExpandPanel>
-
-      <ExpandPanel title="Regles de corrupcio (opcionals)">
-        <p>Si esteu jugant amb <strong>regles de corrupcio</strong>, la runa tambe afecta els personatges segons el seu nivell de corrupcio (consulteu la taula de dany). La runa tambe elimina 1 punt de corrupcio a tots els qui la travessin, independentment de si fa dany o no.</p>
-      </ExpandPanel>
-
-      <h3>Dany per Corrupcio</h3>
-      <table class="stat-table">
-        <tr>
-          <th>Corrupcio</th>
-          <th>Dany</th>
-        </tr>
-        <tr>
-          <td>1&ndash;5</td>
-          <td>Cap</td>
-        </tr>
-        <tr>
-          <td>6&ndash;10</td>
-          <td>3d6 radiant</td>
-        </tr>
-        <tr>
-          <td>11&ndash;15</td>
-          <td>6d6 radiant</td>
-        </tr>
-        <tr>
-          <td>15+</td>
-          <td>9d6 radiant</td>
-        </tr>
-      </table>
-
       <DmNote>
         <ul>
-          <li>La runa tambe <strong>elimina 1 punt de corrupcio</strong> a tots els qui la travessin.</li>
           <li>Les marques carbonitzades son <strong>dimonis i diables</strong> que van ser incinerats.</li>
           <li>Les escales cap avall estan plenes d'<strong>ossos de defensors del temple</strong> amb armadura de plaques esquerdada (multiples especies).</li>
         </ul>
@@ -257,7 +206,6 @@ import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
 import ItemCard from '../components/ItemCard.vue'
-import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const room = computed(() => parseInt(route.params.room))

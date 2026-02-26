@@ -32,10 +32,6 @@
         <h3>Acte IV: Temple Inferior</h3>
         <p>El temple interior, la biblioteca, l'estudi amb el Gran Mestre empresonat i la cambra del guardia final.</p>
       </router-link>
-      <router-link to="/objectes" class="section-card">
-        <h3>Objectes i Continuacio</h3>
-        <p>L'Ull de Laki, el Pou d'Esperits, i ganxos per continuar l'aventura.</p>
-      </router-link>
     </div>
 
     <h2>Resum Rapid per al DM</h2>

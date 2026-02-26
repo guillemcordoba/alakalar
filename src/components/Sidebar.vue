@@ -10,6 +10,7 @@
         <li class="section-divider">L'Aventura</li>
         <li><router-link to="/introduccio" @click="$emit('close')">Introduccio</router-link></li>
         <li class="section-divider">Part I: Els Goblins de Gel</li>
+        <li class="zone-link"><router-link to="/part1/llops" @click="$emit('close')">El Cami</router-link></li>
         <li class="zone-link"><router-link to="/part1/granges" @click="$emit('close')">Les Granges</router-link></li>
         <li class="zone-link"><router-link to="/part1/campament" @click="$emit('close')">El Campament</router-link></li>
         <li class="section-divider">Part II: La Cova</li>
@@ -33,8 +34,9 @@
         <li class="zone-link"><router-link to="/acte4/12" @click="$emit('close')">12. Cambra Guardia</router-link></li>
         <li class="zone-link"><router-link to="/final" @click="$emit('close')">Final de l'Aventura</router-link></li>
         <li class="section-divider">Recursos</li>
+        <li><router-link to="/regio" @click="$emit('close')">Mapa de la Regio</router-link></li>
+        <li><router-link to="/nenyrm" @click="$emit('close')">Mapa de Nenyrm</router-link></li>
         <li><router-link to="/mapes" @click="$emit('close')">Mapes del Temple</router-link></li>
-        <li><router-link to="/objectes" @click="$emit('close')">Objectes i Continuacio</router-link></li>
         <li><router-link to="/cartes" @click="$emit('close')">Cartes d'Objectes</router-link></li>
       </ul>
     </nav>

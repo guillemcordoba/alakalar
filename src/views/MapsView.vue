@@ -11,8 +11,8 @@
     <p class="image-caption">Mapa del Temple Inferior &mdash; Les cambres mes profundes del complex</p>
 
     <div class="page-nav">
-      <router-link to="/acte3/1">&larr; Acte III</router-link>
-      <router-link to="/objectes">Objectes &rarr;</router-link>
+      <router-link to="/nenyrm">&larr; Mapa de Nenyrm</router-link>
+      <router-link to="/">Tornar a l'Inici &rarr;</router-link>
     </div>
   </div>
 </template>

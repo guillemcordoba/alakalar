@@ -6,7 +6,7 @@ const routes = [
   { path: '/introduccio', component: () => import('./views/IntroduccioView.vue') },
   {
     path: '/part1',
-    redirect: '/part1/granges',
+    redirect: '/part1/llops',
   },
   {
     path: '/part1/:zone',
@@ -37,8 +37,9 @@ const routes = [
     component: () => import('./views/Acte4View.vue'),
   },
   { path: '/final', component: () => import('./views/FinalView.vue') },
+  { path: '/regio', component: () => import('./views/RegioView.vue') },
+  { path: '/nenyrm', component: () => import('./views/NenyrmView.vue') },
   { path: '/mapes', component: () => import('./views/MapsView.vue') },
-  { path: '/objectes', component: () => import('./views/ObjectesView.vue') },
   { path: '/cartes', component: () => import('./views/CardsView.vue') },
 ]
 

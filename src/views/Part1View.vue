@@ -1,5 +1,37 @@
 <template>
   <div class="content-area">
+    <!-- Zona 0: Encontre amb Llops (Tutorial de Combat) -->
+    <ZoneCard v-if="zone === 'llops'" id="zona-llops" title="El Cami cap a les Granges">
+      <MusicBtn track="Long Note Four" variant="ambient" />
+      <div class="summary-box">
+        <p>Un encontre senzill amb llops que serveix com a tutorial del sistema de combat per als jugadors.</p>
+      </div>
+
+      <ReadAloud>
+        <p>El cami de l'est serpenteja entre els turons baixos, allunyant-se de les ultimes llars del poble. La lluna, gairebe plena, il&middot;lumina el paisatge amb una llum platejada que projecta ombres llargues entre les roques i els arbustos. L'aire es gla&ccedil;at i cada ale es converteix en un nuvolet de boira. De sobte, un udol llunya trenca el silenci &mdash; seguit d'un altre, mes a prop. Entre les ombres dels arbustos, tres parells d'ulls groguencs brillen reflectint la llum de la lluna.</p>
+      </ReadAloud>
+
+      <DmNote>
+        <ul>
+          <li><strong>Tutorial de combat:</strong> aquest encontre esta pensat per introduir les mecaniques basiques del <a href="https://guillemcordoba.com/pimpampum/rules" target="_blank">sistema de combat</a>. Aprofiteu per explicar la seleccio de cartes, la velocitat de resolucio i els tipus de cartes (atac, defensa, focus).</li>
+          <li>Els llops <strong>no lluitaran fins a la mort</strong>. Si un llop cau, els supervivents fugen cap a la foscor.</li>
+          <li>Si els aventurers fan molt soroll o porten torxes, els llops poden ser espantats sense necessitat de combatre.</li>
+        </ul>
+      </DmNote>
+
+      <Encounter
+        title="Llops Afamats"
+        :creatures="[
+          { name: 'Llop', qty: 3, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/wolf' }
+        ]"
+      >
+        <template #music>
+          <MusicBtn track="Prelude and Action" variant="battle" />
+        </template>
+        <p><strong>Tactica de ramat:</strong> els llops guanyen bonus d'atac quan ataquen en grup.</p>
+      </Encounter>
+    </ZoneCard>
+
     <!-- Zona 1: Les Granges -->
     <ZoneCard v-if="zone === 'granges'" id="zona-granges" title="Les Granges">
       <MusicBtn track="Long Note Four" variant="ambient" />
@@ -8,7 +40,7 @@
       </div>
 
       <ReadAloud>
-        <p>Una fresca brisa d'hivern bufa un vent sospirant sobre els camps entre les granges abandonades a l'est del poble. Els seus exteriors apagats semblen mes deteriorats del que sabeu que son, patint l'absencia de la vida que normalment contindrien. Al vostre voltant, altes tiges de blat tremolen amb el suau dringar de la seva collita madura. L'unic so en una nit que, altrament, es silent.</p>
+        <p>Una fresca brisa d'hivern bufa un vent sospirant sobre els camps entre les granges abandonades a l'est del poble. Un de vosaltres reconeix cada tanca, cada pou, cada cami entre les cases &mdash; es el lloc on va creixer. Els seus exteriors apagats semblen mes deteriorats del que haurien de ser, patint l'absencia de la vida que normalment contindrien. Al vostre voltant, altes tiges de blat tremolen amb el suau dringar de la seva collita madura. L'unic so en una nit que, altrament, es silent.</p>
       </ReadAloud>
 
       <DmNote>
@@ -21,11 +53,6 @@
           <li><strong>Seguir el rastre:</strong> porta als turons. Nomes petjades fresques amb botes petites amb <span class="dc-check">DC alta</span> de <strong>Supervivencia/Investigacio</strong> (la sang ha estat rentada pel temps).</li>
         </ul>
       </DmNote>
-
-      <ExpandPanel title="Detalls del cami als turons">
-        <p>El cami comenca a pujar a mesura que els personatges arriben al final de les granges i als marges dels turons de les muntanyes. Seguir el rastre els portara cap als turons, tot i que nomes es podran trobar petjades fresques de botes petites amb un control alt de <strong>Supervivencia</strong> o <strong>Investigacio</strong>, ja que la sang haura estat rentada o esborrada pel temps dels darrers dies.</p>
-        <p>Si estan fora, una <span class="dc-check">DC alta de Percepcio</span> indicara un so lleuger de cruixit provinent d'un dels camps, tot i que la seva direccio real sera impossible de discernir, i una sensacio incomoda de ser observats.</p>
-      </ExpandPanel>
 
       <h3>La Granja Familiar</h3>
 
@@ -42,14 +69,9 @@
           <li><span class="dc-check">DC mitjana</span> <strong>Arcana:</strong> les marques de cremades son d'origen magic &mdash; encanteris de proteccio i atac. Algu aqui sabia usar magia, cosa que l'aventurer no sabia dels seus pares.</li>
           <li><span class="dc-check">DC baixa</span> <strong>Investigacio:</strong> hi ha evidencia d'una lluita ferotge. Sang de dues tonalitats: vermella humana i un icor blavos (sang de goblin de gel).</li>
           <li><span class="dc-check">DC alta</span> <strong>Supervivencia:</strong> les petjades mostren que almenys dues persones van ser arrossegades fora de la casa cap als turons. Les marques d'arrossegament son acompanyades de petjades petites amb botes.</li>
-          <li>A la rebotiga, amagat darrere uns taulons solts, hi ha un petit cofre tancat amb clau que conte: un <strong>amulet d'argent amb el simbol d'un sol amb un ull</strong> (el simbol de l'Orde dels Asaris, tot i que l'aventurer no el reconeixera) i unes <strong>cartes antigues en un idioma desconegut</strong>.</li>
+          <li>A la rebotiga, amagat darrere uns taulons solts (<span class="dc-check">DC mitjana Investigacio</span> si busquen especificament, o <span class="dc-check">DC alta Percepcio</span> de passada), hi ha un petit cofre tancat amb clau que conte: un <strong>amulet d'argent amb el simbol d'un sol amb un ull</strong> (el simbol de l'Orde dels Asaris, tot i que l'aventurer no el reconeixera), antic pero ben conservat, clarament un objecte preuat; i unes <strong>cartes antigues en un idioma desconegut</strong> &mdash; un control d'<span class="dc-check">DC molt alta Historia</span> suggereix que podrien ser d'un antic dialecte sagrat. L'aventurer no haura vist mai aquest amulet ni aquestes cartes.</li>
         </ul>
       </DmNote>
-
-      <ExpandPanel title="El cofre amagat">
-        <p>Si els aventurers troben el cofre (<span class="dc-check">DC mitjana Investigacio</span> si busquen especificament, o <span class="dc-check">DC alta Percepcio</span> de passada), contindra un <strong>amulet d'argent</strong> amb la forma d'un sol amb un ull al centre. L'amulet es antic pero ben conservat, clarament un objecte preuat. Les cartes estan escrites en un alfabet que ningu pot llegir facilment &mdash; un control d'<span class="dc-check">DC molt alta Historia</span> suggereix que podrien ser d'un antic dialecte sagrat.</p>
-        <p>L'aventurer no haura vist mai aquest amulet ni aquestes cartes. Els seus pares mai li van parlar de res d'aixo.</p>
-      </ExpandPanel>
     </ZoneCard>
 
     <!-- Zona 2: El Campament -->
@@ -76,16 +98,14 @@
       <Encounter
         title="Campament dels Goblins de Gel"
         :creatures="[
-          { name: 'Goblins de gel', qty: 8, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/goblin' },
-          { name: 'Xaman Goblin', qty: 1, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/goblin-shaman' }
+          { name: 'Goblins de gel', qty: 8, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/goblin' },
+          { name: 'Xaman Goblin', qty: 1, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/goblin-shaman' }
         ]"
       >
         <template #music>
           <MusicBtn track="Volatile Reaction" variant="battle" />
         </template>
-        <p><strong>Alineament:</strong> Caotic Malvat</p>
         <ul>
-          <li>Stats similars als goblins normals pero: <strong>CA natural 14</strong>, armes magiques, immunitat al fred i dany necrotic.</li>
           <li>Eren servents de la <strong>Reina Mab</strong> que han fugit del seu servei al centre de les <strong>Muntanyes Arbormark</strong>.</li>
           <li>Han establert un campament temporal a l'altipla, <strong>atrets aqui per alguna cosa mes</strong> &mdash; alguna cosa dins la cova.</li>
         </ul>
@@ -116,8 +136,10 @@
     </ZoneCard>
 
     <div class="page-nav">
-      <router-link v-if="zone === 'granges'" to="/introduccio">&larr; Introduccio</router-link>
+      <router-link v-if="zone === 'llops'" to="/introduccio">&larr; Introduccio</router-link>
+      <router-link v-if="zone === 'granges'" to="/part1/llops">&larr; El Cami</router-link>
       <router-link v-if="zone === 'campament'" to="/part1/granges">&larr; Les Granges</router-link>
+      <router-link v-if="zone === 'llops'" to="/part1/granges">Les Granges &rarr;</router-link>
       <router-link v-if="zone === 'granges'" to="/part1/campament">El Campament &rarr;</router-link>
       <router-link v-if="zone === 'campament'" to="/part2/saqueig">Saqueig del Campament &rarr;</router-link>
     </div>
@@ -137,7 +159,6 @@ import ReadAloud from '../components/ReadAloud.vue'
 import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
-import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const zone = computed(() => route.params.zone)

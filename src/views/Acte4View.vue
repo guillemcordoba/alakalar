@@ -15,14 +15,10 @@
       <DmNote>
         <ul>
           <li>Una <strong>gran porta</strong> darrere l'altar, tancada amb pany i sense cap manera discernible d'obrir-la.</li>
-          <li><span class="dc-check">Historia</span>: els mosaics mostren una <strong>gran llum mantenint la foscor a ratlla</strong>. Figures de moltes races amb un detall molt realista. La foscor conte dimonis i diables amb cares torturades i crispades. Com mes temps s'hi mira, mes sembla que les criatures <strong>remolinen i es moguin</strong>.</li>
+          <li><span class="dc-check">Historia</span>: els mosaics mostren una <strong>gran llum mantenint la foscor a ratlla</strong>. Les figures de la llum provenen de <strong>moltes races</strong>, les seves cares tan detallades que semblen gairebe <strong>reals</strong>. La foscor conte <strong>dimonis i diables</strong>, les seves cares torturades cridant amb un <strong>goig terrible</strong>. Com mes temps s'hi mira, mes sembla que les criatures <strong>remolinen i es moguin</strong>.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Descripcio completa del mosaic">
-        <p>Un control d'<span class="dc-check">Historia</span> revela el que es pot veure als mosaics que adornen gran part del sostre i les parets: una <strong>gran llum mantenint una foscor a ratlla</strong>.</p>
-        <p>Aquells que es troben en la llum provenen de <strong>moltes races</strong>, les seves cares tan detallades que semblen gairebe <strong>reals</strong>. La foscor conte <strong>dimonis i diables</strong>, les seves cares torturades cridant amb un goig terrible. Com mes temps s'hi mira, mes les criatures semblen <strong>remolinar i moure's</strong>.</p>
-      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 10: La Biblioteca -->
@@ -63,7 +59,7 @@
     <!-- Sala 11: L'Estudi -->
     <ZoneCard v-if="room === 11" id="sala-11" title="L'Estudi" :room="11">
       <ReadAloud>
-        <p>Dues estatues de criatures desconegudes us observen des de dalt mentre entreu. Dos sofas, antany comodes, reposen davant d'una llar de foc massiva i apagada, sobre la qual descansa un retrat majestuos d'un Aarakocra divi, que no esta tacat per la pols, les runes i l'edat que afecten la resta del temple.</p>
+        <p>Dues estatues de criatures desconegudes us observen des de dalt mentre entreu. Dos sofas, antany comodes, reposen davant d'una llar de foc massiva i apagada, sobre la qual descansa un retrat majestuos d'un asari divi, que no esta tacat per la pols, les runes i l'edat que afecten la resta del temple.</p>
       </ReadAloud>
 
       <DmNote>
@@ -78,7 +74,7 @@
       <Encounter
         title="Combat a l'Estudi"
         :creatures="[
-          { name: 'Gòlems de Pedra', qty: 2, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/golem-de-pedra' }
+          { name: 'Gòlems de Pedra', qty: 2, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/golem-de-pedra' }
         ]"
       >
         <template #music>
@@ -94,9 +90,10 @@
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
           <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
-          <li>Revela l'existencia de l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per protegir la reliquia mes preuada del temple &mdash; un artefacte capac de <strong>retornar la vida als morts</strong>. El Gran Mestre n'era el <strong>lider</strong>.</li>
-          <li>Explica que els Asaris van jurar <strong>mai usar la reliquia, mai parlar-ne, i viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills.</li>
-          <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret.</li>
+          <li>Explica que la reliquia va ser la <strong>causa de grans guerres</strong> en el passat. Regnes sencers van caure, pobles van ser arrasats i milers van morir &mdash; tot per controlar el poder de <strong>retornar la vida als morts</strong>. La destruccio va ser tan terrible que un grup de guerrers va jurar que mai mes es tornaria a usar.</li>
+          <li>Aixi va neixer l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per custodiar la reliquia i assegurar-se que <strong>ningu</strong> la tornes a emprar. El Gran Mestre n'era el <strong>lider</strong>.</li>
+          <li>Explica que els Asaris van establir tres juraments irrevocables: <strong>(1) Mai usar la reliquia</strong>, ni tan sols en les circumstancies mes desesperants. <strong>(2) Mai parlar de la reliquia ni de l'Orde</strong>, ni a familia, ni a amics, ni a reis. <strong>(3) Viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
+          <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat.</li>
           <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, el Gran Mestre assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>
           <li>Adverteix solemnement: &laquo;La reliquia <strong>mai</strong> s'ha d'usar. Mai. Independentment de quanta temptacio sentiu. Aquest va ser el jurament. Aquest va ser el preu.&raquo;</li>
           <li>El Gran Mestre guia el grup fins a la <strong>porta darrere l'altar</strong> i l'obre amb un <strong>esclat de llum</strong>.</li>
@@ -104,15 +101,6 @@
         </ul>
       </DmNote>
 
-      <ExpandPanel title="L'Orde dels Asaris">
-        <p>L'<strong>Orde dels Asaris</strong> era una germandat secreta de guerrers sagrats fundada durant l'<strong>Era de la Desolacio</strong>, liderada per el <strong>Gran Mestre</strong>. El seu unic proposit era custodiar la reliquia mes poderosa de la regio: un artefacte capac de retornar la vida als morts. Conscients que aquest poder atreia guerres i corrupcio, els fundadors van establir tres juraments irrevocables:</p>
-        <ol>
-          <li><strong>Mai usar la reliquia.</strong> Ni tan sols en les circumstancies mes desesperants.</li>
-          <li><strong>Mai parlar de la reliquia ni de l'Orde.</strong> Ni a familia, ni a amics, ni a reis.</li>
-          <li><strong>Viure en secret.</strong> Els Asaris vivien com a gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
-        </ol>
-        <p>Quan els dimonis van atacar el temple, l'Orde va ser aniquilada. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat. Tots dos van ser <strong>capturats</strong> pels goblins de gel a la granja. El pare va morir al campament defensant el secret; la mare va ser portada als basiliscs pero va aconseguir <strong>escapar</strong>, i va arribar fins a la biblioteca del temple buscant la manera de protegir la reliquia, on un dimoni la va matar.</p>
-      </ExpandPanel>
     </ZoneCard>
 
     <!-- Sala 12: La Cambra del Guardia -->
@@ -124,21 +112,14 @@
       <DmNote>
         <ul>
           <li>El Gran Mestre assenyala els cossos: <strong>aquesta va ser la seva ultima defensa</strong>. Ossos demonials mes grans contra l'altar.</li>
-          <li><strong>Estatues trencades</strong> flanquegen el pont. Les que queden en peu <strong>irradien puresa i poder</strong>.</li>
+          <li><strong>Estatues trencades</strong> flanquegen el pont, la majoria destrossades o tallades. La postura de les que romanen en peu revela una sensacio de <strong>puresa i poder</strong> desconeguts per als aventurers.</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="L'ultima defensa del Gran Mestre">
-        <p>El Gran Mestre assenyala els cossos i informa als aventurers que <strong>aquesta va ser la seva ultima resistencia</strong>. Immediatament contra els altars hi ha altres ossos, <strong>mes grans i clarament demonials</strong>.</p>
-        <p>Estatues trencades flanquegen el pont, la majoria destrossades o tallades. La postura de les estatues que romanen en peu revela una sensacio de <strong>puresa i poder</strong> desconeguts per als aventurers.</p>
-      </ExpandPanel>
-
-      <ExpandPanel title="Visio de les estatues (llegir en veu alta)">
-        <ReadAloud>
-          <p>Mentre contempleu la meravella de les estatues, la vostra mirada s'hi queda fixada durant uns segons. Alguna cosa us atrau i no podeu apartar la vista, les ombres de la caverna retrocedeixen mentre capteu un breu entramat a traves del temps de la seva esplendor. Sentiu com la forca torna al vostre cos mentre la fatiga s'esvaeix. La sensacio de puresa al vostre cor i, per un moment, sentiu el poder sagrat a les vostres venes.</p>
-          <p>Tan rapid com va arribar, es retira i sentiu la foscor tancar-se. Sembla mes a prop que abans i un calfred us recorre quan el fred de la cambra sembla mossegar una mica mes. Inconscientment us estrenyeu la capa i us sentiu disminuits. El soroll profund i eixordador de l'aigua molt avall us recorda una vegada mes on sou realment.</p>
-        </ReadAloud>
-      </ExpandPanel>
+      <ReadAloud>
+        <p>Mentre contempleu la meravella de les estatues, la vostra mirada s'hi queda fixada durant uns segons. Alguna cosa us atrau i no podeu apartar la vista, les ombres de la caverna retrocedeixen mentre capteu un breu entramat a traves del temps de la seva esplendor. Sentiu com la forca torna al vostre cos mentre la fatiga s'esvaeix. La sensacio de puresa al vostre cor i, per un moment, sentiu el poder sagrat a les vostres venes.</p>
+        <p>Tan rapid com va arribar, es retira i sentiu la foscor tancar-se. Sembla mes a prop que abans i un calfred us recorre quan el fred de la cambra sembla mossegar una mica mes. Inconscientment us estrenyeu la capa i us sentiu disminuits. El soroll profund i eixordador de l'aigua molt avall us recorda una vegada mes on sou realment.</p>
+      </ReadAloud>
 
       <img :src="base + 'images/img-027.jpg'" alt="L'Ull de Laki" class="section-image">
       <p class="image-caption">L'Ull de Laki &mdash; L'orbe antic que descansa a l'altar</p>
@@ -150,14 +131,14 @@
       </div>
 
       <DmNote>
-        <p><strong>El poder de resurreccio:</strong> L'Ull de Laki, a mes dels seus poders contra dimonis, te la capacitat suprema de <strong>retornar la vida a un mort</strong>. Aquest poder consumeix <strong>totes les carregues restants</strong> i deixa l'artefacte inert permanentment (nomes es pot recarregar a Aol). Els Asaris van jurar mai usar aquest poder, conscients que la temptacio de la resurreccio ha causat guerres i corrupcio al llarg dels segles.</p>
+        <p><strong>El poder de resurreccio:</strong> L'Ull de Laki, a mes dels seus poders contra dimonis, te la capacitat suprema de <strong>retornar la vida a un mort</strong>, sempre que la mort no hagi passat fa mes de <strong>7 dies</strong>. Els Asaris van jurar mai usar aquest poder, conscients que la temptacio de la resurreccio ha causat guerres i corrupcio al llarg dels segles.</p>
       </DmNote>
 
       <DmNote>
         <p><strong>Prendre l'objecte:</strong></p>
         <ul>
           <li>Qualsevol persona <strong>pura</strong> pot prendre l'objecte del forat sense problemes.</li>
-          <li>Qualsevol persona amb <strong>intencions malvades o corrupcio 5+</strong>: <span class="dc-check">Constitucio DC 18</span>. En cas de fallida: <strong>8d6 de dany radiant</strong>.</li>
+          <li>Qualsevol persona amb <strong>intencions malvades o corrupcio 5+</strong> pateix <strong>dany radiant sever</strong>.</li>
         </ul>
       </DmNote>
 
@@ -166,39 +147,30 @@
         <ul>
           <li>Un <strong>riure malefic ressona</strong> per la cambra. Dos <strong>Diables Banyuts</strong> volen cap amunt des de l'abisme.</li>
           <li>Intenten <strong>prendre l'objecte</strong> als aventurers.</li>
-          <li>El Gran Mestre diu als aventurers que portin l'objecte a la <strong>ciutat dels Aarakocra al nord, mes enlla de les muntanyes</strong>.</li>
+          <li>El Gran Mestre diu als aventurers que portin l'objecte a l'<strong>ancià Thalrek a Bemegarde</strong>.</li>
           <li>Avanca i llanca dos poderosos encanteris:
             <ul>
-              <li><strong>Castig Major</strong> (Greater Smite): <strong>8d8 de dany radiant</strong> a ambdos dimonis amb el seu martell.</li>
-              <li><strong>Aura de Proteccio</strong> (Aura of Warding): barrera magica de <strong>4,5m</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong> amb el seu escut.</li>
+              <li><strong>Castig Major:</strong> Sostenint el seu martell cap als dimonis, allibera un <strong>esclat de llum radiant devastadora</strong> que colpeja ambdos dimonis.</li>
+              <li><strong>Aura de Proteccio:</strong> Sostenint el seu escut sobre el cap, crea una <strong>barrera magica</strong> que bloqueja tots els encanteris hostils i impedeix que dimonis i diables hi entrin temporalment.</li>
             </ul>
           </li>
-          <li>El Gran Mestre <strong>desapareix</strong>. El seu <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen com a objectes fisics.</li>
+          <li>El Gran Mestre <strong>desapareix</strong>. El seu enorme <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen al terra com a objectes fisics. Ambdos proporcionen bonificacions addicionals durant aquest combat, pero despres perden les seves propietats magiques (tot i que es poden restaurar a traves de missions futures).</li>
         </ul>
       </DmNote>
 
-      <ExpandPanel title="Detalls dels encanteris del Gran Mestre">
-        <p>El Gran Mestre avanca i llanca dos poderosos encanteris:</p>
+      <ItemCard title="Martell de Guerra del Gran Mestre" type="Arma platejada">
         <ul>
-          <li><strong>Castig Major</strong> (Greater Smite): Sostenint el seu martell cap als dimonis, infligeix <strong>8d8 de dany radiant</strong> a ambdos dimonis.</li>
-          <li><strong>Aura de Proteccio</strong> (Aura of Warding): Sostenint el seu escut sobre el cap, crea una barrera magica de <strong>4,5m de radi</strong> que bloqueja tots els encanteris hostils i impedeix que dimonis i diables hi entrin durant <strong>1 minut</strong>.</li>
-        </ul>
-        <p>El Gran Mestre desapareix quan es llancen els seus encanteris. El seu enorme <strong>Martell de Guerra</strong> i <strong>Escut</strong> cauen al terra com a objectes fisics. Ambdos proporcionen bonificacions addicionals durant aquest combat, pero despres perden les seves propietats magiques (tot i que es poden restaurar a traves de missions futures).</p>
-      </ExpandPanel>
-
-      <ItemCard title="Martell de Guerra del Gran Mestre" type="Arma (martell de guerra), +2, platejada">
-        <ul>
-          <li><strong>+2 al atac i al dany.</strong></li>
-          <li><strong>2d6 de dany radiant addicional</strong> per impacte.</li>
+          <li>Suma la teva <strong>magia a la teva forca</strong> per atacar.</li>
           <li>Les propietats magiques funcionen durant <strong>aquest combat</strong>, pero perden el poder despres (es pot recuperar amb tasques futures).</li>
           <li>L'arma es <strong>platejada</strong>.</li>
         </ul>
       </ItemCard>
 
-      <ItemCard title="Escut del Gran Mestre" type="Armadura (escut), +3 CA, platejat">
+      <ItemCard title="Escut del Gran Mestre" type="Escut platejat">
         <ul>
-          <li><strong>+3 a la CA</strong> (en lloc del +2 habitual dels escuts).</li>
-          <li><strong>Activar:</strong> crea una barrera de <strong>4,5m de radi</strong> que bloqueja encanteris i dimonis durant <strong>1 minut</strong>.</li>
+          <li><strong>Velocitat +2</strong> i <strong>Defensa +5</strong>.</li>
+          <li>Defensa a <strong>tots els aliats</strong>.</li>
+          <li><strong>Activar:</strong> crea una barrera magica que bloqueja encanteris i dimonis temporalment.</li>
           <li>Les propietats magiques funcionen durant <strong>aquest combat</strong>, pero perden el poder despres (es pot recuperar amb tasques futures).</li>
           <li>L'escut es <strong>platejat</strong>.</li>
         </ul>
@@ -207,14 +179,13 @@
       <Encounter
         title="Combat Final: La Cambra del Guardia"
         :creatures="[
-          { name: 'Diables Banyuts', qty: 2, link: 'https://guillemcordoba.com/pimpampum/#/cards/enemies/horned-devil' }
+          { name: 'Diables Banyuts', qty: 2, link: 'https://guillemcordoba.com/pimpampum/cards/enemies/horned-devil' }
         ]"
       >
         <template #music>
           <MusicBtn track="The Ice Giants" variant="battle" />
-          <MusicBtn track="Aurea Carmina" variant="event" />
         </template>
-        <p><strong>El Gran Mestre interve</strong> amb Castig Major i Aura de Proteccio.</p>
+        <p><strong>El Gran Mestre interve</strong> amb un esclat de llum radiant i una barrera magica protectora.</p>
         <p>Despres desapareix, deixant el seu <strong>martell</strong> i <strong>escut</strong>.</p>
       </Encounter>
     </ZoneCard>
@@ -242,7 +213,6 @@ import DmNote from '../components/DmNote.vue'
 import MusicBtn from '../components/MusicBtn.vue'
 import Encounter from '../components/Encounter.vue'
 import ItemCard from '../components/ItemCard.vue'
-import ExpandPanel from '../components/ExpandPanel.vue'
 
 const route = useRoute()
 const room = computed(() => parseInt(route.params.room))
