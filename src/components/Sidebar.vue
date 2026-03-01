@@ -38,6 +38,7 @@
         <li><router-link to="/nenyrm" @click="$emit('close')">Mapa de Nenyrm</router-link></li>
         <li><router-link to="/mapes" @click="$emit('close')">Mapes del Temple</router-link></li>
         <li><router-link to="/cartes" @click="$emit('close')">Cartes d'Objectes</router-link></li>
+        <li><router-link to="/fill-local" @click="$emit('close')">Fitxa: Personatge Local</router-link></li>
       </ul>
     </nav>
   </aside>

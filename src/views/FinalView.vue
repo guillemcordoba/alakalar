@@ -1,7 +1,7 @@
 <template>
   <div class="content-area">
     <h1>Final de l'Aventura</h1>
-    <MusicBtn track="Big Drumming" variant="ambient" />
+    <MusicBtn track="Lasting Hope" variant="ambient" />
 
     <ReadAloud>
       <p>Amb els dimonis derrotats i l'eco del seu riure malefic esvaint-se en la foscor de l'abisme, el silenci retorna a la cambra. L'artefacte pulsa amb una llum daurada calida a les vostres mans, com un cor que bat amb renovada esperanca. Les parets del temple, tant de temps submergides en la foscor, semblen respirar amb un alleujament antic.</p>
@@ -9,20 +9,13 @@
 
     <DmNote>
       <p><strong>Escapada del temple:</strong></p>
+      <MusicBtn track="Big Drumming" variant="event" />
       <ul>
         <li>Totes les trampes estan desactivades i el poder del temple ha estat eliminat en retirar l'artefacte.</li>
         <li>Aixo fa el temple <strong>vulnerable</strong> &mdash; portals poden obrir-se per vomitar dimonis que els assetjaran mentre fugen.</li>
         <li>Si els aventurers es demoren, una onada de <strong>dimonis menors</strong> comenca a emergir dels portals. No es un combat formal, sino una cursa cap a la sortida.</li>
       </ul>
     </DmNote>
-
-    <ReadAloud>
-      <p>El cami de tornada es diferent del que recordeu. Les trampes que us amenaçaven resten inertes, les runes apagades. Els ossos dels antics defensors semblen descansar amb mes pau ara, com si sabessin que el seu sacrifici no va ser en va. Quan sortiu de la boca de la cova, l'aire fred de la muntanya us colpeja el rostre i, per primera vegada en hores, veieu el cel. Les estrelles brillen amb una intensitat que no recordaveu, i al lluny, les primeres llums del poble parpallejegen com una promesa. Per a un de vosaltres, son les llums de casa.</p>
-    </ReadAloud>
-
-    <ReadAloud>
-      <p>Mentre baixeu pels turons cap al poble, sentiu una presencia fosca als vostres talons. No es res que pugueu veure ni tocar, sino una certesa gelada que s'instal&middot;la als vostres ossos: allo que heu pres no sera oblidat, i els qui el volen vindran a buscar-lo.</p>
-    </ReadAloud>
 
     <h2>La Temptacio: Ressuscitar els Pares</h2>
 
@@ -53,7 +46,16 @@
       <p>El DM hauria de tractar aquesta escena amb delicadesa. No es un castig al jugador, sino una consequencia narrativa que reflecteix el pes del jurament dels Asaris i el cost real del poder de la resurreccio.</p>
     </DmNote>
 
+    <h2>Tornada al Poble</h2>
     <MusicBtn track="Ascending the Vale" variant="ambient" />
+
+    <ReadAloud>
+      <p>El cami de tornada es diferent del que recordeu. Les trampes que us amenaçaven resten inertes, les runes apagades. Els ossos dels antics defensors semblen descansar amb mes pau ara, com si sabessin que el seu sacrifici no va ser en va. Quan sortiu de la boca de la cova, l'aire fred de la muntanya us colpeja el rostre i, per primera vegada en hores, veieu el cel. Les estrelles brillen amb una intensitat que no recordaveu, i al lluny, les primeres llums del poble parpallejegen com una promesa. Per a un de vosaltres, son les llums de casa.</p>
+    </ReadAloud>
+
+    <ReadAloud>
+      <p>Mentre baixeu pels turons cap al poble, sentiu una presencia fosca als vostres talons. No es res que pugueu veure ni tocar, sino una certesa gelada que s'instal&middot;la als vostres ossos: allo que heu pres no sera oblidat, i els qui el volen vindran a buscar-lo.</p>
+    </ReadAloud>
     <h2>Continuacio de l'Aventura</h2>
 
     <div class="summary-box">

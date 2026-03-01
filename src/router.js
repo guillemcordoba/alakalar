@@ -41,6 +41,7 @@ const routes = [
   { path: '/nenyrm', component: () => import('./views/NenyrmView.vue') },
   { path: '/mapes', component: () => import('./views/MapsView.vue') },
   { path: '/cartes', component: () => import('./views/CardsView.vue') },
+  { path: '/fill-local', component: () => import('./views/FillLocalView.vue') },
 ]
 
 const router = createRouter({

@@ -2,7 +2,7 @@
   <div class="content-area">
     <!-- Zona 0: Encontre amb Llops (Tutorial de Combat) -->
     <ZoneCard v-if="zone === 'llops'" id="zona-llops" title="El Cami cap a les Granges">
-      <MusicBtn track="Long Note Four" variant="ambient" />
+      <MusicBtn track="The Path of the Goblin King" variant="ambient" />
       <div class="summary-box">
         <p>Un encontre senzill amb llops que serveix com a tutorial del sistema de combat per als jugadors.</p>
       </div>

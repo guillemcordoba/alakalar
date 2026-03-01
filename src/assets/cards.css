@@ -16,6 +16,7 @@
 }
 
 @media print {
+  @page { size: portrait; }
   body {
     background: white !important;
   }

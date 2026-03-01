@@ -2,12 +2,10 @@
   <div class="content-area">
     <MusicBtn track="Ghost Story" variant="ambient" />
 
-    <div class="summary-box">
-      <p>El Temple Inferior porta les cicatrius d'una batalla sagnant. Cossos, armes i llits improvisats escampen la sala destrossada. Les formidables defenses del temple no van poder aturar l'horda de monstres que va envair el santuari.</p>
-    </div>
-
     <!-- Sala 9: El Temple Interior -->
     <ZoneCard v-if="room === 9" id="sala-9" title="El Temple Interior" :room="9">
+      <p>El Temple Inferior porta les cicatrius d'una batalla sagnant. Cossos, armes i llits improvisats escampen la sala destrossada. Les formidables defenses del temple no van poder aturar l'horda de monstres que va envair el santuari.</p>
+
       <ReadAloud>
         <p>La vostra llum omple el temple com si fos impulsada per algun altre agent. L'intricada obra artistica i la filigrana daurada estan destrossades i esquincades. Bancs trencats omplen la sala i un altar de marbre esquerdat jau al capdavant del salo. Tot i que els vostres ulls son atrets pels ossos dels antics defensors i d'aquells que van buscar refugi aqui, escampats pel terra, retorcats i trencats.</p>
       </ReadAloud>
@@ -88,10 +86,10 @@
         <p><strong>El Gran Mestre Alliberat:</strong></p>
         <ul>
           <li>Apareix com un <strong>fantasma efimer</strong>, es comunica telepaticament. Te la memoria limitada.</li>
-          <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga).</li>
+          <li>Explica als aventurers: la <strong>batalla pel temple</strong>, les <strong>proteccions activades</strong> per mantenir el mal fora, i el <strong>proposit del temple</strong> (custodiar una reliquia antiga). La reliquia es l'<strong>Ull de Laki</strong>, una gemma d'un poder immens que permet <strong>retornar la vida als morts</strong>.</li>
           <li>Va ser <strong>empresonat al quadre per un senyor dels dimonis</strong> com a tortura per trencar la seva voluntat i fer-li obrir la porta.</li>
-          <li>Explica que la reliquia va ser la <strong>causa de grans guerres</strong> en el passat. Regnes sencers van caure, pobles van ser arrasats i milers van morir &mdash; tot per controlar el poder de <strong>retornar la vida als morts</strong>. La destruccio va ser tan terrible que un grup de guerrers va jurar que mai mes es tornaria a usar.</li>
-          <li>Aixi va neixer l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats fundada per custodiar la reliquia i assegurar-se que <strong>ningu</strong> la tornes a emprar. El Gran Mestre n'era el <strong>lider</strong>.</li>
+          <li>Explica que la reliquia va ser la <strong>causa de l'Era de la Desolacio</strong>, fa uns cent anys. Regnes sencers van caure, pobles van ser arrasats i milers van morir &mdash; tot per controlar el poder de <strong>retornar la vida als morts</strong>. La destruccio va ser tan terrible que un grup de guerrers va jurar que mai mes es tornaria a usar.</li>
+          <li>Aixi va neixer l'<strong>Orde dels Asaris</strong>: una germandat secreta de guerrers sagrats que van robar la reliquia i la van amagar en aquest temple i van jurar mantenir-la oculta per sempre, assegurant-se que <strong>ningu</strong> la tornes a emprar. El Gran Mestre n'era el <strong>lider</strong>.</li>
           <li>Explica que els Asaris van establir tres juraments irrevocables: <strong>(1) Mai usar la reliquia</strong>, ni tan sols en les circumstancies mes desesperants. <strong>(2) Mai parlar de la reliquia ni de l'Orde</strong>, ni a familia, ni a amics, ni a reis. <strong>(3) Viure en secret</strong> entre la gent comuna, passant el jurament de pares a fills quan els consideraven preparats.</li>
           <li>Quan els dimonis van atacar el temple, l'Orde dels Asaris va ser <strong>aniquilada</strong>. Els pares de l'aventurer van ser els <strong>unics supervivents</strong> &mdash; van escapar i van viure amagats com a gent comuna, mantenint el jurament en secret. Probablement l'haurien iniciat en l'Orde en el moment adequat, pero els esdeveniments s'han precipitat.</li>
           <li><strong>Si els aventurers han trobat la mare a la biblioteca</strong> o mencionen l'amulet del sol amb l'ull, el Gran Mestre assenteix amb tristesa: &laquo;Els Asaris... els guardians del jurament. Fidels fins al final. La dona de la biblioteca era una d'ells &mdash; una Asari. Va ser capturada pels goblins, pero quan la van portar als basiliscs va aconseguir escapar. Coneixia el temple... sabia on anar. Va arribar fins a la biblioteca per intentar treure la reliquia... pero un dimoni la va trobar i la va matar mentre llegia. Ho lamento.&raquo;</li>

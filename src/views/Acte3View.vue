@@ -135,7 +135,7 @@
 
       <DmNote>
         <ul>
-          <li><strong>Investigacio:</strong> revela un antic menjador amb <strong>rastres de sang</strong> que porten a la cuina (Sala 8).</li>
+          <li><strong>Investigacio:</strong> revela un antic menjador amb <strong>rastres de sang</strong> que porten a la cuina.</li>
           <li>La cuina conte un <strong>Diable d'Os</strong> assegut <strong>sobre una pila d'ossos decrepits</strong>.</li>
           <li><strong>Si els aventurers han alertat el diable d'os</strong> (p. ex., cruixit del pont o altres sorolls): surt per <strong>emboscar el grup</strong> juntament amb quatre Diables Espinosos amagats al sostre alt de la Sala del Temple.</li>
         </ul>
@@ -160,7 +160,7 @@
       <MusicBtn track="Ancient Rite" variant="ambient" />
       <ReadAloud>
         <p>Les parets d'aquesta cambra estan cobertes de <strong>murals descolorits</strong> que mostren figures agenollades davant d'una llum brillant, amb els caps inclinats i les mans obertes. Al fons, una <strong>porta massissa de pedra</strong> bloqueja el pas cap a les escales. Al centre de la porta, una <strong>esfera de llum daurada</strong> polsa suaument &mdash; identica a la dels murals. A sota, hi ha una inscripcio gravada:</p>
-        <blockquote><em>&laquo;Ni clau ni forca obren el meu pas.<br/>Nomes els que es netejin dels seus pecats<br/>trobaran el cami.&raquo;</em></blockquote>
+        <blockquote><em>&laquo;Ni clau ni forca obren el meu pas.<br/>Nomes els que es netejin la consciencia i confessin els seus pecats<br/>trobaran el cami.&raquo;</em></blockquote>
         <p>Els contorns carbonitzats de formes terrorifiques marquen les parets al voltant de l'entrada de les escales.</p>
       </ReadAloud>
 

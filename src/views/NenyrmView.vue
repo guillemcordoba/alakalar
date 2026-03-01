@@ -29,7 +29,7 @@ function handlePrint() { window.print() }
 
 <style>
 @media print {
-  @page { margin: 0; }
+  @page { margin: 0; size: landscape; }
 
   html, body, .page-wrapper, .main-content, .content-area {
     margin: 0 !important;
